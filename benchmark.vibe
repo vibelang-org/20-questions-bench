@@ -1,0 +1,70 @@
+// Benchmark runner for 20 Questions
+import { print, now, jsonStringify } from "system"
+import { writeFile, mkdir, dirExists } from "system/tools"
+import { dataset } from "./dataset.ts"
+import { gpt5mini, geminiFlash3 } from "./models.vibe"
+import { playGame } from "./game.vibe"
+
+// Ensure results directory exists
+let resultsDir = "results"
+let dirExistsResult = dirExists(resultsDir)
+if not dirExistsResult {
+  mkdir(resultsDir)
+}
+
+// Generate timestamp for this run
+let timestamp = now()
+let outputFile = "results/round_{timestamp}.jsonl"
+
+print("Starting 20 Questions Benchmark")
+print("Output file: {outputFile}")
+print("Dataset size: {dataset.len()} items")
+print("")
+
+// Define guesser models to test
+let guesserModels = [
+  { model: gpt5mini, name: "gpt-5-mini" },
+  { model: geminiFlash3, name: "gemini-flash-3" }
+]
+
+// Use gemini-flash-3 as the default answerer
+let answererModel = geminiFlash3
+let answererModelName = "gemini-flash-3"
+
+let results: text = ""
+
+// Run benchmark: each guesser model plays against each dataset item
+for guesserConfig in guesserModels {
+  let guesserModel = guesserConfig.model
+  let guesserModelName = guesserConfig.name
+
+  print("=== Testing Guesser: {guesserModelName} ===")
+
+  for item in dataset {
+    let category = item.category
+    let secret = item.secret
+
+    print("Playing: {category} - {secret}")
+
+    // Play the game
+    let gameRecord = playGame(guesserModel, answererModel, category, secret, guesserModelName, answererModelName)
+
+    // Convert to JSON and append to results
+    let jsonLine = jsonStringify(gameRecord)
+    results = results + jsonLine + "\n"
+
+    // Report result
+    if gameRecord.won {
+      print("  Result: WON in {gameRecord.totalQuestions} questions")
+    } else {
+      print("  Result: LOST after {gameRecord.totalQuestions} questions")
+    }
+    print("")
+  }
+}
+
+// Write all results to file
+writeFile(outputFile, results)
+
+print("=== Benchmark Complete ===")
+print("Results saved to: {outputFile}")

@@ -1,0 +1,19 @@
+import {getGuesserInstructions, getAnswererPrompt} from "./prompts.vibe"
+
+const MAX_QUESTIONS = 20
+
+// Play a single game of 20 Questions
+// Returns a complete game record for storage
+export function runBenchRound(guesser: model, answerer: model, category: text, secret: text, guesserModelName: text, answererModelName: text) {
+
+  let keepGoing = true
+  let count = 0
+  //set the initial answerer instruction prompt
+
+  while keepGoing {
+
+     count = count + 1
+  }
+
+}
+

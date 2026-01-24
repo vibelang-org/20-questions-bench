@@ -1,0 +1,92 @@
+import {getGuesserInstructions, getAnswererPrompt,getGuesserNextQuestionPrompt} from "./prompts.vibe"
+import {dataset} from './dataset.ts'
+import {getRandomEntry} from './dataset.ts'
+import {getGuesserModel, getAnserwerModel} from './models.vibe'
+import {calculateUsageTotals, logBenchmarkRun} from './logging.ts'
+import {uuid} from 'system/utils'
+
+const MAX_QUESTIONS = 15
+
+type AnswererResult {
+  answerCorrect: text
+  finalSecretCorrect: boolean
+}
+
+type RoundResult{
+  roundNumber:number
+  questions:text
+  answererResults:AnswererResult
+}
+
+// separate function to evaluate the answerer's response so we can easily have isolated local context for the answerer's response 
+function evaluateAnswererResponse(question:text,answerer:model,secret:text):AnswererResult {
+  const answererPrompt = getAnswererPrompt(secret, question)
+  //call ai with local context, we only want local function data in context
+  const answererResult:AnswererResult =  do answererPrompt answerer local
+
+  return answererResult
+  
+}
+
+// Play a single game of 20 Questions
+// Returns a complete game record for storage
+export function runBench(guesser: model, answerer: model) {
+
+  const private runId:text = uuid()
+  let private won = false
+  let private results:RoundResult[] = []
+  const private secretEntry = getRandomEntry()
+  let { private secret:text,category:text} = secretEntry
+
+  let private questionNumber = 0
+
+  //set the initial answerer instructions to variable
+  const guesserInstructions = getGuesserInstructions(category, questionNumber)
+
+  while questionNumber < MAX_QUESTIONS and not won {
+
+     let guesserPrompt = getGuesserNextQuestionPrompt(guesserInstructions)
+
+     const question:text = do guesserPrompt guesser
+     print('Question{questionNumber} - {question}')
+     const answererResults = evaluateAnswererResponse(question, answerer, secret)
+     print('Answerer Results')
+     print(answererResults.toolCalls)
+     print(answererResults)
+
+    if answererResults.finalSecretCorrect {
+      won = true
+    }
+
+    const roundResult:RoundResult = {
+      roundNumber: questionNumber, 
+      questions: question, 
+      answererResults: answererResults
+    }
+
+    results.push(roundResult)
+
+    questionNumber = questionNumber + 1
+     
+  }
+
+  return {results: results, runId: runId}
+  //write results to file
+
+}
+
+const guesser = getGuesserModel()
+const answerer = getAnserwerModel()
+
+const {results: RoundResult[], runId: text} = runBench(guesser, answerer)
+
+const guesserUsageTotal = calculateUsageTotals(guesser.usage)
+const answererUsageTotal = calculateUsageTotals(answerer.usage)
+
+logBenchmarkRun(runId, results, guesser, answerer)
+
+
+print(guesserUsageTotal)
+print(answererUsageTotal)
+print(results)
+

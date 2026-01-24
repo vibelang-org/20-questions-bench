@@ -1,0 +1,63 @@
+// Model configurations for 20 Questions benchmark
+import { random } from "system/utils"
+
+type ModelInfo {
+  name: text
+  provider: text
+  apiKey: text
+  url: text
+}
+
+// OpenAI model - cheap and fast for testing
+export const gpt5mini: ModelInfo = {
+  name: "gpt-5-mini",
+  provider: "openai",
+  apiKey: env("OPENAI_API_KEY"),
+  url: "https://api.openai.com/v1"
+}
+
+// Google model - cheap and fast for testing
+export const gemini3Flash: ModelInfo = {
+  name: "gemini-3-flash-preview",
+  provider: "google",
+  apiKey: env("GOOGLE_API_KEY"),
+  url: "https://api.google.com/v1",
+}
+
+// Google model - cheap and fast for testing
+export const gemini3Pro: ModelInfo = {
+  name: "gemini-3-pro-preview",
+  provider: "google",
+  apiKey: env("GOOGLE_API_KEY"),
+  url: "https://api.google.com/v1",
+}
+
+
+const availableGuesserModels: ModelInfo[] = [gpt5mini, gemini3Flash, gemini3Pro]
+const availableAnswererModels: ModelInfo[] = [gemini3Pro]
+
+function getRandomModel(models: ModelInfo[]): ModelInfo {
+  const index = random(0, models.len() - 1)
+  return models[index]
+}
+
+function cloneModel(source: ModelInfo): model {
+  model cloned = {
+    name: source.name,
+    provider: source.provider,
+    apiKey: source.apiKey,
+    url: source.url,
+  }
+
+  return cloned
+}
+
+export function getGuesserModel() {
+  const selected = getRandomModel(availableGuesserModels)
+  return cloneModel(selected)
+}
+
+export function getAnserwerModel() {
+  const selected = getRandomModel(availableAnswererModels)
+  return cloneModel(selected)
+}

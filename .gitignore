@@ -1,0 +1,6 @@
+# Environment variables (API keys)
+.env
+.vibe-logs/
+
+# Results can be large, optionally ignore
+# results/*.jsonl
