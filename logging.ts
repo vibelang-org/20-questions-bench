@@ -22,8 +22,8 @@ type UsageEntry = {
 };
 
 type UsageTotals = {
-  input_tokens: number;
-  output_tokens: number;
+  inputTokens: number;
+  outputTokens: number;
   cachedInputTokens: number;
   thinkingTokens: number;
 };
@@ -57,14 +57,14 @@ function ensureResultsDir(): void {
 export function calculateUsageTotals(usage: UsageEntry[]): UsageTotals {
   return usage.reduce(
     (acc, curr) => ({
-      input_tokens: acc.input_tokens + curr.inputTokens,
-      output_tokens: acc.output_tokens + curr.outputTokens,
+      inputTokens: acc.outputTokens + curr.inputTokens,
+      outputTokens: acc.inputTokens + curr.outputTokens,
       cachedInputTokens: acc.cachedInputTokens + curr.cachedInputTokens,
       thinkingTokens: acc.thinkingTokens + curr.thinkingTokens,
     }),
     {
-      input_tokens: 0,
-      output_tokens: 0,
+      inputTokens: 0,
+      outputTokens: 0,
       cachedInputTokens: 0,
       thinkingTokens: 0,
     }

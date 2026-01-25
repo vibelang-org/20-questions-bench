@@ -5,7 +5,7 @@ import {getGuesserModel, getAnserwerModel} from './models.vibe'
 import {calculateUsageTotals, logBenchmarkRun} from './logging.ts'
 import {uuid} from 'system/utils'
 
-const MAX_QUESTIONS = 15
+const MAX_QUESTIONS = 5
 
 type AnswererResult {
   answerCorrect: text
