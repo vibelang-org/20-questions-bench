@@ -5,7 +5,7 @@ import {getGuesserModel, getAnserwerModel} from './models.vibe'
 import {calculateUsageTotals, logBenchmarkRun} from './logging.ts'
 import {uuid} from 'system/utils'
 
-const MAX_QUESTIONS = 5
+const MAX_QUESTIONS = 20
 
 type AnswererResult {
   answerCorrect: text
@@ -43,7 +43,9 @@ export function runBench(guesser: model, answerer: model) {
   //set the initial answerer instructions to variable
   const guesserInstructions = getGuesserInstructions(category, questionNumber)
 
-  while questionNumber < MAX_QUESTIONS and not won {
+  while questionNumber <= MAX_QUESTIONS and not won {
+
+     questionNumber = questionNumber + 1
 
      let guesserPrompt = getGuesserNextQuestionPrompt(guesserInstructions)
 
@@ -58,7 +60,7 @@ export function runBench(guesser: model, answerer: model) {
       won = true
     }
 
-    const roundResult:RoundResult = {
+    const private roundResult:RoundResult = {
       roundNumber: questionNumber, 
       questions: question, 
       answererResults: answererResults
@@ -66,7 +68,6 @@ export function runBench(guesser: model, answerer: model) {
 
     results.push(roundResult)
 
-    questionNumber = questionNumber + 1
      
   }
 
