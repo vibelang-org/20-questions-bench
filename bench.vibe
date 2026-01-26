@@ -1,92 +1,169 @@
-import {getGuesserInstructions, getAnswererPrompt,getGuesserNextQuestionPrompt} from "./prompts.vibe"
+import {getGuesserInstructions, getAnswererPrompt, getGuesserNextQuestionPrompt} from "./prompts.vibe"
 import {dataset} from './dataset.ts'
-import {getRandomEntry} from './dataset.ts'
-import {getGuesserModel, getAnserwerModel} from './models.vibe'
+import {getModelByName, guesserModelNames, answererModelNames} from './models.vibe'
 import {calculateUsageTotals, logBenchmarkRun} from './logging.ts'
+import {
+  loadQueue,
+  createQueue,
+  getNextPendingItem,
+  markItemRunning,
+  markItemCompleted,
+  markItemFailed,
+  resetRunningItems,
+  getQueueProgress
+} from './queue.ts'
 import {uuid} from 'system/utils'
 
-const MAX_QUESTIONS = 5
+
+const ITERATIONS = 2 // Number of times to run each model×secret combination
 
 type AnswererResult {
   answerCorrect: text
   finalSecretCorrect: boolean
 }
 
-type RoundResult{
-  roundNumber:number
-  questions:text
-  answererResults:AnswererResult
+type RoundResult {
+  roundNumber: number
+  questions: text
+  answererResults: AnswererResult
 }
 
-// separate function to evaluate the answerer's response so we can easily have isolated local context for the answerer's response 
-function evaluateAnswererResponse(question:text,answerer:model,secret:text):AnswererResult {
-  const answererPrompt = getAnswererPrompt(secret, question)
-  //call ai with local context, we only want local function data in context
-  const answererResult:AnswererResult =  do answererPrompt answerer local
+type SecretEntry {
+  category: text
+  secret: text
+}
 
+// Evaluate the answerer's response with isolated local context
+function evaluateAnswererResponse(question: text, answerer: model, secret: text): AnswererResult {
+  const answererPrompt = getAnswererPrompt(secret, question)
+  const answererResult: AnswererResult = do answererPrompt answerer local
   return answererResult
-  
 }
 
 // Play a single game of 20 Questions
-// Returns a complete game record for storage
-export function runBench(guesser: model, answerer: model) {
+export function runBench(guesser: model, answerer: model, secretEntry: SecretEntry,runId: text,maxRounds: number) {
 
-  const private runId:text = uuid()
   let private won = false
-  let private results:RoundResult[] = []
-  const private secretEntry = getRandomEntry()
-  let { private secret:text,category:text} = secretEntry
+  let private results: RoundResult[] = []
+  let { private secret: text, category: text } = secretEntry
 
   let private questionNumber = 0
 
-  //set the initial answerer instructions to variable
   const guesserInstructions = getGuesserInstructions(category, questionNumber)
 
-  while questionNumber < MAX_QUESTIONS and not won {
+  while questionNumber < maxRounds and not won {
+    let guesserPrompt = getGuesserNextQuestionPrompt(guesserInstructions)
 
-     let guesserPrompt = getGuesserNextQuestionPrompt(guesserInstructions)
+    const question: text = do guesserPrompt guesser
+    print('Question {questionNumber + 1} - {question}')
 
-     const question:text = do guesserPrompt guesser
-     print('Question{questionNumber} - {question}')
-     const answererResults = evaluateAnswererResponse(question, answerer, secret)
-     print('Answerer Results')
-     print(answererResults.toolCalls)
-     print(answererResults)
+    const answererResults = evaluateAnswererResponse(question, answerer, secret)
+    print('Answer: {answererResults.answerCorrect}')
 
     if answererResults.finalSecretCorrect {
       won = true
+      print('*** CORRECT! Secret was: {secret} ***')
     }
 
-    const roundResult:RoundResult = {
-      roundNumber: questionNumber, 
-      questions: question, 
+    const roundResult: RoundResult = {
+      roundNumber: questionNumber,
+      questions: question,
       answererResults: answererResults
     }
 
     results.push(roundResult)
-
     questionNumber = questionNumber + 1
-     
   }
 
-  return {results: results, runId: runId}
-  //write results to file
+  if not won {
+    print('*** Game over. Secret was: {secret} ***')
+  }
 
+  return {results: results, won: won}
 }
 
-const guesser = getGuesserModel()
-const answerer = getAnserwerModel()
+// ============ MAIN: Queue-based execution ============
 
-const {results: RoundResult[], runId: text} = runBench(guesser, answerer)
+print('=== 20 Questions Benchmark ===')
+print('')
 
-const guesserUsageTotal = calculateUsageTotals(guesser.usage)
-const answererUsageTotal = calculateUsageTotals(answerer.usage)
-
-logBenchmarkRun(runId, results, guesser, answerer)
+// Load existing queue or create new one
+let queue = loadQueue()
 
 
-print(guesserUsageTotal)
-print(answererUsageTotal)
-print(results)
+if not queue {
+  print('Creating new benchmark queue...')
+  print('  Guesser models: {guesserModelNames.len()}')
+  print('  Answerer models: {answererModelNames.len()}')
+  print('  Dataset entries: {dataset.len()}')
+  print('  Iterations: {ITERATIONS}')
 
+  queue = createQueue(guesserModelNames, answererModelNames, ITERATIONS)
+  print('  Total runs: {queue.totalItems}')
+  print('')
+} else {
+  print('Resuming existing queue...')
+  const resetCount = resetRunningItems(queue)
+  if resetCount > 0 {
+    print('  Reset {resetCount} interrupted runs back to pending')
+  }
+}
+
+// Print initial progress
+let progress = getQueueProgress(queue)
+print('Progress: {progress.completed}/{progress.total} ({progress.percentComplete}%)')
+if progress.failed > 0 {
+  print('  Failed: {progress.failed}')
+}
+print('')
+
+// Process queue items
+let item = getNextPendingItem(queue)
+
+while item != null {
+  print('----------------------------------------')
+  print('Run {progress.completed + 1}/{progress.total}')
+  print('  Guesser: {item.guesserModel}')
+  print('  Answerer: {item.answererModel}')
+  print('  Category: {item.secret.category}')
+  print('  Secret: {item.secret.secret}')
+  print('')
+
+  // Get models
+  const guesser = getModelByName(item.guesserModel)
+  const answerer = getModelByName(item.answererModel)
+
+  // Mark as running and run benchmark
+  const runId = uuid()
+  markItemRunning(queue, item.id, runId)
+
+  const {results: RoundResult[],  won: boolean} = runBench(guesser, answerer, item.secret,runId,5)
+
+  // Log results
+  const guesserUsage = calculateUsageTotals(guesser.usage)
+  const answererUsage = calculateUsageTotals(answerer.usage)
+  logBenchmarkRun(runId, results, guesser, answerer)
+
+  // Mark as completed
+  markItemCompleted(queue, item.id)
+
+  // Print run summary
+  print('')
+  print('Result: {won ? "WON" : "LOST"} in {results.len()} questions')
+  print('Tokens - Guesser: {guesserUsage.inputTokens + guesserUsage.outputTokens}, Answerer: {answererUsage.inputTokens + answererUsage.outputTokens}')
+
+  // Update and print progress
+  progress = getQueueProgress(queue)
+  print('Progress: {progress.completed}/{progress.total} ({progress.percentComplete}%)')
+  print('')
+
+  // Get next item
+  item = getNextPendingItem(queue)
+}
+
+print('========================================')
+print('Benchmark complete!')
+print('  Total runs: {progress.total}')
+print('  Completed: {progress.completed}')
+print('  Failed: {progress.failed}')
+print('========================================')
