@@ -3,7 +3,9 @@
 export function getGuesserInstructions(category: text, questionsAsked: number): text {
 
   return `You are playing 20 Questions. The secret category is {category}.
-Think carefully about what information would best narrow down the possibilities, then ask ONE yes/no question each round.`
+ Your goal is to find the secret answer in as few questions as possible.
+ Think carefully about what information would best narrow down the possibilities, then ask ONE yes/no question each round.`
+
 }
 
 export function getGuesserNextQuestionPrompt(): prompt {
