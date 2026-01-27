@@ -30,34 +30,34 @@ export const gemini3Flash: ModelInfo = {
   name: "gemini-3-flash-preview",
   provider: "google",
   apiKey: env("GOOGLE_API_KEY"),
-  url: "https://api.google.com/v1",
+  url: "https://api.google.com/v1"
 }
 
 export const gemini3Pro: ModelInfo = {
   name: "gemini-3-pro-preview",
   provider: "google",
   apiKey: env("GOOGLE_API_KEY"),
-  url: "https://api.google.com/v1",
+  url: "https://api.google.com/v1"
 }
 
 // ============ Anthropic Models ============
 
 export const claudeHaiku_4_5: ModelInfo = {
-  name: "claude-haiku-4-5-20251201",
+  name: "claude-haiku-4-5-20251001",
   provider: "anthropic",
   apiKey: env("ANTHROPIC_API_KEY"),
   url: "https://api.anthropic.com"
 }
 
 export const claudeSonnet_4_5: ModelInfo = {
-  name: "claude-sonnet-4-5-20251201",
+  name: "claude-sonnet-4-5-20250929",
   provider: "anthropic",
   apiKey: env("ANTHROPIC_API_KEY"),
   url: "https://api.anthropic.com"
 }
 
 export const claudeOpus_4_5: ModelInfo = {
-  name: "claude-opus-4-5-20251201",
+  name: "claude-opus-4-5-20251101",
   provider: "anthropic",
   apiKey: env("ANTHROPIC_API_KEY"),
   url: "https://api.anthropic.com"

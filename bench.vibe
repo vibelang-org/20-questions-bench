@@ -1,7 +1,7 @@
 import {getGuesserInstructions, getAnswererPrompt, getGuesserNextQuestionPrompt} from "./prompts.vibe"
 import {dataset} from './dataset.ts'
-import {getModelByName, guesserModelNames, answererModelNames} from './models.vibe'
-import {calculateUsageTotals, logBenchmarkRun} from './logging.ts'
+import {getModelByName, availableGuesserModels, availableAnswererModels} from './models.vibe'
+import {calculateUsageTotals, logBenchmarkRun, getRunId} from './logging.ts'
 import {
   loadQueue,
   createQueue,
@@ -12,10 +12,10 @@ import {
   resetRunningItems,
   getQueueProgress
 } from './queue.ts'
-import {uuid} from 'system/utils'
+// runId is now timestamp-based, imported from logging.ts
 
-
-const ITERATIONS = 2 // Number of times to run each model×secret combination
+const MAX_QUESTIONS = 15
+const ITERATIONS = 1  // Set to 1 for testing
 
 type AnswererResult {
   answerCorrect: text
@@ -41,8 +41,7 @@ function evaluateAnswererResponse(question: text, answerer: model, secret: text)
 }
 
 // Play a single game of 20 Questions
-export function runBench(guesser: model, answerer: model, secretEntry: SecretEntry,runId: text,maxRounds: number) {
-
+export function runBench(guesser: model, answerer: model, private secretEntry: SecretEntry, runId: text, maxRounds: number) {
   let private won = false
   let private results: RoundResult[] = []
   let { private secret: text, category: text } = secretEntry
@@ -90,15 +89,14 @@ print('')
 // Load existing queue or create new one
 let queue = loadQueue()
 
-
 if not queue {
   print('Creating new benchmark queue...')
-  print('  Guesser models: {guesserModelNames.len()}')
-  print('  Answerer models: {answererModelNames.len()}')
+  print('  Guesser models: {availableGuesserModels.len()}')
+  print('  Answerer models: {availableAnswererModels.len()}')
   print('  Dataset entries: {dataset.len()}')
   print('  Iterations: {ITERATIONS}')
 
-  queue = createQueue(guesserModelNames, answererModelNames, ITERATIONS)
+  queue = createQueue(availableGuesserModels, availableAnswererModels, ITERATIONS)
   print('  Total runs: {queue.totalItems}')
   print('')
 } else {
@@ -134,15 +132,15 @@ while item != null {
   const answerer = getModelByName(item.answererModel)
 
   // Mark as running and run benchmark
-  const runId = uuid()
+  const runId = getRunId()
   markItemRunning(queue, item.id, runId)
 
-  const {results: RoundResult[],  won: boolean} = runBench(guesser, answerer, item.secret,runId,5)
+  const {results: RoundResult[], won: boolean} = runBench(guesser, answerer, item.secret, runId, MAX_QUESTIONS)
 
   // Log results
   const guesserUsage = calculateUsageTotals(guesser.usage)
   const answererUsage = calculateUsageTotals(answerer.usage)
-  logBenchmarkRun(runId, results, guesser, answerer)
+  logBenchmarkRun(runId, results, guesser, answerer, item.secret)
 
   // Mark as completed
   markItemCompleted(queue, item.id)

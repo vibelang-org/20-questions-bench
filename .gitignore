@@ -6,4 +6,4 @@
 queue.json
 
 # Results can be large, optionally ignore
-# results/*.jsonl
+results/

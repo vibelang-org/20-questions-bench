@@ -1,8 +1,6 @@
 // Queue management for benchmark runs with crash recovery
 // @ts-ignore - Node.js modules available at runtime
 import * as fs from "fs";
-// @ts-ignore - Node.js modules available at runtime
-import * as path from "path";
 
 import { dataset, DatasetEntry } from "./dataset.ts";
 
@@ -35,30 +33,35 @@ export interface QueueFile {
 const QUEUE_FILE = "./queue.json";
 
 /**
- * Generate all combinations of guesser models × answerer models × dataset entries
+ * Get a random element from an array
+ */
+function randomChoice<T>(arr: T[]): T {
+  const index = Math.floor(Math.random() * arr.length);
+  return arr[index];
+}
+
+/**
+ * Generate random queue items - picks random guesser, answerer, and secret for each iteration
  */
 export function generateQueueItems(
-  guesserModels: string[],
-  answererModels: string[],
+  guesserModels: ModelInfo[],
+  answererModels: ModelInfo[],
   iterations: number = 1
 ): QueueItem[] {
   const items: QueueItem[] = [];
-  let itemId = 0;
 
-  for (let iter = 0; iter < iterations; iter++) {
-    for (const guesser of guesserModels) {
-      for (const answerer of answererModels) {
-        for (const entry of dataset) {
-          items.push({
-            id: `item-${String(itemId++).padStart(5, "0")}`,
-            guesserModel: guesser,
-            answererModel: answerer,
-            secret: entry,
-            status: "pending",
-          });
-        }
-      }
-    }
+  for (let i = 0; i < iterations; i++) {
+    const guesser = randomChoice(guesserModels);
+    const answerer = randomChoice(answererModels);
+    const secret = randomChoice(dataset);
+
+    items.push({
+      id: `item-${String(i).padStart(5, "0")}`,
+      guesserModel: guesser.name,
+      answererModel: answerer.name,
+      secret: secret,
+      status: "pending",
+    });
   }
 
   return items;
@@ -68,8 +71,8 @@ export function generateQueueItems(
  * Create and save a new queue file
  */
 export function createQueue(
-  guesserModels: string[],
-  answererModels: string[],
+  guesserModels: ModelInfo[],
+  answererModels: ModelInfo[],
   iterations: number = 1
 ): QueueFile {
   const items = generateQueueItems(guesserModels, answererModels, iterations);

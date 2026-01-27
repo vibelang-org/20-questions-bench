@@ -33,9 +33,15 @@ type ModelInfo = {
   provider: string;
 };
 
+type SecretEntry = {
+  category: string;
+  secret: string;
+};
+
 type BenchmarkLogEntry = {
   timestamp: string;
   runId: string;
+  secret: SecretEntry;
   guesser: ModelInfo;
   answerer: ModelInfo;
   guesserUsage: UsageTotals;
@@ -46,7 +52,27 @@ type BenchmarkLogEntry = {
 };
 
 const RESULTS_DIR = "./results";
-const LOG_FILE = path.join(RESULTS_DIR, "benchmark-results.jsonl");
+
+/**
+ * Generate a timestamp-based run ID with millisecond precision in UTC.
+ * Format: ISO-style readable timestamp (e.g., "2026-01-27T06-55-09.931Z")
+ * Uses dashes instead of colons for Windows filename compatibility.
+ * Uses UTC to match vibe-logs timestamps.
+ */
+export function getRunId(): string {
+  const now = new Date();
+  const pad = (n: number, len = 2) => String(n).padStart(len, '0');
+
+  const year = now.getUTCFullYear();
+  const month = pad(now.getUTCMonth() + 1);
+  const day = pad(now.getUTCDate());
+  const hours = pad(now.getUTCHours());
+  const minutes = pad(now.getUTCMinutes());
+  const seconds = pad(now.getUTCSeconds());
+  const millis = pad(now.getUTCMilliseconds(), 3);
+
+  return `${year}-${month}-${day}T${hours}-${minutes}-${seconds}.${millis}Z`;
+}
 
 function ensureResultsDir(): void {
   if (!fs.existsSync(RESULTS_DIR)) {
@@ -57,8 +83,8 @@ function ensureResultsDir(): void {
 export function calculateUsageTotals(usage: UsageEntry[]): UsageTotals {
   return usage.reduce(
     (acc, curr) => ({
-      inputTokens: acc.outputTokens + curr.inputTokens,
-      outputTokens: acc.inputTokens + curr.outputTokens,
+      inputTokens: acc.inputTokens + curr.inputTokens,
+      outputTokens: acc.outputTokens + curr.outputTokens,
       cachedInputTokens: acc.cachedInputTokens + curr.cachedInputTokens,
       thinkingTokens: acc.thinkingTokens + curr.thinkingTokens,
     }),
@@ -75,7 +101,8 @@ export function logBenchmarkRun(
     runId: string,
     rounds: RoundResult[],
     guesserModel: { name: string; provider: string; usage: UsageEntry[] },
-    answererModel: { name: string; provider: string; usage: UsageEntry[] }
+    answererModel: { name: string; provider: string; usage: UsageEntry[] },
+    secret: { category: string; secret: string }
 ): BenchmarkLogEntry {
   ensureResultsDir();
 
@@ -84,6 +111,7 @@ export function logBenchmarkRun(
   const entry: BenchmarkLogEntry = {
     timestamp: new Date().toISOString(),
     runId,
+    secret,
     guesser: {
       name: guesserModel.name,
       provider: guesserModel.provider,
@@ -99,7 +127,9 @@ export function logBenchmarkRun(
     rounds,
   };
 
-  fs.appendFileSync(LOG_FILE, JSON.stringify(entry) + "\n");
+  // Write to individual file per runId
+  const runFile = path.join(RESULTS_DIR, `run-${runId}.json`);
+  fs.writeFileSync(runFile, JSON.stringify(entry, null, 2));
 
   return entry;
 }

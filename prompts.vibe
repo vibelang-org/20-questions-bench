@@ -18,7 +18,7 @@ export function getAnswererPrompt(secret: text, question: text): prompt {
 QUESTION: {question}
 
 answerCorrect: set 'yes' if the answer to the {question} is unambiguously true, 'no' if it is unambiguously false, 'maybe' if it is not clear.
-finalSecretCorrect: set true if the answer to the {question} is the secret answer (forgiving any small punctuation,pluralization or other very minor differences).
+finalSecretCorrect: set true ONLY if the guesser explicitly guessed the secret word/phrase in their question (e.g., "Is it {secret}?" or "Is the answer {secret}?"). Do NOT set true for yes/no property questions like "Is it something you wear?" - only for direct guesses of the secret itself. Allow minor spelling, punctuation, or pluralization differences.
 
 `
 }
