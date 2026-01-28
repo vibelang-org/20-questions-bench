@@ -41,21 +41,27 @@ export const GUESSER_MODELS: ModelConfig[] = [
   { id: "claudeOpus_medium", name: "claude-opus-4-5-20251101", provider: "anthropic", thinkingLevel: "medium" },
 
   // OpenRouter (xAI)
+  // Grok 4: Always-on reasoning, cannot be configured
   { id: "grok4", name: "x-ai/grok-4", provider: "openrouter" },
+  // Grok 4.1 Fast: Uses boolean reasoning param (on/off), not levels
   { id: "grok4_1_fast", name: "x-ai/grok-4.1-fast", provider: "openrouter" },
 
   // OpenRouter (Chinese models)
+  // DeepSeek V3.2: Uses boolean reasoning param (on/off), not levels
   { id: "deepseek_v3_2", name: "deepseek/deepseek-v3.2-20251201", provider: "openrouter" },
+  // GLM 4.7: No thinking level support
   { id: "glm_4_7", name: "z-ai/glm-4.7", provider: "openrouter" },
+  // Kimi K2.5: Multimodal model, uses boolean reasoning param (on/off)
   { id: "kimi_k2_5", name: "moonshotai/kimi-k2.5", provider: "openrouter" },
 ];
 
-// 4 Answerer Models (all high thinking)
+// 4 Answerer Models (high thinking where supported)
 export const ANSWERER_MODELS: ModelConfig[] = [
   { id: "claudeOpus_high", name: "claude-opus-4-5-20251101", provider: "anthropic", thinkingLevel: "high" },
   { id: "gpt5_2_high", name: "gpt-5.2", provider: "openai", thinkingLevel: "high" },
   { id: "gemini3Pro_high", name: "gemini-3-pro-preview", provider: "google", thinkingLevel: "high" },
-  { id: "kimi_k2_5_high", name: "moonshotai/kimi-k2.5", provider: "openrouter", thinkingLevel: "high" },
+  // Kimi K2.5: Uses boolean reasoning param, not levels
+  { id: "kimi_k2_5", name: "moonshotai/kimi-k2.5", provider: "openrouter" },
 ];
 
 // All models for lookup
