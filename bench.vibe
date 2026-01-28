@@ -1,10 +1,8 @@
 import {getGuesserInstructions, getAnswererPrompt, getGuesserNextQuestionPrompt} from "./prompts.vibe"
-import {dataset} from './dataset.ts'
-import {getModelByName, availableGuesserModels, availableAnswererModels} from './models.vibe'
+import {getModelById} from './models.vibe'
 import {calculateUsageTotals, logBenchmarkRun, getRunId} from './logging.ts'
 import {
   loadQueue,
-  createQueue,
   getNextPendingItem,
   markItemRunning,
   markItemCompleted,
@@ -12,10 +10,8 @@ import {
   resetRunningItems,
   getQueueProgress
 } from './queue.ts'
-// runId is now timestamp-based, imported from logging.ts
 
 const MAX_QUESTIONS = 15
-const ITERATIONS = 1  // Set to 1 for testing
 
 type AnswererResult {
   answerCorrect: text
@@ -86,25 +82,19 @@ export function runBench(guesser: model, answerer: model, private secretEntry: S
 print('=== 20 Questions Benchmark ===')
 print('')
 
-// Load existing queue or create new one
+// Load existing queue (must be created beforehand with: bun run create-queue.ts)
 let queue = loadQueue()
 
 if not queue {
-  print('Creating new benchmark queue...')
-  print('  Guesser models: {availableGuesserModels.len()}')
-  print('  Answerer models: {availableAnswererModels.len()}')
-  print('  Dataset entries: {dataset.len()}')
-  print('  Iterations: {ITERATIONS}')
+  print('ERROR: No queue.json found.')
+  print('Run "bun run create-queue.ts" first to generate the queue.')
+  throw "Missing queue.json - run create-queue.ts first"
+}
 
-  queue = createQueue(availableGuesserModels, availableAnswererModels, ITERATIONS)
-  print('  Total runs: {queue.totalItems}')
-  print('')
-} else {
-  print('Resuming existing queue...')
-  const resetCount = resetRunningItems(queue)
-  if resetCount > 0 {
-    print('  Reset {resetCount} interrupted runs back to pending')
-  }
+print('Loaded benchmark queue...')
+const resetCount = resetRunningItems(queue)
+if resetCount > 0 {
+  print('  Reset {resetCount} interrupted runs back to pending')
 }
 
 // Print initial progress
@@ -121,15 +111,15 @@ let item = getNextPendingItem(queue)
 while item != null {
   print('----------------------------------------')
   print('Run {progress.completed + 1}/{progress.total}')
-  print('  Guesser: {item.guesserModel}')
-  print('  Answerer: {item.answererModel}')
+  print('  Guesser: {item.guesserModelId}')
+  print('  Answerer: {item.answererModelId}')
   print('  Category: {item.secret.category}')
   print('  Secret: {item.secret.secret}')
   print('')
 
-  // Get models
-  const guesser = getModelByName(item.guesserModel)
-  const answerer = getModelByName(item.answererModel)
+  // Get models by their config IDs
+  const guesser = getModelById(item.guesserModelId)
+  const answerer = getModelById(item.answererModelId)
 
   // Mark as running and run benchmark
   const runId = getRunId()

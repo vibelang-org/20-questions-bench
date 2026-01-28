@@ -1,116 +1,28 @@
 // Model configurations for 20 Questions benchmark
-import { random } from "system/utils"
+// Model definitions are in models.ts - this file creates Vibe models from config
 
-export type ModelInfo {
-  name: text
-  provider: text
-  apiKey: text
-  url: text
-}
+import { getModelConfig, getApiKeyEnvVar, getProviderUrl, getThinkingLevel } from "./models.ts"
 
-// ============ OpenAI Models ============
+// Create a Vibe model variable from a model ID
+export function getModelById(modelId: text): model {
+  const config = getModelConfig(modelId)
 
-export const gpt5mini: ModelInfo = {
-  name: "gpt-5-mini",
-  provider: "openai",
-  apiKey: env("OPENAI_API_KEY"),
-  url: "https://api.openai.com/v1"
-}
-
-export const gpt5_2: ModelInfo = {
-  name: "gpt-5.2",
-  provider: "openai",
-  apiKey: env("OPENAI_API_KEY"),
-  url: "https://api.openai.com/v1"
-}
-
-// ============ Google Models ============
-
-export const gemini3Flash: ModelInfo = {
-  name: "gemini-3-flash-preview",
-  provider: "google",
-  apiKey: env("GOOGLE_API_KEY"),
-  url: "https://api.google.com/v1"
-}
-
-export const gemini3Pro: ModelInfo = {
-  name: "gemini-3-pro-preview",
-  provider: "google",
-  apiKey: env("GOOGLE_API_KEY"),
-  url: "https://api.google.com/v1"
-}
-
-// ============ Anthropic Models ============
-
-export const claudeHaiku_4_5: ModelInfo = {
-  name: "claude-haiku-4-5-20251001",
-  provider: "anthropic",
-  apiKey: env("ANTHROPIC_API_KEY"),
-  url: "https://api.anthropic.com"
-}
-
-export const claudeSonnet_4_5: ModelInfo = {
-  name: "claude-sonnet-4-5-20250929",
-  provider: "anthropic",
-  apiKey: env("ANTHROPIC_API_KEY"),
-  url: "https://api.anthropic.com"
-}
-
-export const claudeOpus_4_5: ModelInfo = {
-  name: "claude-opus-4-5-20251101",
-  provider: "anthropic",
-  apiKey: env("ANTHROPIC_API_KEY"),
-  url: "https://api.anthropic.com"
-}
-
-
-
-const allModels: ModelInfo[] = [gpt5mini, gpt5_2, gemini3Flash, gemini3Pro, claudeHaiku_4_5, claudeSonnet_4_5,claudeOpus_4_5]
-
-// Default model lists (can be overridden)
-export const availableGuesserModels: ModelInfo[] = [gpt5mini, gpt5_2, gemini3Flash, gemini3Pro, claudeHaiku_4_5, claudeSonnet_4_5,claudeOpus_4_5]
-export const availableAnswererModels: ModelInfo[] = [gemini3Pro, claudeHaiku_4_5,gpt5_2]
-
-export const guesserModelNames: text[] = ts(availableGuesserModels){
-  return availableGuesserModels.map(m => m.name) as string[]
-}
-export const answererModelNames: text[] = ts(availableAnswererModels){
-  return availableAnswererModels.map(m => m.name) as string[]
-}
-
-
-function getRandomModel(models: ModelInfo[]): ModelInfo {
-  const index = random(0, models.len() - 1)
-  return models[index]
-}
-
-function cloneModel(source: ModelInfo): model {
-  model cloned = {
-    name: source.name,
-    provider: source.provider,
-    apiKey: source.apiKey,
-    url: source.url,
+  if config == null {
+    throw "Model not found: {modelId}"
   }
 
-  return cloned
-}
+  // Resolve API key and URL based on provider
+  const apiKeyEnvVar = getApiKeyEnvVar(config)
+  const providerUrl = getProviderUrl(config)
+  const thinkingLevel = getThinkingLevel(config)
 
-export function getModelByName(modelName: text): model {
-
-  for m in allModels {
-    if m.name == modelName {
-      return cloneModel(m)
-    }
+  model m = {
+    name: config.name,
+    provider: config.provider,
+    apiKey: env(apiKeyEnvVar),
+    url: providerUrl,
+    thinkingLevel: thinkingLevel
   }
-  throw "Model not found: {modelName}"
-}
 
-export function getGuesserModel() {
-  const selected = getRandomModel(availableGuesserModels)
-  return cloneModel(selected)
-}
-
-export function getAnserwerModel() {
-  const selected = getRandomModel(availableAnswererModels)
-  return cloneModel(selected)
+  return m
 }

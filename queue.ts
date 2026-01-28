@@ -1,20 +1,14 @@
 // Queue management for benchmark runs with crash recovery
+// Queue generation is handled by create-queue.ts (run separately)
 // @ts-ignore - Node.js modules available at runtime
 import * as fs from "fs";
 
-import { dataset, DatasetEntry } from "./dataset.ts";
-
-export interface ModelInfo {
-  name: string;
-  provider: string;
-  apiKey: string;
-  url: string;
-}
+import { type DatasetEntry } from "./dataset.ts";
 
 export interface QueueItem {
   id: string;
-  guesserModel: string;  // Model name
-  answererModel: string; // Model name
+  guesserModelId: string;  // Model config ID (e.g., "gpt5_2_high")
+  answererModelId: string; // Model config ID
   secret: DatasetEntry;
   status: "pending" | "running" | "completed" | "failed";
   runId?: string;        // Set when started
@@ -26,68 +20,10 @@ export interface QueueFile {
   createdAt: string;
   totalItems: number;
   completedCount: number;
-  iterations: number;
   items: QueueItem[];
 }
 
 const QUEUE_FILE = "./queue.json";
-
-/**
- * Get a random element from an array
- */
-function randomChoice<T>(arr: T[]): T {
-  const index = Math.floor(Math.random() * arr.length);
-  return arr[index];
-}
-
-/**
- * Generate random queue items - picks random guesser, answerer, and secret for each iteration
- */
-export function generateQueueItems(
-  guesserModels: ModelInfo[],
-  answererModels: ModelInfo[],
-  iterations: number = 1
-): QueueItem[] {
-  const items: QueueItem[] = [];
-
-  for (let i = 0; i < iterations; i++) {
-    const guesser = randomChoice(guesserModels);
-    const answerer = randomChoice(answererModels);
-    const secret = randomChoice(dataset);
-
-    items.push({
-      id: `item-${String(i).padStart(5, "0")}`,
-      guesserModel: guesser.name,
-      answererModel: answerer.name,
-      secret: secret,
-      status: "pending",
-    });
-  }
-
-  return items;
-}
-
-/**
- * Create and save a new queue file
- */
-export function createQueue(
-  guesserModels: ModelInfo[],
-  answererModels: ModelInfo[],
-  iterations: number = 1
-): QueueFile {
-  const items = generateQueueItems(guesserModels, answererModels, iterations);
-
-  const queue: QueueFile = {
-    createdAt: new Date().toISOString(),
-    totalItems: items.length,
-    completedCount: 0,
-    iterations,
-    items,
-  };
-
-  saveQueue(queue);
-  return queue;
-}
 
 /**
  * Load existing queue or return null if not found
