@@ -13,7 +13,7 @@ import {
 } from './queue.ts'
 
 const MAX_QUESTIONS = 20
-const MAX_QUEUE_ITEMS = 14  // Max items to process per run (TODO: make configurable via CLI args once Vibe supports them)
+const MAX_QUEUE_ITEMS = 28  // Max items to process per run (TODO: make configurable via CLI args once Vibe supports them)
 
 type AnswererResult {
   answerCorrect: text
