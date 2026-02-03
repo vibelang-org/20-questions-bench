@@ -28,9 +28,17 @@ type UsageTotals = {
   thinkingTokens: number;
 };
 
+type ModelConfig = {
+  id: string;
+  name: string;
+  provider: string;
+  thinkingLevel?: string;
+};
+
 type ModelInfo = {
   name: string;
   provider: string;
+  config: ModelConfig;
 };
 
 type SecretEntry = {
@@ -102,7 +110,9 @@ export function logBenchmarkRun(
     rounds: RoundResult[],
     guesserModel: { name: string; provider: string; usage: UsageEntry[] },
     answererModel: { name: string; provider: string; usage: UsageEntry[] },
-    secret: { category: string; secret: string }
+    secret: { category: string; secret: string },
+    guesserConfig: ModelConfig,
+    answererConfig: ModelConfig
 ): BenchmarkLogEntry {
   ensureResultsDir();
 
@@ -115,10 +125,12 @@ export function logBenchmarkRun(
     guesser: {
       name: guesserModel.name,
       provider: guesserModel.provider,
+      config: guesserConfig,
     },
     answerer: {
       name: answererModel.name,
       provider: answererModel.provider,
+      config: answererConfig,
     },
     guesserUsage: calculateUsageTotals(guesserModel.usage),
     answererUsage: calculateUsageTotals(answererModel.usage),

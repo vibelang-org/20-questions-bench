@@ -1,6 +1,7 @@
 import {getGuesserInstructions, getAnswererPrompt, getGuesserNextQuestionPrompt} from "./prompts.vibe"
 import {getModelById} from './models.vibe'
 import {calculateUsageTotals, logBenchmarkRun, getRunId} from './logging.ts'
+import {getModelConfig} from './models.ts'
 import {
   loadQueue,
   getNextPendingItem,
@@ -11,7 +12,8 @@ import {
   getQueueProgress
 } from './queue.ts'
 
-const MAX_QUESTIONS = 15
+const MAX_QUESTIONS = 20
+const MAX_QUEUE_ITEMS = 14  // Max items to process per run (TODO: make configurable via CLI args once Vibe supports them)
 
 type AnswererResult {
   answerCorrect: text
@@ -50,7 +52,8 @@ export function runBench(guesser: model, answerer: model, private secretEntry: S
     let guesserPrompt = getGuesserNextQuestionPrompt(guesserInstructions)
 
     const question: text = do guesserPrompt guesser
-    print('Question {questionNumber + 1} - {question}')
+    let displayQuestionNum = questionNumber + 1
+    print('Question {displayQuestionNum} - {question}')
 
     const answererResults = evaluateAnswererResponse(question, answerer, secret)
     print('Answer: {answererResults.answerCorrect}')
@@ -107,10 +110,12 @@ print('')
 
 // Process queue items
 let item = getNextPendingItem(queue)
+let processedCount = 0
 
-while item != null {
+while item != null and processedCount < MAX_QUEUE_ITEMS {
+  let runNumber = progress.completed + 1
   print('----------------------------------------')
-  print('Run {progress.completed + 1}/{progress.total}')
+  print('Run {runNumber}/{progress.total}')
   print('  Guesser: {item.guesserModelId}')
   print('  Answerer: {item.answererModelId}')
   print('  Category: {item.secret.category}')
@@ -130,19 +135,30 @@ while item != null {
   // Log results
   const guesserUsage = calculateUsageTotals(guesser.usage)
   const answererUsage = calculateUsageTotals(answerer.usage)
-  logBenchmarkRun(runId, results, guesser, answerer, item.secret)
+  const guesserConfig = getModelConfig(item.guesserModelId)
+  const answererConfig = getModelConfig(item.answererModelId)
+  logBenchmarkRun(runId, results, guesser, answerer, item.secret, guesserConfig, answererConfig)
 
   // Mark as completed
   markItemCompleted(queue, item.id)
 
   // Print run summary
+  let resultText = "LOST"
+  if won {
+    resultText = "WON"
+  }
+  let questionCount = results.len()
+  let guesserTokens = guesserUsage.inputTokens + guesserUsage.outputTokens
+  let answererTokens = answererUsage.inputTokens + answererUsage.outputTokens
   print('')
-  print('Result: {won ? "WON" : "LOST"} in {results.len()} questions')
-  print('Tokens - Guesser: {guesserUsage.inputTokens + guesserUsage.outputTokens}, Answerer: {answererUsage.inputTokens + answererUsage.outputTokens}')
+  print('Result: {resultText} in {questionCount} questions')
+  print('Tokens - Guesser: {guesserTokens}, Answerer: {answererTokens}')
 
   // Update and print progress
+  processedCount = processedCount + 1
   progress = getQueueProgress(queue)
   print('Progress: {progress.completed}/{progress.total} ({progress.percentComplete}%)')
+  print('Processed {processedCount}/{MAX_QUEUE_ITEMS} this run')
   print('')
 
   // Get next item

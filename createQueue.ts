@@ -4,7 +4,7 @@
 import * as fs from "fs";
 import * as path from "path";
 import { GUESSER_MODELS, ANSWERER_MODELS, type ModelConfig } from "./models.ts";
-import { dataset, type DatasetEntry } from "./dataset.ts";
+import { dataset, type DatasetEntry } from "./datasetBasic1.ts";
 
 // Get the directory where this script lives
 const __dirname = path.dirname(new URL(import.meta.url).pathname);
@@ -37,9 +37,9 @@ function generateQueue(): QueueItem[] {
   const items: QueueItem[] = [];
   let index = 0;
 
-  // Every guesser sees every secret
-  for (const guesser of GUESSER_MODELS) {
-    for (const secret of dataset) {
+  // Every guesser sees every secret (grouped by secret)
+  for (const secret of dataset) {
+    for (const guesser of GUESSER_MODELS) {
       // Random answerer for each run
       const answerer = randomChoice(ANSWERER_MODELS);
       items.push({
