@@ -134,6 +134,21 @@ export function getQueueProgress(queue: QueueFile): {
 }
 
 /**
+ * Get current timestamp in milliseconds (for Vibe code that lacks Date)
+ */
+export function getTimestamp(): number {
+  return Date.now();
+}
+
+/**
+ * Count how many timestamps fall within a recent window
+ */
+export function countRecentErrors(timestamps: number[], now: number, windowMs: number): number {
+  const cutoff = now - windowMs;
+  return timestamps.filter((t) => t >= cutoff).length;
+}
+
+/**
  * Delete queue file (for fresh start)
  */
 export function deleteQueue(): void {
