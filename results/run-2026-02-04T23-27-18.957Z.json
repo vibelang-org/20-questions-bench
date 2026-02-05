@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-02-04T23:29:40.152Z",
+  "runId": "2026-02-04T23-27-18.957Z",
+  "secret": {
+    "category": "celebrity",
+    "secret": "Oprah Winfrey"
+  },
+  "guesser": {
+    "name": "claude-opus-4-5-20251101",
+    "provider": "anthropic",
+    "config": {
+      "id": "claudeOpus_medium",
+      "name": "claude-opus-4-5-20251101",
+      "provider": "anthropic",
+      "thinkingLevel": "medium"
+    }
+  },
+  "answerer": {
+    "name": "claude-sonnet-4-5-20250929",
+    "provider": "anthropic",
+    "config": {
+      "id": "claudeSonnet4_5_high",
+      "name": "claude-sonnet-4-5-20250929",
+      "provider": "anthropic",
+      "thinkingLevel": "high"
+    }
+  },
+  "guesserUsage": {
+    "inputTokens": 30964,
+    "outputTokens": 3212,
+    "cachedInputTokens": 0,
+    "thinkingTokens": 0
+  },
+  "answererUsage": {
+    "inputTokens": 8278,
+    "outputTokens": 4426,
+    "cachedInputTokens": 15580,
+    "thinkingTokens": 0
+  },
+  "totalQuestions": 10,
+  "won": true,
+  "rounds": [
+    {
+      "roundNumber": 0,
+      "questions": "Is this celebrity primarily known for their work in the entertainment industry (such as acting, music, or television)?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 1,
+      "questions": "Is this celebrity primarily known for their work in music (as a singer, musician, or performer)?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 2,
+      "questions": "Is this celebrity primarily known for their work in film (movies) rather than television?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 3,
+      "questions": "Is this celebrity primarily known for their work in television (such as TV series, talk shows, or reality TV)?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 4,
+      "questions": "Is this celebrity primarily known for hosting or presenting (such as talk show host, game show host, or TV presenter) rather than acting in TV series?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 5,
+      "questions": "Is this celebrity primarily known for hosting a late night talk show (such as shows that air late at night featuring interviews, comedy, and celebrity guests)?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 6,
+      "questions": "Is this celebrity primarily known for hosting a daytime talk show (such as shows that air during the day featuring interviews, lifestyle content, or audience participation)?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 7,
+      "questions": "Is this celebrity female?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 8,
+      "questions": "Is this celebrity Black or African American?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 9,
+      "questions": "Is this celebrity Oprah Winfrey?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": true
+      }
+    }
+  ]
+}

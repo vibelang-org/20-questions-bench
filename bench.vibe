@@ -15,7 +15,7 @@ import {
 } from './queue.ts'
 
 const MAX_QUESTIONS = 20
-const MAX_QUEUE_ITEMS = 14  // Max items to process per run (TODO: make configurable via CLI args once Vibe supports them)
+const MAX_QUEUE_ITEMS = 20  // Max items to process per run (TODO: make configurable via CLI args once Vibe supports them)
 
 type AnswererResult {
   answerCorrect: text
@@ -117,7 +117,7 @@ if progress.failed > 0 {
 print('')
 
 // Circuit breaker: stop if too many errors in a rolling window
-const MAX_ERRORS_IN_WINDOW = 1  // TODO: raise to 3 once stable
+const MAX_ERRORS_IN_WINDOW = 1
 const ERROR_WINDOW_MS = 1200000  // 20 minutes
 let errorTimestamps: number[] = []
 

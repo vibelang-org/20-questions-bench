@@ -57,7 +57,7 @@ export const GUESSER_MODELS: ModelConfig[] = [
 
 // 4 Answerer Models (high thinking where supported)
 export const ANSWERER_MODELS: ModelConfig[] = [
-  { id: "claudeOpus_high", name: "claude-opus-4-5-20251101", provider: "anthropic", thinkingLevel: "high" },
+  { id: "claudeSonnet4_5_high", name: "claude-sonnet-4-5-20250929", provider: "anthropic", thinkingLevel: "high" },
   { id: "gpt5_2_high", name: "gpt-5.2", provider: "openai", thinkingLevel: "high" },
   { id: "gemini3Pro_high", name: "gemini-3-pro-preview", provider: "google", thinkingLevel: "high" },
   // Kimi K2.5: Boolean reasoning (thinkingLevel → reasoning.enabled)
