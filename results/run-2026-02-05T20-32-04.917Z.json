@@ -1,0 +1,204 @@
+{
+  "timestamp": "2026-02-05T20:36:48.311Z",
+  "runId": "2026-02-05T20-32-04.917Z",
+  "secret": {
+    "category": "celebrity",
+    "secret": "John Candy"
+  },
+  "guesser": {
+    "name": "claude-haiku-4-5-20251001",
+    "provider": "anthropic",
+    "config": {
+      "id": "claudeHaiku_medium",
+      "name": "claude-haiku-4-5-20251001",
+      "provider": "anthropic",
+      "thinkingLevel": "medium"
+    }
+  },
+  "answerer": {
+    "name": "gemini-3-pro-preview",
+    "provider": "google",
+    "config": {
+      "id": "gemini3Pro_high",
+      "name": "gemini-3-pro-preview",
+      "provider": "google",
+      "thinkingLevel": "high"
+    }
+  },
+  "guesserUsage": {
+    "inputTokens": 74923,
+    "outputTokens": 16105,
+    "cachedInputTokens": 0,
+    "thinkingTokens": 0
+  },
+  "answererUsage": {
+    "inputTokens": 31507,
+    "outputTokens": 1060,
+    "cachedInputTokens": 0,
+    "thinkingTokens": 6974
+  },
+  "totalQuestions": 20,
+  "won": true,
+  "rounds": [
+    {
+      "roundNumber": 0,
+      "questions": "Is the celebrity still alive?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 1,
+      "questions": "Were they primarily known for acting in movies or television?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 2,
+      "questions": "Were they primarily known for their work in films rather than television?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 3,
+      "questions": "Were they born before 1950?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 4,
+      "questions": "Were they born before 1980?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 5,
+      "questions": "Were they male?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 6,
+      "questions": "Were they known for action movies?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 7,
+      "questions": "Did they win an Academy Award (Oscar)?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 8,
+      "questions": "Were they known for comedy films?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 9,
+      "questions": "Did they pass away before the year 2000?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 10,
+      "questions": "Did they have a career in stand-up comedy?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 11,
+      "questions": "Were they a cast member on Saturday Night Live?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 12,
+      "questions": "Were they known for physical comedy or slapstick humor?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 13,
+      "questions": "Did they appear in a major film that became a comedy classic or cult favorite?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 14,
+      "questions": "Did they primarily perform their comedy work in the 1980s and 1990s?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 15,
+      "questions": "Were they known for performing in buddy comedy films?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 16,
+      "questions": "Did they frequently appear in comedy films as part of a established duo or with a specific comedy partner?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 17,
+      "questions": "Did they have roles that often relied on their physical appearance or body type as part of the comedic effect?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 18,
+      "questions": "Did you appear in the film \"Uncle Buck\"?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 19,
+      "questions": "Are you John Candy?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": true
+      }
+    }
+  ]
+}

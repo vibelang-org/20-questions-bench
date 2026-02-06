@@ -1,0 +1,140 @@
+{
+  "timestamp": "2026-02-05T22:56:20.026Z",
+  "runId": "2026-02-05T22-55-07.485Z",
+  "secret": {
+    "category": "celebrity",
+    "secret": "Ryan Reynolds"
+  },
+  "guesser": {
+    "name": "gpt-5.2",
+    "provider": "openai",
+    "config": {
+      "id": "gpt5_2_medium",
+      "name": "gpt-5.2",
+      "provider": "openai",
+      "thinkingLevel": "medium"
+    }
+  },
+  "answerer": {
+    "name": "gpt-5.2",
+    "provider": "openai",
+    "config": {
+      "id": "gpt5_2_high",
+      "name": "gpt-5.2",
+      "provider": "openai",
+      "thinkingLevel": "high"
+    }
+  },
+  "guesserUsage": {
+    "inputTokens": 24081,
+    "outputTokens": 498,
+    "cachedInputTokens": 6144,
+    "thinkingTokens": 1039
+  },
+  "answererUsage": {
+    "inputTokens": 16939,
+    "outputTokens": 833,
+    "cachedInputTokens": 0,
+    "thinkingTokens": 968
+  },
+  "totalQuestions": 12,
+  "won": true,
+  "rounds": [
+    {
+      "roundNumber": 0,
+      "questions": "Is the celebrity primarily known for acting (film/TV)?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 1,
+      "questions": "Is the celebrity male?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 2,
+      "questions": "Is the celebrity primarily known for acting in American (U.S.) film/TV productions?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 3,
+      "questions": "Has the celebrity won an Academy Award (Oscar) for acting?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 4,
+      "questions": "Is the celebrity best known primarily for a long-running TV series (rather than mainly for movies)?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 5,
+      "questions": "Is the celebrity known for playing a superhero in a major franchise (e.g., Marvel/DC)?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 6,
+      "questions": "Is the celebrity best known for a Marvel Cinematic Universe (MCU) superhero role (as opposed to DC)?",
+      "answererResults": {
+        "answerCorrect": "maybe",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 7,
+      "questions": "Has the celebrity played a DC Comics superhero role in a major film (e.g., a DC Extended Universe/Warner Bros. DC movie)?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 8,
+      "questions": "Is the celebrity best known for playing Batman (Bruce Wayne) in a major DC film?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 9,
+      "questions": "Is the celebrity best known for playing Superman (Clark Kent/Kal-El) in a major DC film?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 10,
+      "questions": "Is the celebrity best known for playing Deadpool?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 11,
+      "questions": "Is the celebrity Ryan Reynolds?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": true
+      }
+    }
+  ]
+}

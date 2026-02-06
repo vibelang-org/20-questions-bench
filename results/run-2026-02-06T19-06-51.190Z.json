@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-02-06T19:09:27.169Z",
+  "runId": "2026-02-06T19-06-51.190Z",
+  "secret": {
+    "category": "creature",
+    "secret": "elephant"
+  },
+  "guesser": {
+    "name": "moonshotai/kimi-k2.5",
+    "provider": "openrouter",
+    "config": {
+      "id": "kimi_k2_5",
+      "name": "moonshotai/kimi-k2.5",
+      "provider": "openrouter",
+      "thinkingLevel": "high"
+    }
+  },
+  "answerer": {
+    "name": "moonshotai/kimi-k2.5",
+    "provider": "openrouter",
+    "config": {
+      "id": "kimi_k2_5",
+      "name": "moonshotai/kimi-k2.5",
+      "provider": "openrouter",
+      "thinkingLevel": "high"
+    }
+  },
+  "guesserUsage": {
+    "inputTokens": 17542,
+    "outputTokens": 200,
+    "cachedInputTokens": 11264,
+    "thinkingTokens": 3520
+  },
+  "answererUsage": {
+    "inputTokens": 12551,
+    "outputTokens": 326,
+    "cachedInputTokens": 7680,
+    "thinkingTokens": 2073
+  },
+  "totalQuestions": 10,
+  "won": true,
+  "rounds": [
+    {
+      "roundNumber": 0,
+      "questions": "Is it a mammal?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 1,
+      "questions": "Is it a domesticated animal?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 2,
+      "questions": "Does it live primarily in water?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 3,
+      "questions": "Is it a large animal (bigger than a human)?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 4,
+      "questions": "Is it a carnivore?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 5,
+      "questions": "Does it have a very long neck?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 6,
+      "questions": "Does it have a trunk?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 7,
+      "questions": "Does it have very large ears?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 8,
+      "questions": "Does it have visible tusks?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 9,
+      "questions": "Is it an elephant?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": true
+      }
+    }
+  ]
+}

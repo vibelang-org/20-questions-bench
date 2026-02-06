@@ -1,0 +1,172 @@
+{
+  "timestamp": "2026-02-06T02:20:39.653Z",
+  "runId": "2026-02-06T02-18-00.698Z",
+  "secret": {
+    "category": "celebrity",
+    "secret": "Ryan Reynolds"
+  },
+  "guesser": {
+    "name": "google/gemini-3-flash-preview",
+    "provider": "openrouter",
+    "config": {
+      "id": "gemini3Flash_high",
+      "name": "google/gemini-3-flash-preview",
+      "provider": "openrouter",
+      "thinkingLevel": "high"
+    }
+  },
+  "answerer": {
+    "name": "moonshotai/kimi-k2.5",
+    "provider": "openrouter",
+    "config": {
+      "id": "kimi_k2_5",
+      "name": "moonshotai/kimi-k2.5",
+      "provider": "openrouter",
+      "thinkingLevel": "high"
+    }
+  },
+  "guesserUsage": {
+    "inputTokens": 39375,
+    "outputTokens": 392,
+    "cachedInputTokens": 20065,
+    "thinkingTokens": 6113
+  },
+  "answererUsage": {
+    "inputTokens": 20086,
+    "outputTokens": 471,
+    "cachedInputTokens": 10752,
+    "thinkingTokens": 2957
+  },
+  "totalQuestions": 16,
+  "won": true,
+  "rounds": [
+    {
+      "roundNumber": 0,
+      "questions": "Is the person currently alive?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 1,
+      "questions": "Is the person American?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 2,
+      "questions": "Is the person from Europe?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 3,
+      "questions": "Is the person an athlete?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 4,
+      "questions": "Is the person from Asia?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 5,
+      "questions": "Is the person from Australia?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 6,
+      "questions": "Is the person from Africa?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 7,
+      "questions": "Is the person from South America?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 8,
+      "questions": "Is the person Canadian?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 9,
+      "questions": "Is the person a musician?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 10,
+      "questions": "Is the person an actor?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 11,
+      "questions": "Is the person male?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 12,
+      "questions": "Is the person known for comedic roles?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 13,
+      "questions": "Is he 50 years old or older?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 14,
+      "questions": "Is he known for playing a superhero?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 15,
+      "questions": "Is the person Ryan Reynolds?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": true
+      }
+    }
+  ]
+}

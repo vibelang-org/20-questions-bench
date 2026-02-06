@@ -1,0 +1,180 @@
+{
+  "timestamp": "2026-02-05T21:58:01.467Z",
+  "runId": "2026-02-05T21-54-43.445Z",
+  "secret": {
+    "category": "celebrity",
+    "secret": "Dwayne Johnson"
+  },
+  "guesser": {
+    "name": "claude-sonnet-4-5-20250929",
+    "provider": "anthropic",
+    "config": {
+      "id": "claudeSonnet_medium",
+      "name": "claude-sonnet-4-5-20250929",
+      "provider": "anthropic",
+      "thinkingLevel": "medium"
+    }
+  },
+  "answerer": {
+    "name": "gpt-5.2",
+    "provider": "openai",
+    "config": {
+      "id": "gpt5_2_high",
+      "name": "gpt-5.2",
+      "provider": "openai",
+      "thinkingLevel": "high"
+    }
+  },
+  "guesserUsage": {
+    "inputTokens": 34461,
+    "outputTokens": 6678,
+    "cachedInputTokens": 24928,
+    "thinkingTokens": 0
+  },
+  "answererUsage": {
+    "inputTokens": 23298,
+    "outputTokens": 1183,
+    "cachedInputTokens": 0,
+    "thinkingTokens": 1153
+  },
+  "totalQuestions": 17,
+  "won": true,
+  "rounds": [
+    {
+      "roundNumber": 0,
+      "questions": "Is this person currently alive?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 1,
+      "questions": "Is this person male?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 2,
+      "questions": "Is this person primarily known for acting in movies or television?",
+      "answererResults": {
+        "answerCorrect": "maybe",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 3,
+      "questions": "Is this person primarily known for their music career?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 4,
+      "questions": "Is this person primarily known for sports or athletics?",
+      "answererResults": {
+        "answerCorrect": "maybe",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 5,
+      "questions": "Has this person competed professionally in a sport?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 6,
+      "questions": "Did this person compete in a team sport?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 7,
+      "questions": "Did this person play professional basketball?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 8,
+      "questions": "Did this person play professional American football?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 9,
+      "questions": "Did this person play professional baseball?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 10,
+      "questions": "Did this person play professional soccer (football)?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 11,
+      "questions": "Did this person play professional ice hockey?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 12,
+      "questions": "Did this person play professional cricket?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 13,
+      "questions": "Did this person play professional rugby?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 14,
+      "questions": "Is this person known for professional wrestling?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 15,
+      "questions": "Has this person transitioned to become a major Hollywood movie star?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 16,
+      "questions": "Is this person Dwayne \"The Rock\" Johnson?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": true
+      }
+    }
+  ]
+}

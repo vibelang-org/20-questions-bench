@@ -1,0 +1,164 @@
+{
+  "timestamp": "2026-02-05T20:29:23.205Z",
+  "runId": "2026-02-05T20-27-02.192Z",
+  "secret": {
+    "category": "celebrity",
+    "secret": "John Candy"
+  },
+  "guesser": {
+    "name": "gemini-3-pro-preview",
+    "provider": "google",
+    "config": {
+      "id": "gemini3Pro_low",
+      "name": "gemini-3-pro-preview",
+      "provider": "google",
+      "thinkingLevel": "low"
+    }
+  },
+  "answerer": {
+    "name": "gemini-3-pro-preview",
+    "provider": "google",
+    "config": {
+      "id": "gemini3Pro_high",
+      "name": "gemini-3-pro-preview",
+      "provider": "google",
+      "thinkingLevel": "high"
+    }
+  },
+  "guesserUsage": {
+    "inputTokens": 37215,
+    "outputTokens": 406,
+    "cachedInputTokens": 0,
+    "thinkingTokens": 4608
+  },
+  "answererUsage": {
+    "inputTokens": 23581,
+    "outputTokens": 795,
+    "cachedInputTokens": 0,
+    "thinkingTokens": 3466
+  },
+  "totalQuestions": 15,
+  "won": true,
+  "rounds": [
+    {
+      "roundNumber": 0,
+      "questions": "Is this person alive?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 1,
+      "questions": "Is this person a political figure?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 2,
+      "questions": "Is this person primarily known for their work in the entertainment industry (e.g., actor, musician, director)?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 3,
+      "questions": "Is this person primarily known as a musician or singer?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 4,
+      "questions": "Is this person primarily known as an actor or actress?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 5,
+      "questions": "Is this person male?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 6,
+      "questions": "Is this person American?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 7,
+      "questions": "Is this person British?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 8,
+      "questions": "Is this person from Europe?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 9,
+      "questions": "Is this person from Australia?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 10,
+      "questions": "Is this person from Asia?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 11,
+      "questions": "Is this person Canadian?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 12,
+      "questions": "Is this person primarily known for comedic roles?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 13,
+      "questions": "Is this person primarily known for their work in films?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 14,
+      "questions": "Is this person John Candy?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": true
+      }
+    }
+  ]
+}

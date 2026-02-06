@@ -1,0 +1,164 @@
+{
+  "timestamp": "2026-02-06T07:00:42.993Z",
+  "runId": "2026-02-06T06-49-58.902Z",
+  "secret": {
+    "category": "celebrity",
+    "secret": "Ryan Reynolds"
+  },
+  "guesser": {
+    "name": "deepseek/deepseek-v3.2-20251201",
+    "provider": "openrouter",
+    "config": {
+      "id": "deepseek_v3_2",
+      "name": "deepseek/deepseek-v3.2-20251201",
+      "provider": "openrouter",
+      "thinkingLevel": "high"
+    }
+  },
+  "answerer": {
+    "name": "moonshotai/kimi-k2.5",
+    "provider": "openrouter",
+    "config": {
+      "id": "kimi_k2_5",
+      "name": "moonshotai/kimi-k2.5",
+      "provider": "openrouter",
+      "thinkingLevel": "high"
+    }
+  },
+  "guesserUsage": {
+    "inputTokens": 38746,
+    "outputTokens": 583,
+    "cachedInputTokens": 27136,
+    "thinkingTokens": 9727
+  },
+  "answererUsage": {
+    "inputTokens": 18866,
+    "outputTokens": 379,
+    "cachedInputTokens": 11520,
+    "thinkingTokens": 2883
+  },
+  "totalQuestions": 15,
+  "won": true,
+  "rounds": [
+    {
+      "roundNumber": 0,
+      "questions": "Is the celebrity male?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 1,
+      "questions": "Is the celebrity alive?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 2,
+      "questions": "Is the celebrity primarily known as an actor?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 3,
+      "questions": "Is the celebrity American?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 4,
+      "questions": "Has the celebrity won an Academy Award?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 5,
+      "questions": "Is the celebrity primarily known for comedic roles?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 6,
+      "questions": "Is the celebrity over 50 years old?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 7,
+      "questions": "Is the celebrity a former cast member of Saturday Night Live?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 8,
+      "questions": "Is the celebrity primarily known for work in television rather than film?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 9,
+      "questions": "Has the celebrity hosted Saturday Night Live?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 10,
+      "questions": "Has the celebrity starred in a Marvel superhero film?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 11,
+      "questions": "Is the celebrity's most famous Marvel character known for breaking the fourth wall?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 12,
+      "questions": "Is the celebrity currently married to a well-known actress?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 13,
+      "questions": "Is the celebrity Canadian?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 14,
+      "questions": "Is the celebrity Ryan Reynolds?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": true
+      }
+    }
+  ]
+}

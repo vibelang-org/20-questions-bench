@@ -1,0 +1,132 @@
+{
+  "timestamp": "2026-02-05T21:51:44.285Z",
+  "runId": "2026-02-05T21-49-26.023Z",
+  "secret": {
+    "category": "celebrity",
+    "secret": "Dwayne Johnson"
+  },
+  "guesser": {
+    "name": "gemini-3-pro-preview",
+    "provider": "google",
+    "config": {
+      "id": "gemini3Pro_high",
+      "name": "gemini-3-pro-preview",
+      "provider": "google",
+      "thinkingLevel": "high"
+    }
+  },
+  "answerer": {
+    "name": "gemini-3-pro-preview",
+    "provider": "google",
+    "config": {
+      "id": "gemini3Pro_high",
+      "name": "gemini-3-pro-preview",
+      "provider": "google",
+      "thinkingLevel": "high"
+    }
+  },
+  "guesserUsage": {
+    "inputTokens": 24070,
+    "outputTokens": 296,
+    "cachedInputTokens": 0,
+    "thinkingTokens": 6033
+  },
+  "answererUsage": {
+    "inputTokens": 17291,
+    "outputTokens": 583,
+    "cachedInputTokens": 0,
+    "thinkingTokens": 3107
+  },
+  "totalQuestions": 11,
+  "won": true,
+  "rounds": [
+    {
+      "roundNumber": 0,
+      "questions": "Is the person male?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 1,
+      "questions": "Is this person known primarily as an actor?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 2,
+      "questions": "Is this person American?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 3,
+      "questions": "Is he currently alive?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 4,
+      "questions": "Is he over 50 years old?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 5,
+      "questions": "Has he ever won an Academy Award?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 6,
+      "questions": "Is he primarily known for starring in action movies?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 7,
+      "questions": "Has he starred in the Mission: Impossible franchise?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 8,
+      "questions": "Did he rise to fame as a professional wrestler?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 9,
+      "questions": "Is he also known by the nickname 'The Rock'?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 10,
+      "questions": "Is it Dwayne Johnson?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": true
+      }
+    }
+  ]
+}

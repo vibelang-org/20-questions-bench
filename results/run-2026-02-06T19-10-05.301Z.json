@@ -1,0 +1,100 @@
+{
+  "timestamp": "2026-02-06T19:10:38.219Z",
+  "runId": "2026-02-06T19-10-05.301Z",
+  "secret": {
+    "category": "creature",
+    "secret": "penguin"
+  },
+  "guesser": {
+    "name": "gpt-5.2",
+    "provider": "openai",
+    "config": {
+      "id": "gpt5_2_high",
+      "name": "gpt-5.2",
+      "provider": "openai",
+      "thinkingLevel": "high"
+    }
+  },
+  "answerer": {
+    "name": "gpt-5.2",
+    "provider": "openai",
+    "config": {
+      "id": "gpt5_2_high",
+      "name": "gpt-5.2",
+      "provider": "openai",
+      "thinkingLevel": "high"
+    }
+  },
+  "guesserUsage": {
+    "inputTokens": 11388,
+    "outputTokens": 263,
+    "cachedInputTokens": 3072,
+    "thinkingTokens": 516
+  },
+  "answererUsage": {
+    "inputTokens": 9045,
+    "outputTokens": 490,
+    "cachedInputTokens": 0,
+    "thinkingTokens": 317
+  },
+  "totalQuestions": 7,
+  "won": true,
+  "rounds": [
+    {
+      "roundNumber": 0,
+      "questions": "Is the creature a real animal that exists (or existed) on Earth?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 1,
+      "questions": "Is the creature a mammal?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 2,
+      "questions": "Is the creature a vertebrate (i.e., does it have a backbone)?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 3,
+      "questions": "Is the creature a bird?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 4,
+      "questions": "Is the bird flightless (unable to fly)?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 5,
+      "questions": "Is this flightless bird primarily aquatic—does it spend much of its time swimming (rather than mainly running on land)?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 6,
+      "questions": "Is the creature a penguin?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": true
+      }
+    }
+  ]
+}

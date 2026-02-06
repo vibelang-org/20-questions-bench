@@ -1,0 +1,156 @@
+{
+  "timestamp": "2026-02-06T02:23:29.648Z",
+  "runId": "2026-02-06T02-20-48.490Z",
+  "secret": {
+    "category": "celebrity",
+    "secret": "Ryan Reynolds"
+  },
+  "guesser": {
+    "name": "google/gemini-3-pro-preview",
+    "provider": "openrouter",
+    "config": {
+      "id": "gemini3Pro_low",
+      "name": "google/gemini-3-pro-preview",
+      "provider": "openrouter",
+      "thinkingLevel": "low"
+    }
+  },
+  "answerer": {
+    "name": "google/gemini-3-pro-preview",
+    "provider": "openrouter",
+    "config": {
+      "id": "gemini3Pro_high",
+      "name": "google/gemini-3-pro-preview",
+      "provider": "openrouter",
+      "thinkingLevel": "high"
+    }
+  },
+  "guesserUsage": {
+    "inputTokens": 31725,
+    "outputTokens": 342,
+    "cachedInputTokens": 0,
+    "thinkingTokens": 4160
+  },
+  "answererUsage": {
+    "inputTokens": 19127,
+    "outputTokens": 582,
+    "cachedInputTokens": 0,
+    "thinkingTokens": 3280
+  },
+  "totalQuestions": 14,
+  "won": true,
+  "rounds": [
+    {
+      "roundNumber": 0,
+      "questions": "Is the celebrity still alive?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 1,
+      "questions": "Is the celebrity a musician?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 2,
+      "questions": "Is the celebrity an actor?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 3,
+      "questions": "Is the celebrity male?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 4,
+      "questions": "Is the celebrity over 50 years old?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 5,
+      "questions": "Is the celebrity known for acting in action movies?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 6,
+      "questions": "Is the celebrity known for playing a superhero?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 7,
+      "questions": "Is the celebrity part of the Marvel Cinematic Universe (MCU)?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 8,
+      "questions": "Is the celebrity's first name Chris?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 9,
+      "questions": "Is the celebrity British?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 10,
+      "questions": "Is the celebrity known for playing Spider-Man?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 11,
+      "questions": "Is the celebrity known for playing Captain America?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 12,
+      "questions": "Is the celebrity known for playing Deadpool?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 13,
+      "questions": "Is the celebrity Ryan Reynolds?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": true
+      }
+    }
+  ]
+}

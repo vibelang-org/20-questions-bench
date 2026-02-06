@@ -1,0 +1,204 @@
+{
+  "timestamp": "2026-02-06T02:30:41.557Z",
+  "runId": "2026-02-06T02-26-27.778Z",
+  "secret": {
+    "category": "celebrity",
+    "secret": "Ryan Reynolds"
+  },
+  "guesser": {
+    "name": "claude-haiku-4-5-20251001",
+    "provider": "anthropic",
+    "config": {
+      "id": "claudeHaiku_medium",
+      "name": "claude-haiku-4-5-20251001",
+      "provider": "anthropic",
+      "thinkingLevel": "medium"
+    }
+  },
+  "answerer": {
+    "name": "moonshotai/kimi-k2.5",
+    "provider": "openrouter",
+    "config": {
+      "id": "kimi_k2_5",
+      "name": "moonshotai/kimi-k2.5",
+      "provider": "openrouter",
+      "thinkingLevel": "high"
+    }
+  },
+  "guesserUsage": {
+    "inputTokens": 74916,
+    "outputTokens": 12442,
+    "cachedInputTokens": 0,
+    "thinkingTokens": 0
+  },
+  "answererUsage": {
+    "inputTokens": 25187,
+    "outputTokens": 566,
+    "cachedInputTokens": 15360,
+    "thinkingTokens": 4316
+  },
+  "totalQuestions": 20,
+  "won": false,
+  "rounds": [
+    {
+      "roundNumber": 0,
+      "questions": "Is this celebrity still alive?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 1,
+      "questions": "Are they primarily known for acting?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 2,
+      "questions": "Are they male?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 3,
+      "questions": "Are they an American actor?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 4,
+      "questions": "Have they won an Academy Award (Oscar)?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 5,
+      "questions": "Have they been nominated for an Academy Award (Oscar)?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 6,
+      "questions": "Are they primarily known for television work?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 7,
+      "questions": "Are they known for superhero or comic book adaptation films?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 8,
+      "questions": "Are they primarily known for the Marvel Cinematic Universe?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 9,
+      "questions": "Are they primarily known for DC Comics superhero films?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 10,
+      "questions": "Were they in the X-Men film franchise?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 11,
+      "questions": "Were they primarily featured in the original X-Men film trilogy from the 2000s?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 12,
+      "questions": "Were they in X-Men: First Class or one of its sequels?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 13,
+      "questions": "Were they in X-Men Origins: Wolverine?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 14,
+      "questions": "Did they play the lead character Wolverine in X-Men Origins: Wolverine?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 15,
+      "questions": "Did they play Gambit in X-Men Origins: Wolverine?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 16,
+      "questions": "Did they play Deadpool in X-Men Origins: Wolverine?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 17,
+      "questions": "Is your first name Ryan?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 18,
+      "questions": "Is your last name Reynolds?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 19,
+      "questions": "Have you starred in the standalone R-rated Deadpool films?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    }
+  ]
+}

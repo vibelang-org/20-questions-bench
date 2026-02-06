@@ -1,0 +1,156 @@
+{
+  "timestamp": "2026-02-05T20:25:26.288Z",
+  "runId": "2026-02-05T20-19-10.647Z",
+  "secret": {
+    "category": "celebrity",
+    "secret": "John Candy"
+  },
+  "guesser": {
+    "name": "gpt-5.2",
+    "provider": "openai",
+    "config": {
+      "id": "gpt5_2_max",
+      "name": "gpt-5.2",
+      "provider": "openai",
+      "thinkingLevel": "max"
+    }
+  },
+  "answerer": {
+    "name": "gemini-3-pro-preview",
+    "provider": "google",
+    "config": {
+      "id": "gemini3Pro_high",
+      "name": "gemini-3-pro-preview",
+      "provider": "google",
+      "thinkingLevel": "high"
+    }
+  },
+  "guesserUsage": {
+    "inputTokens": 28622,
+    "outputTokens": 468,
+    "cachedInputTokens": 10752,
+    "thinkingTokens": 15495
+  },
+  "answererUsage": {
+    "inputTokens": 22016,
+    "outputTokens": 742,
+    "cachedInputTokens": 0,
+    "thinkingTokens": 4391
+  },
+  "totalQuestions": 14,
+  "won": true,
+  "rounds": [
+    {
+      "roundNumber": 0,
+      "questions": "Is this celebrity primarily known for acting in movies or television?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 1,
+      "questions": "Is this celebrity female?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 2,
+      "questions": "Is this celebrity American?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 3,
+      "questions": "Is this celebrity British?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 4,
+      "questions": "Is this celebrity primarily known for movies rather than television?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 5,
+      "questions": "Was this celebrity born in Europe?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 6,
+      "questions": "Is this celebrity Canadian?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 7,
+      "questions": "Is this celebrity primarily known for comedic roles in films?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 8,
+      "questions": "Was this celebrity born in 1970 or later?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 9,
+      "questions": "Was this celebrity ever a cast member on Saturday Night Live (SNL)?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 10,
+      "questions": "Is this celebrity Jim Carrey?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 11,
+      "questions": "Is this celebrity still alive?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 12,
+      "questions": "Did this celebrity die before the year 2000?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 13,
+      "questions": "Is this celebrity John Candy?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": true
+      }
+    }
+  ]
+}

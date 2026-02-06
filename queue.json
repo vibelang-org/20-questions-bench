@@ -1,0 +1,7332 @@
+{
+  "createdAt": "2026-02-02T07:43:25.313Z",
+  "totalItems": 700,
+  "completedCount": 162,
+  "items": [
+    {
+      "id": "item-00000",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Taylor Swift"
+      },
+      "status": "completed",
+      "runId": "2026-02-02T08-07-04.732Z",
+      "completedAt": "2026-02-02T08:09:27.509Z"
+    },
+    {
+      "id": "item-00001",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "claudeOpus_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Taylor Swift"
+      },
+      "status": "completed",
+      "runId": "2026-02-02T08-09-27.520Z",
+      "completedAt": "2026-02-02T08:11:05.780Z"
+    },
+    {
+      "id": "item-00002",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Taylor Swift"
+      },
+      "status": "completed",
+      "runId": "2026-02-02T08-11-05.791Z",
+      "completedAt": "2026-02-02T08:14:10.811Z"
+    },
+    {
+      "id": "item-00003",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Taylor Swift"
+      },
+      "status": "completed",
+      "runId": "2026-02-02T08-14-10.825Z",
+      "completedAt": "2026-02-02T08:15:22.465Z"
+    },
+    {
+      "id": "item-00004",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "claudeOpus_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Taylor Swift"
+      },
+      "status": "completed",
+      "runId": "2026-02-02T08-15-22.477Z",
+      "completedAt": "2026-02-02T08:16:16.075Z"
+    },
+    {
+      "id": "item-00005",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Taylor Swift"
+      },
+      "status": "completed",
+      "runId": "2026-02-02T08-26-44.779Z",
+      "completedAt": "2026-02-02T08:28:47.946Z"
+    },
+    {
+      "id": "item-00006",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Taylor Swift"
+      },
+      "status": "completed",
+      "runId": "2026-02-02T08-28-47.957Z",
+      "completedAt": "2026-02-02T08:33:57.142Z"
+    },
+    {
+      "id": "item-00007",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Taylor Swift"
+      },
+      "status": "completed",
+      "runId": "2026-02-02T08-33-57.151Z",
+      "completedAt": "2026-02-02T08:35:45.297Z"
+    },
+    {
+      "id": "item-00008",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Taylor Swift"
+      },
+      "status": "completed",
+      "runId": "2026-02-02T08-35-45.308Z",
+      "completedAt": "2026-02-02T08:37:04.584Z"
+    },
+    {
+      "id": "item-00009",
+      "guesserModelId": "grok4",
+      "answererModelId": "claudeOpus_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Taylor Swift"
+      },
+      "status": "completed",
+      "runId": "2026-02-02T08-37-04.597Z",
+      "completedAt": "2026-02-02T08:46:13.668Z"
+    },
+    {
+      "id": "item-00010",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "claudeOpus_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Taylor Swift"
+      },
+      "status": "completed",
+      "runId": "2026-02-02T08-46-13.681Z",
+      "completedAt": "2026-02-02T08:48:18.619Z"
+    },
+    {
+      "id": "item-00011",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "claudeOpus_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Taylor Swift"
+      },
+      "status": "completed",
+      "runId": "2026-02-02T08-48-18.631Z",
+      "completedAt": "2026-02-02T08:53:32.316Z"
+    },
+    {
+      "id": "item-00012",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Taylor Swift"
+      },
+      "status": "completed",
+      "runId": "2026-02-02T08-53-32.331Z",
+      "completedAt": "2026-02-02T09:01:25.864Z"
+    },
+    {
+      "id": "item-00013",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Taylor Swift"
+      },
+      "status": "completed",
+      "runId": "2026-02-02T10-17-59.467Z",
+      "completedAt": "2026-02-02T10:21:17.764Z"
+    },
+    {
+      "id": "item-00014",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Elon Musk"
+      },
+      "status": "completed",
+      "runId": "2026-02-03T00-57-16.714Z",
+      "completedAt": "2026-02-03T00:59:18.898Z"
+    },
+    {
+      "id": "item-00015",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Elon Musk"
+      },
+      "status": "completed",
+      "runId": "2026-02-03T00-59-18.907Z",
+      "completedAt": "2026-02-03T01:01:32.479Z"
+    },
+    {
+      "id": "item-00016",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Elon Musk"
+      },
+      "status": "completed",
+      "runId": "2026-02-03T01-01-32.490Z",
+      "completedAt": "2026-02-03T01:03:50.495Z"
+    },
+    {
+      "id": "item-00017",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "claudeOpus_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Elon Musk"
+      },
+      "status": "completed",
+      "runId": "2026-02-03T01-03-50.506Z",
+      "completedAt": "2026-02-03T01:05:28.887Z"
+    },
+    {
+      "id": "item-00018",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Elon Musk"
+      },
+      "status": "completed",
+      "runId": "2026-02-03T01-05-28.897Z",
+      "completedAt": "2026-02-03T01:06:35.018Z"
+    },
+    {
+      "id": "item-00019",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Elon Musk"
+      },
+      "status": "completed",
+      "runId": "2026-02-03T01-06-35.033Z",
+      "completedAt": "2026-02-03T01:08:54.956Z"
+    },
+    {
+      "id": "item-00020",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Elon Musk"
+      },
+      "status": "completed",
+      "runId": "2026-02-03T01-08-54.969Z",
+      "completedAt": "2026-02-03T01:11:42.497Z"
+    },
+    {
+      "id": "item-00021",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Elon Musk"
+      },
+      "status": "completed",
+      "runId": "2026-02-03T01-11-42.511Z",
+      "completedAt": "2026-02-03T01:13:58.627Z"
+    },
+    {
+      "id": "item-00022",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Elon Musk"
+      },
+      "status": "completed",
+      "runId": "2026-02-03T01-13-58.647Z",
+      "completedAt": "2026-02-03T01:15:35.789Z"
+    },
+    {
+      "id": "item-00023",
+      "guesserModelId": "grok4",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Elon Musk"
+      },
+      "status": "completed",
+      "runId": "2026-02-03T01-15-35.808Z",
+      "completedAt": "2026-02-03T01:20:43.060Z"
+    },
+    {
+      "id": "item-00024",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Elon Musk"
+      },
+      "status": "completed",
+      "runId": "2026-02-03T01-20-43.075Z",
+      "completedAt": "2026-02-03T01:23:57.830Z"
+    },
+    {
+      "id": "item-00025",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Elon Musk"
+      },
+      "status": "completed",
+      "runId": "2026-02-03T01-23-57.849Z",
+      "completedAt": "2026-02-03T01:32:23.504Z"
+    },
+    {
+      "id": "item-00026",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Elon Musk"
+      },
+      "status": "completed",
+      "runId": "2026-02-03T01-32-23.524Z",
+      "completedAt": "2026-02-03T01:38:39.154Z"
+    },
+    {
+      "id": "item-00027",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Elon Musk"
+      },
+      "status": "completed",
+      "runId": "2026-02-03T01-38-39.176Z",
+      "completedAt": "2026-02-03T01:41:30.142Z"
+    },
+    {
+      "id": "item-00028",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "claudeOpus_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Beyoncé"
+      },
+      "status": "completed",
+      "runId": "2026-02-03T21-51-20.524Z",
+      "completedAt": "2026-02-03T21:56:37.685Z"
+    },
+    {
+      "id": "item-00029",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Beyoncé"
+      },
+      "status": "completed",
+      "runId": "2026-02-03T21-56-37.694Z",
+      "completedAt": "2026-02-03T22:00:35.892Z"
+    },
+    {
+      "id": "item-00030",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Beyoncé"
+      },
+      "status": "completed",
+      "runId": "2026-02-03T22-00-35.902Z",
+      "completedAt": "2026-02-03T22:06:26.587Z"
+    },
+    {
+      "id": "item-00031",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "claudeOpus_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Beyoncé"
+      },
+      "status": "completed",
+      "runId": "2026-02-03T22-06-26.598Z",
+      "completedAt": "2026-02-03T22:08:24.083Z"
+    },
+    {
+      "id": "item-00032",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Beyoncé"
+      },
+      "status": "completed",
+      "runId": "2026-02-03T22-08-24.096Z",
+      "completedAt": "2026-02-03T22:09:40.323Z"
+    },
+    {
+      "id": "item-00033",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "claudeOpus_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Beyoncé"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T07-20-36.213Z",
+      "completedAt": "2026-02-04T07:24:38.925Z"
+    },
+    {
+      "id": "item-00034",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "claudeOpus_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Beyoncé"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T07-24-38.936Z",
+      "completedAt": "2026-02-04T07:27:44.134Z"
+    },
+    {
+      "id": "item-00035",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Beyoncé"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T07-27-44.147Z",
+      "completedAt": "2026-02-04T07:30:01.367Z"
+    },
+    {
+      "id": "item-00036",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Beyoncé"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T07-30-01.381Z",
+      "completedAt": "2026-02-04T07:34:25.707Z"
+    },
+    {
+      "id": "item-00037",
+      "guesserModelId": "grok4",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Beyoncé"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T07-34-25.721Z",
+      "completedAt": "2026-02-04T07:43:47.261Z"
+    },
+    {
+      "id": "item-00038",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Beyoncé"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T07-43-47.278Z",
+      "completedAt": "2026-02-04T07:55:21.378Z"
+    },
+    {
+      "id": "item-00039",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Beyoncé"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T07-55-21.396Z",
+      "completedAt": "2026-02-04T08:05:27.499Z"
+    },
+    {
+      "id": "item-00040",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Beyoncé"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T08-05-27.517Z",
+      "completedAt": "2026-02-04T08:15:25.992Z"
+    },
+    {
+      "id": "item-00041",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Beyoncé"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T08-15-26.008Z",
+      "completedAt": "2026-02-04T08:20:34.176Z"
+    },
+    {
+      "id": "item-00042",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Chuck Norris"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T08-33-25.790Z",
+      "completedAt": "2026-02-04T08:38:23.104Z"
+    },
+    {
+      "id": "item-00043",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Chuck Norris"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T08-38-23.114Z",
+      "completedAt": "2026-02-04T08:41:24.682Z"
+    },
+    {
+      "id": "item-00044",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Chuck Norris"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T08-41-24.694Z",
+      "completedAt": "2026-02-04T08:55:34.400Z"
+    },
+    {
+      "id": "item-00045",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Chuck Norris"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T08-55-34.412Z",
+      "completedAt": "2026-02-04T08:58:49.325Z"
+    },
+    {
+      "id": "item-00046",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Chuck Norris"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T08-58-49.340Z",
+      "completedAt": "2026-02-04T09:04:26.769Z"
+    },
+    {
+      "id": "item-00047",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "claudeOpus_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Chuck Norris"
+      },
+      "status": "completed",
+      "completedAt": "2026-02-04T20:39:40.044Z",
+      "runId": "2026-02-04T20-35-26.227Z"
+    },
+    {
+      "id": "item-00048",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Chuck Norris"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T20-39-40.050Z",
+      "completedAt": "2026-02-04T20:44:03.315Z"
+    },
+    {
+      "id": "item-00049",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Chuck Norris"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T20-44-03.321Z",
+      "completedAt": "2026-02-04T20:50:04.370Z"
+    },
+    {
+      "id": "item-00050",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Chuck Norris"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T20-50-04.379Z",
+      "completedAt": "2026-02-04T20:55:04.534Z"
+    },
+    {
+      "id": "item-00051",
+      "guesserModelId": "grok4",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Chuck Norris"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T20-55-04.544Z",
+      "completedAt": "2026-02-04T21:32:59.039Z"
+    },
+    {
+      "id": "item-00052",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "claudeOpus_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Chuck Norris"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T21-32-59.050Z",
+      "completedAt": "2026-02-04T21:44:25.952Z"
+    },
+    {
+      "id": "item-00053",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "claudeOpus_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Chuck Norris"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T21-44-25.964Z",
+      "completedAt": "2026-02-04T21:57:44.108Z"
+    },
+    {
+      "id": "item-00054",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Chuck Norris"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T21-57-44.122Z",
+      "completedAt": "2026-02-04T22:03:34.421Z"
+    },
+    {
+      "id": "item-00055",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Chuck Norris"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T22-03-34.434Z",
+      "completedAt": "2026-02-04T22:07:51.609Z"
+    },
+    {
+      "id": "item-00056",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "claudeOpus_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Oprah Winfrey"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T22-07-51.625Z",
+      "completedAt": "2026-02-04T22:10:16.950Z"
+    },
+    {
+      "id": "item-00057",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Oprah Winfrey"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T22-10-16.966Z",
+      "completedAt": "2026-02-04T22:12:00.703Z"
+    },
+    {
+      "id": "item-00058",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Oprah Winfrey"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T22-12-00.718Z",
+      "completedAt": "2026-02-04T22:14:09.701Z"
+    },
+    {
+      "id": "item-00059",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Oprah Winfrey"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T22-14-09.719Z",
+      "completedAt": "2026-02-04T22:16:07.156Z"
+    },
+    {
+      "id": "item-00060",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Oprah Winfrey"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T22-16-07.176Z",
+      "completedAt": "2026-02-04T22:16:46.124Z"
+    },
+    {
+      "id": "item-00061",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Oprah Winfrey"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T23-19-47.067Z",
+      "completedAt": "2026-02-04T23:21:34.599Z"
+    },
+    {
+      "id": "item-00062",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Oprah Winfrey"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T23-21-34.605Z",
+      "completedAt": "2026-02-04T23:24:45.650Z"
+    },
+    {
+      "id": "item-00063",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Oprah Winfrey"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T23-24-45.657Z",
+      "completedAt": "2026-02-04T23:27:18.949Z"
+    },
+    {
+      "id": "item-00064",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Oprah Winfrey"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T23-27-18.957Z",
+      "completedAt": "2026-02-04T23:29:40.153Z"
+    },
+    {
+      "id": "item-00065",
+      "guesserModelId": "grok4",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Oprah Winfrey"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T23-29-40.163Z",
+      "completedAt": "2026-02-04T23:49:06.956Z"
+    },
+    {
+      "id": "item-00066",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Oprah Winfrey"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T23-49-06.965Z",
+      "completedAt": "2026-02-04T23:52:26.560Z"
+    },
+    {
+      "id": "item-00067",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Oprah Winfrey"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T23-52-26.573Z",
+      "completedAt": "2026-02-04T23:54:55.333Z"
+    },
+    {
+      "id": "item-00068",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Oprah Winfrey"
+      },
+      "status": "completed",
+      "runId": "2026-02-04T23-54-55.346Z",
+      "completedAt": "2026-02-05T00:01:25.026Z"
+    },
+    {
+      "id": "item-00069",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Oprah Winfrey"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T00-01-25.043Z",
+      "completedAt": "2026-02-05T00:05:58.947Z"
+    },
+    {
+      "id": "item-00070",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "LeBron James"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T00-05-58.961Z",
+      "completedAt": "2026-02-05T00:08:01.993Z"
+    },
+    {
+      "id": "item-00071",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "LeBron James"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T00-08-02.007Z",
+      "completedAt": "2026-02-05T00:10:10.326Z"
+    },
+    {
+      "id": "item-00072",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "LeBron James"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T00-10-10.343Z",
+      "completedAt": "2026-02-05T00:12:37.830Z"
+    },
+    {
+      "id": "item-00073",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "LeBron James"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T00-12-37.849Z",
+      "completedAt": "2026-02-05T00:14:18.448Z"
+    },
+    {
+      "id": "item-00074",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "LeBron James"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T00-14-18.470Z",
+      "completedAt": "2026-02-05T00:15:25.849Z"
+    },
+    {
+      "id": "item-00075",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "LeBron James"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T00-15-25.872Z",
+      "completedAt": "2026-02-05T00:16:37.383Z"
+    },
+    {
+      "id": "item-00076",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "LeBron James"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T00-16-37.406Z",
+      "completedAt": "2026-02-05T00:21:17.996Z"
+    },
+    {
+      "id": "item-00077",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "LeBron James"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T00-21-18.021Z",
+      "completedAt": "2026-02-05T00:24:23.987Z"
+    },
+    {
+      "id": "item-00078",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "LeBron James"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T00-24-24.017Z",
+      "completedAt": "2026-02-05T00:26:16.650Z"
+    },
+    {
+      "id": "item-00079",
+      "guesserModelId": "grok4",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "LeBron James"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T00-26-16.672Z",
+      "completedAt": "2026-02-05T00:39:24.014Z"
+    },
+    {
+      "id": "item-00080",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "LeBron James"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T00-39-24.041Z",
+      "completedAt": "2026-02-05T00:42:55.105Z"
+    },
+    {
+      "id": "item-00081",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "LeBron James"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T01-18-18.014Z",
+      "completedAt": "2026-02-05T01:24:19.667Z"
+    },
+    {
+      "id": "item-00082",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "LeBron James"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T01-24-19.674Z",
+      "completedAt": "2026-02-05T01:37:48.945Z"
+    },
+    {
+      "id": "item-00083",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "LeBron James"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T01-37-48.952Z",
+      "completedAt": "2026-02-05T01:40:31.686Z"
+    },
+    {
+      "id": "item-00084",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "John Candy"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T01-40-31.694Z",
+      "completedAt": "2026-02-05T01:42:01.636Z"
+    },
+    {
+      "id": "item-00085",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "John Candy"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T01-42-01.646Z",
+      "completedAt": "2026-02-05T01:43:15.971Z"
+    },
+    {
+      "id": "item-00086",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "John Candy"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T20-19-10.647Z",
+      "completedAt": "2026-02-05T20:25:26.290Z"
+    },
+    {
+      "id": "item-00087",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "John Candy"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T20-25-26.297Z",
+      "completedAt": "2026-02-05T20:27:02.185Z"
+    },
+    {
+      "id": "item-00088",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "John Candy"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T20-27-02.192Z",
+      "completedAt": "2026-02-05T20:29:23.206Z"
+    },
+    {
+      "id": "item-00089",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "John Candy"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T20-29-23.213Z",
+      "completedAt": "2026-02-05T20:32:04.909Z"
+    },
+    {
+      "id": "item-00090",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "John Candy"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T20-32-04.917Z",
+      "completedAt": "2026-02-05T20:36:48.312Z"
+    },
+    {
+      "id": "item-00091",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "John Candy"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T20-36-48.321Z",
+      "completedAt": "2026-02-05T20:39:17.590Z"
+    },
+    {
+      "id": "item-00092",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "John Candy"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T20-39-17.600Z",
+      "completedAt": "2026-02-05T20:43:12.948Z"
+    },
+    {
+      "id": "item-00093",
+      "guesserModelId": "grok4",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "John Candy"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T20-43-12.960Z",
+      "completedAt": "2026-02-05T20:57:19.589Z"
+    },
+    {
+      "id": "item-00094",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "John Candy"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T20-57-19.602Z",
+      "completedAt": "2026-02-05T21:02:52.967Z"
+    },
+    {
+      "id": "item-00095",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "John Candy"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T21-02-52.980Z",
+      "completedAt": "2026-02-05T21:14:15.519Z"
+    },
+    {
+      "id": "item-00096",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "John Candy"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T21-14-15.534Z",
+      "completedAt": "2026-02-05T21:18:45.001Z"
+    },
+    {
+      "id": "item-00097",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "John Candy"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T21-18-45.019Z",
+      "completedAt": "2026-02-05T21:20:56.696Z"
+    },
+    {
+      "id": "item-00098",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Dwayne Johnson"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T21-20-56.714Z",
+      "completedAt": "2026-02-05T21:23:57.151Z"
+    },
+    {
+      "id": "item-00099",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Dwayne Johnson"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T21-23-57.169Z",
+      "completedAt": "2026-02-05T21:28:13.530Z"
+    },
+    {
+      "id": "item-00100",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Dwayne Johnson"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T21-28-13.552Z",
+      "completedAt": "2026-02-05T21:31:57.907Z"
+    },
+    {
+      "id": "item-00101",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Dwayne Johnson"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T21-31-57.928Z",
+      "completedAt": "2026-02-05T21:34:19.386Z"
+    },
+    {
+      "id": "item-00102",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Dwayne Johnson"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T21-47-56.285Z",
+      "completedAt": "2026-02-05T21:49:26.011Z"
+    },
+    {
+      "id": "item-00103",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Dwayne Johnson"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T21-49-26.023Z",
+      "completedAt": "2026-02-05T21:51:44.286Z"
+    },
+    {
+      "id": "item-00104",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Dwayne Johnson"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T21-51-44.298Z",
+      "completedAt": "2026-02-05T21:54:43.431Z"
+    },
+    {
+      "id": "item-00105",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Dwayne Johnson"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T21-54-43.445Z",
+      "completedAt": "2026-02-05T21:58:01.468Z"
+    },
+    {
+      "id": "item-00106",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Dwayne Johnson"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T21-58-01.485Z",
+      "completedAt": "2026-02-05T22:01:14.608Z"
+    },
+    {
+      "id": "item-00107",
+      "guesserModelId": "grok4",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Dwayne Johnson"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T22-01-14.623Z",
+      "completedAt": "2026-02-05T22:41:56.220Z"
+    },
+    {
+      "id": "item-00108",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Dwayne Johnson"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T22-41-56.237Z",
+      "completedAt": "2026-02-05T22:45:45.403Z"
+    },
+    {
+      "id": "item-00109",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Dwayne Johnson"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T22-45-45.418Z",
+      "completedAt": "2026-02-05T22:50:25.663Z"
+    },
+    {
+      "id": "item-00110",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Dwayne Johnson"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T22-50-25.681Z",
+      "completedAt": "2026-02-05T22:53:26.585Z"
+    },
+    {
+      "id": "item-00111",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Dwayne Johnson"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T22-53-26.603Z",
+      "completedAt": "2026-02-05T22:55:07.466Z"
+    },
+    {
+      "id": "item-00112",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Ryan Reynolds"
+      },
+      "status": "completed",
+      "runId": "2026-02-05T22-55-07.485Z",
+      "completedAt": "2026-02-05T22:56:20.027Z"
+    },
+    {
+      "id": "item-00113",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Ryan Reynolds"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T09-20-27.640Z",
+      "completedAt": "2026-02-06T09:27:28.043Z"
+    },
+    {
+      "id": "item-00114",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Ryan Reynolds"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T09-27-28.050Z",
+      "completedAt": "2026-02-06T09:54:09.089Z"
+    },
+    {
+      "id": "item-00115",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Ryan Reynolds"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T02-18-00.698Z",
+      "completedAt": "2026-02-06T02:20:39.654Z"
+    },
+    {
+      "id": "item-00116",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Ryan Reynolds"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T02-20-48.490Z",
+      "completedAt": "2026-02-06T02:23:29.650Z"
+    },
+    {
+      "id": "item-00117",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Ryan Reynolds"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T02-23-38.029Z",
+      "completedAt": "2026-02-06T02:26:19.784Z"
+    },
+    {
+      "id": "item-00118",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Ryan Reynolds"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T02-26-27.778Z",
+      "completedAt": "2026-02-06T02:30:41.559Z"
+    },
+    {
+      "id": "item-00119",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Ryan Reynolds"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T02-30-49.889Z",
+      "completedAt": "2026-02-06T02:37:32.331Z"
+    },
+    {
+      "id": "item-00120",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Ryan Reynolds"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T02-37-40.656Z",
+      "completedAt": "2026-02-06T02:45:14.280Z"
+    },
+    {
+      "id": "item-00121",
+      "guesserModelId": "grok4",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Ryan Reynolds"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T06-24-18.333Z",
+      "completedAt": "2026-02-06T06:38:01.108Z"
+    },
+    {
+      "id": "item-00122",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Ryan Reynolds"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T06-38-08.200Z",
+      "completedAt": "2026-02-06T06:49:51.990Z"
+    },
+    {
+      "id": "item-00123",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Ryan Reynolds"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T06-49-58.902Z",
+      "completedAt": "2026-02-06T07:00:42.994Z"
+    },
+    {
+      "id": "item-00124",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Ryan Reynolds"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T07-00-49.764Z",
+      "completedAt": "2026-02-06T07:05:38.982Z"
+    },
+    {
+      "id": "item-00125",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Ryan Reynolds"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T07-05-46.639Z",
+      "completedAt": "2026-02-06T07:11:22.727Z"
+    },
+    {
+      "id": "item-00126",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Cristiano Ronaldo"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T07-11-29.450Z",
+      "completedAt": "2026-02-06T07:12:59.382Z"
+    },
+    {
+      "id": "item-00127",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Cristiano Ronaldo"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T07-13-06.311Z",
+      "completedAt": "2026-02-06T07:15:48.901Z"
+    },
+    {
+      "id": "item-00128",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Cristiano Ronaldo"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T07-15-56.178Z",
+      "completedAt": "2026-02-06T07:20:10.650Z"
+    },
+    {
+      "id": "item-00129",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Cristiano Ronaldo"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T07-20-17.952Z",
+      "completedAt": "2026-02-06T07:22:01.044Z"
+    },
+    {
+      "id": "item-00130",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Cristiano Ronaldo"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T07-22-07.738Z",
+      "completedAt": "2026-02-06T07:24:47.912Z"
+    },
+    {
+      "id": "item-00131",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Cristiano Ronaldo"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T07-30-42.003Z",
+      "completedAt": "2026-02-06T07:33:24.433Z"
+    },
+    {
+      "id": "item-00132",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Cristiano Ronaldo"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T07-33-31.580Z",
+      "completedAt": "2026-02-06T07:38:31.190Z"
+    },
+    {
+      "id": "item-00133",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Cristiano Ronaldo"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T07-38-40.566Z",
+      "completedAt": "2026-02-06T07:42:09.893Z"
+    },
+    {
+      "id": "item-00134",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Cristiano Ronaldo"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T07-42-18.094Z",
+      "completedAt": "2026-02-06T07:45:39.249Z"
+    },
+    {
+      "id": "item-00135",
+      "guesserModelId": "grok4",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Cristiano Ronaldo"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T07-45-46.115Z",
+      "completedAt": "2026-02-06T08:00:26.963Z"
+    },
+    {
+      "id": "item-00136",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Cristiano Ronaldo"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T08-27-14.218Z",
+      "completedAt": "2026-02-06T08:29:45.873Z"
+    },
+    {
+      "id": "item-00137",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Cristiano Ronaldo"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T08-29-54.602Z",
+      "completedAt": "2026-02-06T08:39:19.499Z"
+    },
+    {
+      "id": "item-00138",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Cristiano Ronaldo"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T09-54-09.100Z",
+      "completedAt": "2026-02-06T09:59:43.378Z"
+    },
+    {
+      "id": "item-00139",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "celebrity",
+        "secret": "Cristiano Ronaldo"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T08-59-45.893Z",
+      "completedAt": "2026-02-06T09:04:58.412Z"
+    },
+    {
+      "id": "item-00140",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "elephant"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T09-04-58.420Z",
+      "completedAt": "2026-02-06T09:06:48.532Z"
+    },
+    {
+      "id": "item-00141",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "elephant"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T09-06-48.543Z",
+      "completedAt": "2026-02-06T09:09:47.635Z"
+    },
+    {
+      "id": "item-00142",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "elephant"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T09-09-47.659Z",
+      "completedAt": "2026-02-06T09:17:05.280Z"
+    },
+    {
+      "id": "item-00143",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "elephant"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T09-59-43.384Z",
+      "completedAt": "2026-02-06T10:01:11.964Z"
+    },
+    {
+      "id": "item-00144",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "elephant"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T10-01-11.971Z",
+      "completedAt": "2026-02-06T10:02:39.404Z"
+    },
+    {
+      "id": "item-00145",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "elephant"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T10-02-39.412Z",
+      "completedAt": "2026-02-06T10:07:32.306Z"
+    },
+    {
+      "id": "item-00146",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "elephant"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T10-07-32.314Z",
+      "completedAt": "2026-02-06T10:08:10.120Z"
+    },
+    {
+      "id": "item-00147",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "elephant"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T10-08-10.131Z",
+      "completedAt": "2026-02-06T10:10:12.520Z"
+    },
+    {
+      "id": "item-00148",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "elephant"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T10-10-12.531Z",
+      "completedAt": "2026-02-06T10:12:08.584Z"
+    },
+    {
+      "id": "item-00149",
+      "guesserModelId": "grok4",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "elephant"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T10-12-08.598Z",
+      "completedAt": "2026-02-06T10:21:56.548Z"
+    },
+    {
+      "id": "item-00150",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "elephant"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T19-00-33.964Z",
+      "completedAt": "2026-02-06T19:03:05.915Z"
+    },
+    {
+      "id": "item-00151",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "elephant"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T19-03-05.926Z",
+      "completedAt": "2026-02-06T19:04:43.847Z"
+    },
+    {
+      "id": "item-00152",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "elephant"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T19-04-43.859Z",
+      "completedAt": "2026-02-06T19:06:51.178Z"
+    },
+    {
+      "id": "item-00153",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "elephant"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T19-06-51.190Z",
+      "completedAt": "2026-02-06T19:09:27.171Z"
+    },
+    {
+      "id": "item-00154",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "penguin"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T19-09-27.184Z",
+      "completedAt": "2026-02-06T19:10:05.287Z"
+    },
+    {
+      "id": "item-00155",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "penguin"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T19-10-05.301Z",
+      "completedAt": "2026-02-06T19:10:38.220Z"
+    },
+    {
+      "id": "item-00156",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "penguin"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T19-10-38.235Z",
+      "completedAt": "2026-02-06T19:12:03.963Z"
+    },
+    {
+      "id": "item-00157",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "penguin"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T19-12-03.981Z",
+      "completedAt": "2026-02-06T19:13:26.328Z"
+    },
+    {
+      "id": "item-00158",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "penguin"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T19-13-26.343Z",
+      "completedAt": "2026-02-06T19:14:36.522Z"
+    },
+    {
+      "id": "item-00159",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "penguin"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T19-14-36.540Z",
+      "completedAt": "2026-02-06T19:15:36.932Z"
+    },
+    {
+      "id": "item-00160",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "penguin"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T19-18-05.531Z",
+      "completedAt": "2026-02-06T19:18:54.238Z"
+    },
+    {
+      "id": "item-00161",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "creature",
+        "secret": "penguin"
+      },
+      "status": "completed",
+      "runId": "2026-02-06T19-18-54.242Z",
+      "completedAt": "2026-02-06T19:19:54.395Z"
+    },
+    {
+      "id": "item-00162",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "penguin"
+      },
+      "status": "running",
+      "runId": "2026-02-06T19-34-50.281Z"
+    },
+    {
+      "id": "item-00163",
+      "guesserModelId": "grok4",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "penguin"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00164",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "penguin"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00165",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "penguin"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00166",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "penguin"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00167",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "penguin"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00168",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "butterfly"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00169",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "butterfly"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00170",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "creature",
+        "secret": "butterfly"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00171",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "butterfly"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00172",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "butterfly"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00173",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "butterfly"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00174",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "butterfly"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00175",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "butterfly"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00176",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "butterfly"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00177",
+      "guesserModelId": "grok4",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "butterfly"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00178",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "creature",
+        "secret": "butterfly"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00179",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "butterfly"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00180",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "butterfly"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00181",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "butterfly"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00182",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "dolphin"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00183",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "dolphin"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00184",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "dolphin"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00185",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "dolphin"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00186",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "creature",
+        "secret": "dolphin"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00187",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "dolphin"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00188",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "creature",
+        "secret": "dolphin"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00189",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "dolphin"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00190",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "dolphin"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00191",
+      "guesserModelId": "grok4",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "dolphin"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00192",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "dolphin"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00193",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "dolphin"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00194",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "dolphin"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00195",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "dolphin"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00196",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "aardvark"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00197",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "aardvark"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00198",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "aardvark"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00199",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "aardvark"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00200",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "aardvark"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00201",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "aardvark"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00202",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "aardvark"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00203",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "aardvark"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00204",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "aardvark"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00205",
+      "guesserModelId": "grok4",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "aardvark"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00206",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "creature",
+        "secret": "aardvark"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00207",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "aardvark"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00208",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "aardvark"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00209",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "aardvark"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00210",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "eagle"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00211",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "eagle"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00212",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "eagle"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00213",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "eagle"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00214",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "eagle"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00215",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "eagle"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00216",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "eagle"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00217",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "eagle"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00218",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "eagle"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00219",
+      "guesserModelId": "grok4",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "eagle"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00220",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "eagle"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00221",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "eagle"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00222",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "eagle"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00223",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "eagle"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00224",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "giant squid"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00225",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "giant squid"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00226",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "giant squid"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00227",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "giant squid"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00228",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "giant squid"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00229",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "giant squid"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00230",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "giant squid"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00231",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "giant squid"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00232",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "giant squid"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00233",
+      "guesserModelId": "grok4",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "giant squid"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00234",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "giant squid"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00235",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "giant squid"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00236",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "giant squid"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00237",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "giant squid"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00238",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "tardigrade"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00239",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "tardigrade"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00240",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "tardigrade"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00241",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "tardigrade"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00242",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "tardigrade"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00243",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "tardigrade"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00244",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "tardigrade"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00245",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "tardigrade"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00246",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "tardigrade"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00247",
+      "guesserModelId": "grok4",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "tardigrade"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00248",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "tardigrade"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00249",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "tardigrade"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00250",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "tardigrade"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00251",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "tardigrade"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00252",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "shark"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00253",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "shark"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00254",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "shark"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00255",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "shark"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00256",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "shark"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00257",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "shark"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00258",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "shark"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00259",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "shark"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00260",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "creature",
+        "secret": "shark"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00261",
+      "guesserModelId": "grok4",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "shark"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00262",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "shark"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00263",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "shark"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00264",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "shark"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00265",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "shark"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00266",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "hummingbird"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00267",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "hummingbird"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00268",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "hummingbird"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00269",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "hummingbird"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00270",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "hummingbird"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00271",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "creature",
+        "secret": "hummingbird"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00272",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "hummingbird"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00273",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "hummingbird"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00274",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "creature",
+        "secret": "hummingbird"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00275",
+      "guesserModelId": "grok4",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "hummingbird"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00276",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "hummingbird"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00277",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "creature",
+        "secret": "hummingbird"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00278",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "creature",
+        "secret": "hummingbird"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00279",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "creature",
+        "secret": "hummingbird"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00280",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Albert Einstein"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00281",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Albert Einstein"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00282",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Albert Einstein"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00283",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Albert Einstein"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00284",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Albert Einstein"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00285",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Albert Einstein"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00286",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Albert Einstein"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00287",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Albert Einstein"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00288",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Albert Einstein"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00289",
+      "guesserModelId": "grok4",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Albert Einstein"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00290",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Albert Einstein"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00291",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Albert Einstein"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00292",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Albert Einstein"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00293",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Albert Einstein"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00294",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Cleopatra"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00295",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Cleopatra"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00296",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Cleopatra"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00297",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Cleopatra"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00298",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Cleopatra"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00299",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Cleopatra"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00300",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Cleopatra"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00301",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Cleopatra"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00302",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Cleopatra"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00303",
+      "guesserModelId": "grok4",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Cleopatra"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00304",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Cleopatra"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00305",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Cleopatra"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00306",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Cleopatra"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00307",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Cleopatra"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00308",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Napoleon Bonaparte"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00309",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Napoleon Bonaparte"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00310",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Napoleon Bonaparte"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00311",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Napoleon Bonaparte"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00312",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Napoleon Bonaparte"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00313",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Napoleon Bonaparte"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00314",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Napoleon Bonaparte"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00315",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Napoleon Bonaparte"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00316",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Napoleon Bonaparte"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00317",
+      "guesserModelId": "grok4",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Napoleon Bonaparte"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00318",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Napoleon Bonaparte"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00319",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Napoleon Bonaparte"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00320",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Napoleon Bonaparte"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00321",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Napoleon Bonaparte"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00322",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Leonardo da Vinci"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00323",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Leonardo da Vinci"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00324",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Leonardo da Vinci"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00325",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Leonardo da Vinci"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00326",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Leonardo da Vinci"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00327",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Leonardo da Vinci"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00328",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Leonardo da Vinci"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00329",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Leonardo da Vinci"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00330",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Leonardo da Vinci"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00331",
+      "guesserModelId": "grok4",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Leonardo da Vinci"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00332",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Leonardo da Vinci"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00333",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Leonardo da Vinci"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00334",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Leonardo da Vinci"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00335",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Leonardo da Vinci"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00336",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Martin Luther"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00337",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Martin Luther"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00338",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Martin Luther"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00339",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Martin Luther"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00340",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Martin Luther"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00341",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Martin Luther"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00342",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Martin Luther"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00343",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Martin Luther"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00344",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Martin Luther"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00345",
+      "guesserModelId": "grok4",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Martin Luther"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00346",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Martin Luther"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00347",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Martin Luther"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00348",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Martin Luther"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00349",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Martin Luther"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00350",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Marcus Aurelius"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00351",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Marcus Aurelius"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00352",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Marcus Aurelius"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00353",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Marcus Aurelius"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00354",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Marcus Aurelius"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00355",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Marcus Aurelius"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00356",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Marcus Aurelius"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00357",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Marcus Aurelius"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00358",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Marcus Aurelius"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00359",
+      "guesserModelId": "grok4",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Marcus Aurelius"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00360",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Marcus Aurelius"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00361",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Marcus Aurelius"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00362",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Marcus Aurelius"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00363",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Marcus Aurelius"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00364",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Marie Curie"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00365",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Marie Curie"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00366",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Marie Curie"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00367",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Marie Curie"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00368",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Marie Curie"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00369",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Marie Curie"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00370",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Marie Curie"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00371",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Marie Curie"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00372",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Marie Curie"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00373",
+      "guesserModelId": "grok4",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Marie Curie"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00374",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Marie Curie"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00375",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Marie Curie"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00376",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Marie Curie"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00377",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Marie Curie"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00378",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Abraham Lincoln"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00379",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Abraham Lincoln"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00380",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Abraham Lincoln"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00381",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Abraham Lincoln"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00382",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Abraham Lincoln"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00383",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Abraham Lincoln"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00384",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Abraham Lincoln"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00385",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Abraham Lincoln"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00386",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Abraham Lincoln"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00387",
+      "guesserModelId": "grok4",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Abraham Lincoln"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00388",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Abraham Lincoln"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00389",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Abraham Lincoln"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00390",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Abraham Lincoln"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00391",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Abraham Lincoln"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00392",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Neville Chamberlain"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00393",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Neville Chamberlain"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00394",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Neville Chamberlain"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00395",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Neville Chamberlain"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00396",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Neville Chamberlain"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00397",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Neville Chamberlain"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00398",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Neville Chamberlain"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00399",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Neville Chamberlain"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00400",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Neville Chamberlain"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00401",
+      "guesserModelId": "grok4",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Neville Chamberlain"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00402",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Neville Chamberlain"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00403",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Neville Chamberlain"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00404",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Neville Chamberlain"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00405",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Neville Chamberlain"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00406",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Hammurabi"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00407",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Hammurabi"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00408",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Hammurabi"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00409",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Hammurabi"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00410",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Hammurabi"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00411",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Hammurabi"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00412",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Hammurabi"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00413",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Hammurabi"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00414",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Hammurabi"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00415",
+      "guesserModelId": "grok4",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Hammurabi"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00416",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Hammurabi"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00417",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Hammurabi"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00418",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Hammurabi"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00419",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical figure",
+        "secret": "Hammurabi"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00420",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Eiffel Tower"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00421",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Eiffel Tower"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00422",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Eiffel Tower"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00423",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Eiffel Tower"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00424",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Eiffel Tower"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00425",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Eiffel Tower"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00426",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Eiffel Tower"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00427",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Eiffel Tower"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00428",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Eiffel Tower"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00429",
+      "guesserModelId": "grok4",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Eiffel Tower"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00430",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Eiffel Tower"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00431",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Eiffel Tower"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00432",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Eiffel Tower"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00433",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Eiffel Tower"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00434",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Grand Canyon"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00435",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Grand Canyon"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00436",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Grand Canyon"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00437",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Grand Canyon"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00438",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Grand Canyon"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00439",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Grand Canyon"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00440",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Grand Canyon"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00441",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Grand Canyon"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00442",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Grand Canyon"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00443",
+      "guesserModelId": "grok4",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Grand Canyon"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00444",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Grand Canyon"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00445",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Grand Canyon"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00446",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Grand Canyon"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00447",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Grand Canyon"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00448",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Puget Sound"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00449",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Puget Sound"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00450",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Puget Sound"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00451",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Puget Sound"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00452",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Puget Sound"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00453",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Puget Sound"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00454",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Puget Sound"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00455",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Puget Sound"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00456",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Puget Sound"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00457",
+      "guesserModelId": "grok4",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Puget Sound"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00458",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Puget Sound"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00459",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Puget Sound"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00460",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "place",
+        "secret": "Puget Sound"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00461",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Puget Sound"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00462",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Amazon Rainforest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00463",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Amazon Rainforest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00464",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Amazon Rainforest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00465",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Amazon Rainforest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00466",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Amazon Rainforest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00467",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Amazon Rainforest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00468",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Amazon Rainforest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00469",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Amazon Rainforest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00470",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Amazon Rainforest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00471",
+      "guesserModelId": "grok4",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Amazon Rainforest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00472",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Amazon Rainforest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00473",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Amazon Rainforest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00474",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Amazon Rainforest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00475",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Amazon Rainforest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00476",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Great Wall of China"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00477",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Great Wall of China"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00478",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Great Wall of China"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00479",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Great Wall of China"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00480",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Great Wall of China"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00481",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Great Wall of China"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00482",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Great Wall of China"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00483",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Great Wall of China"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00484",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Great Wall of China"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00485",
+      "guesserModelId": "grok4",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Great Wall of China"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00486",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Great Wall of China"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00487",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Great Wall of China"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00488",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "place",
+        "secret": "Great Wall of China"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00489",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Great Wall of China"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00490",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Sahara Desert"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00491",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Sahara Desert"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00492",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Sahara Desert"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00493",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Sahara Desert"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00494",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Sahara Desert"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00495",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Sahara Desert"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00496",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Sahara Desert"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00497",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Sahara Desert"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00498",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Sahara Desert"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00499",
+      "guesserModelId": "grok4",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Sahara Desert"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00500",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Sahara Desert"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00501",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Sahara Desert"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00502",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Sahara Desert"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00503",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Sahara Desert"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00504",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Svalbard"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00505",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Svalbard"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00506",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Svalbard"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00507",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Svalbard"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00508",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Svalbard"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00509",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Svalbard"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00510",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Svalbard"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00511",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Svalbard"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00512",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "place",
+        "secret": "Svalbard"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00513",
+      "guesserModelId": "grok4",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Svalbard"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00514",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Svalbard"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00515",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Svalbard"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00516",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Svalbard"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00517",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Svalbard"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00518",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Mount Everest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00519",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Mount Everest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00520",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Mount Everest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00521",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "place",
+        "secret": "Mount Everest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00522",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Mount Everest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00523",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Mount Everest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00524",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Mount Everest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00525",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Mount Everest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00526",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Mount Everest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00527",
+      "guesserModelId": "grok4",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Mount Everest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00528",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Mount Everest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00529",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "place",
+        "secret": "Mount Everest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00530",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Mount Everest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00531",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Mount Everest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00532",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Machu Picchu"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00533",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Machu Picchu"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00534",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Machu Picchu"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00535",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Machu Picchu"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00536",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Machu Picchu"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00537",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Machu Picchu"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00538",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Machu Picchu"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00539",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Machu Picchu"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00540",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Machu Picchu"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00541",
+      "guesserModelId": "grok4",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Machu Picchu"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00542",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Machu Picchu"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00543",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "Machu Picchu"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00544",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "Machu Picchu"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00545",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "Machu Picchu"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00546",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "the Falkland Islands"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00547",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "the Falkland Islands"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00548",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "the Falkland Islands"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00549",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "the Falkland Islands"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00550",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "the Falkland Islands"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00551",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "the Falkland Islands"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00552",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "place",
+        "secret": "the Falkland Islands"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00553",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "the Falkland Islands"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00554",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "the Falkland Islands"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00555",
+      "guesserModelId": "grok4",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "the Falkland Islands"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00556",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "the Falkland Islands"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00557",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "place",
+        "secret": "the Falkland Islands"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00558",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "the Falkland Islands"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00559",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "place",
+        "secret": "the Falkland Islands"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00560",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Moon landing"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00561",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Moon landing"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00562",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Moon landing"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00563",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Moon landing"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00564",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Moon landing"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00565",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Moon landing"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00566",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Moon landing"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00567",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Moon landing"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00568",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Moon landing"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00569",
+      "guesserModelId": "grok4",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Moon landing"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00570",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Moon landing"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00571",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Moon landing"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00572",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Moon landing"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00573",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Moon landing"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00574",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the French Revolution"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00575",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the French Revolution"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00576",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the French Revolution"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00577",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the French Revolution"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00578",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the French Revolution"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00579",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the French Revolution"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00580",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the French Revolution"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00581",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the French Revolution"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00582",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the French Revolution"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00583",
+      "guesserModelId": "grok4",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the French Revolution"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00584",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the French Revolution"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00585",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the French Revolution"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00586",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the French Revolution"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00587",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the French Revolution"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00588",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the fall of the Berlin Wall"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00589",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the fall of the Berlin Wall"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00590",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the fall of the Berlin Wall"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00591",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the fall of the Berlin Wall"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00592",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the fall of the Berlin Wall"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00593",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the fall of the Berlin Wall"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00594",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the fall of the Berlin Wall"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00595",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the fall of the Berlin Wall"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00596",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the fall of the Berlin Wall"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00597",
+      "guesserModelId": "grok4",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the fall of the Berlin Wall"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00598",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the fall of the Berlin Wall"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00599",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the fall of the Berlin Wall"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00600",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the fall of the Berlin Wall"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00601",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the fall of the Berlin Wall"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00602",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the sinking of the Titanic"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00603",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the sinking of the Titanic"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00604",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the sinking of the Titanic"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00605",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the sinking of the Titanic"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00606",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the sinking of the Titanic"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00607",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the sinking of the Titanic"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00608",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the sinking of the Titanic"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00609",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the sinking of the Titanic"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00610",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the sinking of the Titanic"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00611",
+      "guesserModelId": "grok4",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the sinking of the Titanic"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00612",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the sinking of the Titanic"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00613",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the sinking of the Titanic"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00614",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the sinking of the Titanic"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00615",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the sinking of the Titanic"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00616",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the signing of the Declaration of Independence"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00617",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the signing of the Declaration of Independence"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00618",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the signing of the Declaration of Independence"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00619",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the signing of the Declaration of Independence"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00620",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the signing of the Declaration of Independence"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00621",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the signing of the Declaration of Independence"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00622",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the signing of the Declaration of Independence"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00623",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the signing of the Declaration of Independence"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00624",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the signing of the Declaration of Independence"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00625",
+      "guesserModelId": "grok4",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the signing of the Declaration of Independence"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00626",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the signing of the Declaration of Independence"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00627",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the signing of the Declaration of Independence"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00628",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the signing of the Declaration of Independence"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00629",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the signing of the Declaration of Independence"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00630",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Russian Revolution"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00631",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Russian Revolution"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00632",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Russian Revolution"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00633",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Russian Revolution"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00634",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Russian Revolution"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00635",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Russian Revolution"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00636",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Russian Revolution"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00637",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Russian Revolution"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00638",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Russian Revolution"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00639",
+      "guesserModelId": "grok4",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Russian Revolution"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00640",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Russian Revolution"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00641",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Russian Revolution"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00642",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Russian Revolution"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00643",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Russian Revolution"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00644",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the burning of the Library of Alexandria"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00645",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the burning of the Library of Alexandria"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00646",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the burning of the Library of Alexandria"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00647",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the burning of the Library of Alexandria"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00648",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the burning of the Library of Alexandria"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00649",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the burning of the Library of Alexandria"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00650",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the burning of the Library of Alexandria"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00651",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the burning of the Library of Alexandria"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00652",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the burning of the Library of Alexandria"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00653",
+      "guesserModelId": "grok4",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the burning of the Library of Alexandria"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00654",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the burning of the Library of Alexandria"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00655",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the burning of the Library of Alexandria"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00656",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the burning of the Library of Alexandria"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00657",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the burning of the Library of Alexandria"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00658",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "D-Day"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00659",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "D-Day"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00660",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "D-Day"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00661",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "D-Day"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00662",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "D-Day"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00663",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "D-Day"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00664",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "D-Day"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00665",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "D-Day"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00666",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "D-Day"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00667",
+      "guesserModelId": "grok4",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "D-Day"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00668",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "D-Day"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00669",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "D-Day"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00670",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "D-Day"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00671",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "D-Day"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00672",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Great Awakening"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00673",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Great Awakening"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00674",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Great Awakening"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00675",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Great Awakening"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00676",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Great Awakening"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00677",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Great Awakening"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00678",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Great Awakening"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00679",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Great Awakening"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00680",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Great Awakening"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00681",
+      "guesserModelId": "grok4",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Great Awakening"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00682",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Great Awakening"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00683",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Great Awakening"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00684",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Great Awakening"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00685",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Great Awakening"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00686",
+      "guesserModelId": "gpt5_2_medium",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Norman Conquest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00687",
+      "guesserModelId": "gpt5_2_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Norman Conquest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00688",
+      "guesserModelId": "gpt5_2_max",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Norman Conquest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00689",
+      "guesserModelId": "gemini3Flash_high",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Norman Conquest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00690",
+      "guesserModelId": "gemini3Pro_low",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Norman Conquest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00691",
+      "guesserModelId": "gemini3Pro_high",
+      "answererModelId": "gpt5_2_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Norman Conquest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00692",
+      "guesserModelId": "claudeHaiku_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Norman Conquest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00693",
+      "guesserModelId": "claudeSonnet_medium",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Norman Conquest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00694",
+      "guesserModelId": "claudeOpus_medium",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Norman Conquest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00695",
+      "guesserModelId": "grok4",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Norman Conquest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00696",
+      "guesserModelId": "grok4_1_fast",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Norman Conquest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00697",
+      "guesserModelId": "deepseek_v3_2",
+      "answererModelId": "kimi_k2_5",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Norman Conquest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00698",
+      "guesserModelId": "glm_4_7",
+      "answererModelId": "gemini3Pro_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Norman Conquest"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "item-00699",
+      "guesserModelId": "kimi_k2_5",
+      "answererModelId": "claudeSonnet4_5_high",
+      "secret": {
+        "category": "historical event",
+        "secret": "the Norman Conquest"
+      },
+      "status": "pending"
+    }
+  ]
+}

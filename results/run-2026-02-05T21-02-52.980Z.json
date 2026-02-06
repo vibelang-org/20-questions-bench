@@ -1,0 +1,196 @@
+{
+  "timestamp": "2026-02-05T21:14:15.518Z",
+  "runId": "2026-02-05T21-02-52.980Z",
+  "secret": {
+    "category": "celebrity",
+    "secret": "John Candy"
+  },
+  "guesser": {
+    "name": "deepseek/deepseek-v3.2-20251201",
+    "provider": "openrouter",
+    "config": {
+      "id": "deepseek_v3_2",
+      "name": "deepseek/deepseek-v3.2-20251201",
+      "provider": "openrouter",
+      "thinkingLevel": "high"
+    }
+  },
+  "answerer": {
+    "name": "gemini-3-pro-preview",
+    "provider": "google",
+    "config": {
+      "id": "gemini3Pro_high",
+      "name": "gemini-3-pro-preview",
+      "provider": "google",
+      "thinkingLevel": "high"
+    }
+  },
+  "guesserUsage": {
+    "inputTokens": 53551,
+    "outputTokens": 1007,
+    "cachedInputTokens": 48704,
+    "thinkingTokens": 12988
+  },
+  "answererUsage": {
+    "inputTokens": 29874,
+    "outputTokens": 1007,
+    "cachedInputTokens": 0,
+    "thinkingTokens": 6016
+  },
+  "totalQuestions": 19,
+  "won": true,
+  "rounds": [
+    {
+      "roundNumber": 0,
+      "questions": "Is the celebrity male?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 1,
+      "questions": "Is the celebrity alive?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 2,
+      "questions": "Was the celebrity primarily known as an actor?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 3,
+      "questions": "Was the celebrity American?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 4,
+      "questions": "Was the celebrity British?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 5,
+      "questions": "Did the celebrity win an Academy Award?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 6,
+      "questions": "Did the celebrity primarily work in non-English language films?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 7,
+      "questions": "Was the celebrity European?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 8,
+      "questions": "Was the celebrity Canadian?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 9,
+      "questions": "Did the celebrity die in the 20th century?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 10,
+      "questions": "Did the celebrity win an Emmy Award?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 11,
+      "questions": "Did the celebrity primarily work in television rather than film?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 12,
+      "questions": "Did the celebrity die before 1990?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 13,
+      "questions": "Was the celebrity primarily known for comedic roles?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 14,
+      "questions": "Was the celebrity a cast member of SCTV?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 15,
+      "questions": "Did the celebrity frequently collaborate with actor Steve Martin?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 16,
+      "questions": "Did the celebrity die in 1994?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 17,
+      "questions": "Did the celebrity appear in the film 'Home Alone'?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 18,
+      "questions": "Is the celebrity John Candy?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": true
+      }
+    }
+  ]
+}

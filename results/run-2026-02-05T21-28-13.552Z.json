@@ -1,0 +1,140 @@
+{
+  "timestamp": "2026-02-05T21:31:57.906Z",
+  "runId": "2026-02-05T21-28-13.552Z",
+  "secret": {
+    "category": "celebrity",
+    "secret": "Dwayne Johnson"
+  },
+  "guesser": {
+    "name": "gpt-5.2",
+    "provider": "openai",
+    "config": {
+      "id": "gpt5_2_max",
+      "name": "gpt-5.2",
+      "provider": "openai",
+      "thinkingLevel": "max"
+    }
+  },
+  "answerer": {
+    "name": "gemini-3-pro-preview",
+    "provider": "google",
+    "config": {
+      "id": "gemini3Pro_high",
+      "name": "gemini-3-pro-preview",
+      "provider": "google",
+      "thinkingLevel": "high"
+    }
+  },
+  "guesserUsage": {
+    "inputTokens": 23189,
+    "outputTokens": 433,
+    "cachedInputTokens": 7680,
+    "thinkingTokens": 7951
+  },
+  "answererUsage": {
+    "inputTokens": 18899,
+    "outputTokens": 636,
+    "cachedInputTokens": 0,
+    "thinkingTokens": 4116
+  },
+  "totalQuestions": 12,
+  "won": true,
+  "rounds": [
+    {
+      "roundNumber": 0,
+      "questions": "Is this celebrity alive?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 1,
+      "questions": "Is this celebrity primarily known for acting in movies or television?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 2,
+      "questions": "Is this celebrity male?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 3,
+      "questions": "Is this celebrity American?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 4,
+      "questions": "Is this celebrity best known for acting in movies rather than television?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 5,
+      "questions": "Has this celebrity won an Academy Award (Oscar) for acting?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 6,
+      "questions": "Is this celebrity best known for starring in action movies?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 7,
+      "questions": "Has this celebrity starred in the Mission: Impossible film series?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 8,
+      "questions": "Is this celebrity best known for playing a superhero in a Marvel or DC film?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 9,
+      "questions": "Has this celebrity starred in the Fast & Furious film franchise?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 10,
+      "questions": "Is this celebrity also known for being a professional wrestler (e.g., WWE)?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 11,
+      "questions": "Is this celebrity Dwayne \"The Rock\" Johnson?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": true
+      }
+    }
+  ]
+}

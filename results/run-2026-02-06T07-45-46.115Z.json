@@ -1,0 +1,155 @@
+{
+  "timestamp": "2026-02-06T08:00:26.961Z",
+  "runId": "2026-02-06T07-45-46.115Z",
+  "secret": {
+    "category": "celebrity",
+    "secret": "Cristiano Ronaldo"
+  },
+  "guesser": {
+    "name": "x-ai/grok-4",
+    "provider": "openrouter",
+    "config": {
+      "id": "grok4",
+      "name": "x-ai/grok-4",
+      "provider": "openrouter"
+    }
+  },
+  "answerer": {
+    "name": "google/gemini-3-pro-preview",
+    "provider": "openrouter",
+    "config": {
+      "id": "gemini3Pro_high",
+      "name": "google/gemini-3-pro-preview",
+      "provider": "openrouter",
+      "thinkingLevel": "high"
+    }
+  },
+  "guesserUsage": {
+    "inputTokens": 41514,
+    "outputTokens": 464,
+    "cachedInputTokens": 17198,
+    "thinkingTokens": 29750
+  },
+  "answererUsage": {
+    "inputTokens": 20210,
+    "outputTokens": 642,
+    "cachedInputTokens": 0,
+    "thinkingTokens": 2743
+  },
+  "totalQuestions": 14,
+  "won": true,
+  "rounds": [
+    {
+      "roundNumber": 0,
+      "questions": "Is the celebrity currently alive?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 1,
+      "questions": "Is the celebrity male?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 2,
+      "questions": "Is the celebrity primarily known for acting?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 3,
+      "questions": "Is the celebrity primarily known for music?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 4,
+      "questions": "Is the celebrity primarily known for sports?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 5,
+      "questions": "Is the celebrity American?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 6,
+      "questions": "Is the celebrity primarily known for a team sport?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 7,
+      "questions": "Is the celebrity primarily known for soccer?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 8,
+      "questions": "Is the celebrity European?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 9,
+      "questions": "Is the celebrity primarily known as a soccer player?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 10,
+      "questions": "Is the celebrity currently an active professional soccer player?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 11,
+      "questions": "Is the celebrity primarily known for playing as a forward?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 12,
+      "questions": "Has the celebrity won 5 or more Ballon d'Or awards?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 13,
+      "questions": "Is the celebrity Cristiano Ronaldo?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": true
+      }
+    }
+  ]
+}

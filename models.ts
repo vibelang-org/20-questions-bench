@@ -30,10 +30,10 @@ export const GUESSER_MODELS: ModelConfig[] = [
   { id: "gpt5_2_high", name: "gpt-5.2", provider: "openai", thinkingLevel: "high" },
   { id: "gpt5_2_max", name: "gpt-5.2", provider: "openai", thinkingLevel: "max" },
 
-  // Google
+  // Google (via OpenRouter to avoid low RPD limits on direct Google API)
   { id: "gemini3Flash_high", name: "gemini-3-flash-preview", provider: "google", thinkingLevel: "high" },
-  { id: "gemini3Pro_low", name: "gemini-3-pro-preview", provider: "google", thinkingLevel: "low" },
-  { id: "gemini3Pro_high", name: "gemini-3-pro-preview", provider: "google", thinkingLevel: "high" },
+  { id: "gemini3Pro_low", name: "google/gemini-3-pro-preview", provider: "openrouter", thinkingLevel: "low" },
+  { id: "gemini3Pro_high", name: "google/gemini-3-pro-preview", provider: "openrouter", thinkingLevel: "high" },
 
   // Anthropic
   { id: "claudeHaiku_medium", name: "claude-haiku-4-5-20251001", provider: "anthropic", thinkingLevel: "medium" },
@@ -59,7 +59,7 @@ export const GUESSER_MODELS: ModelConfig[] = [
 export const ANSWERER_MODELS: ModelConfig[] = [
   { id: "claudeSonnet4_5_high", name: "claude-sonnet-4-5-20250929", provider: "anthropic", thinkingLevel: "high" },
   { id: "gpt5_2_high", name: "gpt-5.2", provider: "openai", thinkingLevel: "high" },
-  { id: "gemini3Pro_high", name: "gemini-3-pro-preview", provider: "google", thinkingLevel: "high" },
+  { id: "gemini3Pro_high", name: "google/gemini-3-pro-preview", provider: "openrouter", thinkingLevel: "high" },
   // Kimi K2.5: Boolean reasoning (thinkingLevel → reasoning.enabled)
   { id: "kimi_k2_5", name: "moonshotai/kimi-k2.5", provider: "openrouter", thinkingLevel: "high" },
 ];

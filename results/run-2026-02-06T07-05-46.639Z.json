@@ -1,0 +1,164 @@
+{
+  "timestamp": "2026-02-06T07:11:22.726Z",
+  "runId": "2026-02-06T07-05-46.639Z",
+  "secret": {
+    "category": "celebrity",
+    "secret": "Ryan Reynolds"
+  },
+  "guesser": {
+    "name": "moonshotai/kimi-k2.5",
+    "provider": "openrouter",
+    "config": {
+      "id": "kimi_k2_5",
+      "name": "moonshotai/kimi-k2.5",
+      "provider": "openrouter",
+      "thinkingLevel": "high"
+    }
+  },
+  "answerer": {
+    "name": "moonshotai/kimi-k2.5",
+    "provider": "openrouter",
+    "config": {
+      "id": "kimi_k2_5",
+      "name": "moonshotai/kimi-k2.5",
+      "provider": "openrouter",
+      "thinkingLevel": "high"
+    }
+  },
+  "guesserUsage": {
+    "inputTokens": 30893,
+    "outputTokens": -395,
+    "cachedInputTokens": 24320,
+    "thinkingTokens": 7820
+  },
+  "answererUsage": {
+    "inputTokens": 18864,
+    "outputTokens": 449,
+    "cachedInputTokens": 11520,
+    "thinkingTokens": 3204
+  },
+  "totalQuestions": 15,
+  "won": true,
+  "rounds": [
+    {
+      "roundNumber": 0,
+      "questions": "Is this person alive?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 1,
+      "questions": "Is this person male?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 2,
+      "questions": "Is this person an actor?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 3,
+      "questions": "Is this person American?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 4,
+      "questions": "Is this person British?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 5,
+      "questions": "Is this person European?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 6,
+      "questions": "Is this person Canadian?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 7,
+      "questions": "Is this person primarily known for comedy roles?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 8,
+      "questions": "Did this person rise to fame through Saturday Night Live?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 9,
+      "questions": "Did this person have their breakthrough through a television show?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 10,
+      "questions": "Is this person known for starring in a popular stoner comedy film?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 11,
+      "questions": "Is this person over 40 years old?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 12,
+      "questions": "Does this person have a distinctive physical feature like a unique hairstyle, glasses, or facial hair that is part of their recognizable look?",
+      "answererResults": {
+        "answerCorrect": "maybe",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 13,
+      "questions": "Is this person Seth Rogen?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 14,
+      "questions": "Is this person Ryan Reynolds?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": true
+      }
+    }
+  ]
+}

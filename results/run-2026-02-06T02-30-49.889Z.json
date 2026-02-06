@@ -1,0 +1,204 @@
+{
+  "timestamp": "2026-02-06T02:37:32.330Z",
+  "runId": "2026-02-06T02-30-49.889Z",
+  "secret": {
+    "category": "celebrity",
+    "secret": "Ryan Reynolds"
+  },
+  "guesser": {
+    "name": "claude-sonnet-4-5-20250929",
+    "provider": "anthropic",
+    "config": {
+      "id": "claudeSonnet_medium",
+      "name": "claude-sonnet-4-5-20250929",
+      "provider": "anthropic",
+      "thinkingLevel": "medium"
+    }
+  },
+  "answerer": {
+    "name": "google/gemini-3-pro-preview",
+    "provider": "openrouter",
+    "config": {
+      "id": "gemini3Pro_high",
+      "name": "google/gemini-3-pro-preview",
+      "provider": "openrouter",
+      "thinkingLevel": "high"
+    }
+  },
+  "guesserUsage": {
+    "inputTokens": 45202,
+    "outputTokens": 11959,
+    "cachedInputTokens": 29602,
+    "thinkingTokens": 0
+  },
+  "answererUsage": {
+    "inputTokens": 27516,
+    "outputTokens": 840,
+    "cachedInputTokens": 0,
+    "thinkingTokens": 7346
+  },
+  "totalQuestions": 20,
+  "won": false,
+  "rounds": [
+    {
+      "roundNumber": 0,
+      "questions": "Is this celebrity currently alive?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 1,
+      "questions": "Is this celebrity male?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 2,
+      "questions": "Is this celebrity primarily known for acting?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 3,
+      "questions": "Is this celebrity American?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 4,
+      "questions": "Is this celebrity over 50 years old?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 5,
+      "questions": "Has this celebrity won an Academy Award (Oscar)?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 6,
+      "questions": "Is this celebrity primarily known for television rather than movies?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 7,
+      "questions": "Is this celebrity known for starring in action or superhero movies?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 8,
+      "questions": "Is this celebrity known for playing Spider-Man?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 9,
+      "questions": "Is this celebrity primarily associated with the Marvel Cinematic Universe?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 10,
+      "questions": "Is this celebrity known for playing Captain America?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 11,
+      "questions": "Is this celebrity known for playing the Falcon (Sam Wilson)?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 12,
+      "questions": "Is this celebrity known for playing Thor?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 13,
+      "questions": "Is this celebrity known for playing Star-Lord in Guardians of the Galaxy?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 14,
+      "questions": "Is this celebrity known for playing the Winter Soldier (Bucky Barnes)?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 15,
+      "questions": "Is this celebrity known for playing Doctor Strange?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 16,
+      "questions": "Is this celebrity known for playing a villain in the MCU?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 17,
+      "questions": "Is this celebrity known for playing Shang-Chi?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 18,
+      "questions": "Is this celebrity known for playing Ant-Man?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 19,
+      "questions": "Is this celebrity known for playing Hawkeye?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    }
+  ]
+}

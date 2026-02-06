@@ -1,0 +1,164 @@
+{
+  "timestamp": "2026-02-05T21:54:43.430Z",
+  "runId": "2026-02-05T21-51-44.298Z",
+  "secret": {
+    "category": "celebrity",
+    "secret": "Dwayne Johnson"
+  },
+  "guesser": {
+    "name": "claude-haiku-4-5-20251001",
+    "provider": "anthropic",
+    "config": {
+      "id": "claudeHaiku_medium",
+      "name": "claude-haiku-4-5-20251001",
+      "provider": "anthropic",
+      "thinkingLevel": "medium"
+    }
+  },
+  "answerer": {
+    "name": "moonshotai/kimi-k2.5",
+    "provider": "openrouter",
+    "config": {
+      "id": "kimi_k2_5",
+      "name": "moonshotai/kimi-k2.5",
+      "provider": "openrouter",
+      "thinkingLevel": "high"
+    }
+  },
+  "guesserUsage": {
+    "inputTokens": 50624,
+    "outputTokens": 10356,
+    "cachedInputTokens": 0,
+    "thinkingTokens": 0
+  },
+  "answererUsage": {
+    "inputTokens": 18956,
+    "outputTokens": 455,
+    "cachedInputTokens": 11520,
+    "thinkingTokens": 3128
+  },
+  "totalQuestions": 15,
+  "won": true,
+  "rounds": [
+    {
+      "roundNumber": 0,
+      "questions": "Is this celebrity still alive?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 1,
+      "questions": "Are they primarily known for acting in movies or television?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 2,
+      "questions": "Are they male?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 3,
+      "questions": "Are they primarily known for movies rather than television?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 4,
+      "questions": "Have they won an Academy Award?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 5,
+      "questions": "Are they primarily known for action movies?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 6,
+      "questions": "Are they known for being the star of a major film franchise or series?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 7,
+      "questions": "Are they known primarily for a superhero movie franchise?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 8,
+      "questions": "Are they known for the Fast & Furious franchise?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 9,
+      "questions": "Are they the primary protagonist/lead of the Fast & Furious franchise?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 10,
+      "questions": "Did they join the Fast & Furious franchise in the later films (films 5 or later) rather than the original or earlier sequels?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 11,
+      "questions": "Are they known for mixing humor and charisma with their action roles?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 12,
+      "questions": "Are they known for playing a law enforcement officer or government agent in the Fast & Furious franchise?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 13,
+      "questions": "Are they known for their exceptionally muscular physique and have a background in professional wrestling?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 14,
+      "questions": "Is this celebrity Dwayne Johnson, also known as The Rock?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": true
+      }
+    }
+  ]
+}

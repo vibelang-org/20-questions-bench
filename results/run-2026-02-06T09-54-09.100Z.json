@@ -1,0 +1,203 @@
+{
+  "timestamp": "2026-02-06T09:59:43.377Z",
+  "runId": "2026-02-06T09-54-09.100Z",
+  "secret": {
+    "category": "celebrity",
+    "secret": "Cristiano Ronaldo"
+  },
+  "guesser": {
+    "name": "z-ai/glm-4.7",
+    "provider": "openrouter",
+    "config": {
+      "id": "glm_4_7",
+      "name": "z-ai/glm-4.7",
+      "provider": "openrouter"
+    }
+  },
+  "answerer": {
+    "name": "claude-sonnet-4-5-20250929",
+    "provider": "anthropic",
+    "config": {
+      "id": "claudeSonnet4_5_high",
+      "name": "claude-sonnet-4-5-20250929",
+      "provider": "anthropic",
+      "thinkingLevel": "high"
+    }
+  },
+  "guesserUsage": {
+    "inputTokens": 55407,
+    "outputTokens": 286,
+    "cachedInputTokens": 32497,
+    "thinkingTokens": 5871
+  },
+  "answererUsage": {
+    "inputTokens": 17878,
+    "outputTokens": 8168,
+    "cachedInputTokens": 29602,
+    "thinkingTokens": 0
+  },
+  "totalQuestions": 20,
+  "won": true,
+  "rounds": [
+    {
+      "roundNumber": 0,
+      "questions": "Is this celebrity currently alive?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 1,
+      "questions": "Is this celebrity male?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 2,
+      "questions": "Is this celebrity primarily known for being an actor?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 3,
+      "questions": "Is this celebrity primarily known for music?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 4,
+      "questions": "Is this celebrity primarily known for being an athlete?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 5,
+      "questions": "Is this athlete primarily known for playing basketball?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 6,
+      "questions": "Is this athlete primarily known for playing football (American)?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 7,
+      "questions": "Is this athlete primarily known for playing soccer (football)?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 8,
+      "questions": "Is this soccer player from Europe?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 9,
+      "questions": "Is this soccer player from Spain?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 10,
+      "questions": "Is this soccer player from France?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 11,
+      "questions": "Is this soccer player from England?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 12,
+      "questions": "Is this soccer player from Germany?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 13,
+      "questions": "Is this soccer player from Italy?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 14,
+      "questions": "Is this soccer player from Portugal?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 15,
+      "questions": "Is this soccer player primarily known as a forward or striker?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 16,
+      "questions": "Is this soccer player most famous for his time with Real Madrid?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 17,
+      "questions": "Has this soccer player won the Ballon d'Or award multiple times?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 18,
+      "questions": "Has this soccer player played for Manchester United?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 19,
+      "questions": "Is this soccer player Cristiano Ronaldo?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": true
+      }
+    }
+  ]
+}

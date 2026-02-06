@@ -1,0 +1,92 @@
+{
+  "timestamp": "2026-02-06T19:04:43.846Z",
+  "runId": "2026-02-06T19-03-05.926Z",
+  "secret": {
+    "category": "creature",
+    "secret": "elephant"
+  },
+  "guesser": {
+    "name": "deepseek/deepseek-v3.2-20251201",
+    "provider": "openrouter",
+    "config": {
+      "id": "deepseek_v3_2",
+      "name": "deepseek/deepseek-v3.2-20251201",
+      "provider": "openrouter",
+      "thinkingLevel": "high"
+    }
+  },
+  "answerer": {
+    "name": "google/gemini-3-pro-preview",
+    "provider": "openrouter",
+    "config": {
+      "id": "gemini3Pro_high",
+      "name": "google/gemini-3-pro-preview",
+      "provider": "openrouter",
+      "thinkingLevel": "high"
+    }
+  },
+  "guesserUsage": {
+    "inputTokens": 13719,
+    "outputTokens": 352,
+    "cachedInputTokens": 9536,
+    "thinkingTokens": 1918
+  },
+  "answererUsage": {
+    "inputTokens": 8343,
+    "outputTokens": 258,
+    "cachedInputTokens": 0,
+    "thinkingTokens": 1382
+  },
+  "totalQuestions": 6,
+  "won": true,
+  "rounds": [
+    {
+      "roundNumber": 0,
+      "questions": "Is the creature a mammal?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 1,
+      "questions": "Is the creature larger than a human?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 2,
+      "questions": "Does the creature have four legs?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 3,
+      "questions": "Does the creature have a trunk?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 4,
+      "questions": "Does the creature have large, fan-like ears?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 5,
+      "questions": "Is the creature an elephant?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": true
+      }
+    }
+  ]
+}

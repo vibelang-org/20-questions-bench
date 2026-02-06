@@ -15,7 +15,7 @@ import {
 } from './queue.ts'
 
 const MAX_QUESTIONS = 20
-const MAX_QUEUE_ITEMS = 20  // Max items to process per run (TODO: make configurable via CLI args once Vibe supports them)
+const MAX_QUEUE_ITEMS = defineArg("max-items", "number", "Max queue items to process per run", false, 20)
 
 type AnswererResult {
   answerCorrect: text
@@ -64,6 +64,9 @@ export function runBench(guesser: model, answerer: model, private secretEntry: S
     print('Question {displayQuestionNum} - {question}')
 
     const answererResults = evaluateAnswererResponse(question, answerer, secret)
+    if answererResults.err {
+      throw answererResults.errDetails.message
+    }
     print('Answer: {answererResults.answerCorrect}')
 
     if answererResults.finalSecretCorrect {

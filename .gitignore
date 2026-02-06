@@ -2,6 +2,5 @@
 .env
 .vibe-logs/
 
-# Queue state (runtime checkpoint file)
-queue.json
+
 
