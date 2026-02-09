@@ -1,0 +1,108 @@
+{
+  "timestamp": "2026-02-07T23:56:02.562Z",
+  "runId": "2026-02-07T23-55-11.015Z",
+  "secret": {
+    "category": "historical figure",
+    "secret": "Albert Einstein"
+  },
+  "guesser": {
+    "name": "gpt-5.2",
+    "provider": "openai",
+    "config": {
+      "id": "gpt5_2_high",
+      "name": "gpt-5.2",
+      "provider": "openai",
+      "thinkingLevel": "high"
+    }
+  },
+  "answerer": {
+    "name": "gpt-5.2",
+    "provider": "openai",
+    "config": {
+      "id": "gpt5_2_high",
+      "name": "gpt-5.2",
+      "provider": "openai",
+      "thinkingLevel": "high"
+    }
+  },
+  "guesserUsage": {
+    "inputTokens": 13715,
+    "outputTokens": 304,
+    "cachedInputTokens": 3072,
+    "thinkingTokens": 1243
+  },
+  "answererUsage": {
+    "inputTokens": 11713,
+    "outputTokens": 553,
+    "cachedInputTokens": 0,
+    "thinkingTokens": 549
+  },
+  "totalQuestions": 8,
+  "won": true,
+  "rounds": [
+    {
+      "roundNumber": 0,
+      "questions": "Was this historical figure alive at any point after the year 1900?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 1,
+      "questions": "Was this historical figure primarily a political leader (e.g., a head of state or government official)?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 2,
+      "questions": "Was this historical figure primarily known for contributions to science or mathematics?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 3,
+      "questions": "Was this historical figure primarily known for work in physics?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 4,
+      "questions": "Did this historical figure win a Nobel Prize in Physics?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 5,
+      "questions": "Was this historical figure born after the year 1900?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 6,
+      "questions": "Was this historical figure best known for developing the theory of relativity?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 7,
+      "questions": "Was this historical figure Albert Einstein?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": true
+      }
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "createdAt": "2026-02-02T07:43:25.313Z",
   "totalItems": 700,
-  "completedCount": 162,
+  "completedCount": 376,
   "items": [
     {
       "id": "item-00000",
@@ -1955,8 +1955,9 @@
         "category": "creature",
         "secret": "penguin"
       },
-      "status": "running",
-      "runId": "2026-02-06T19-34-50.281Z"
+      "status": "completed",
+      "runId": "2026-02-06T20-12-06.327Z",
+      "completedAt": "2026-02-06T20:13:04.461Z"
     },
     {
       "id": "item-00163",
@@ -1966,7 +1967,9 @@
         "category": "creature",
         "secret": "penguin"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T20-13-04.474Z",
+      "completedAt": "2026-02-06T20:21:09.983Z"
     },
     {
       "id": "item-00164",
@@ -1976,7 +1979,9 @@
         "category": "creature",
         "secret": "penguin"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T20-21-09.995Z",
+      "completedAt": "2026-02-06T20:22:45.057Z"
     },
     {
       "id": "item-00165",
@@ -1986,7 +1991,9 @@
         "category": "creature",
         "secret": "penguin"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T20-22-45.071Z",
+      "completedAt": "2026-02-06T20:25:12.392Z"
     },
     {
       "id": "item-00166",
@@ -1996,7 +2003,9 @@
         "category": "creature",
         "secret": "penguin"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T20-25-12.406Z",
+      "completedAt": "2026-02-06T20:26:33.491Z"
     },
     {
       "id": "item-00167",
@@ -2006,7 +2015,9 @@
         "category": "creature",
         "secret": "penguin"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T20-26-33.505Z",
+      "completedAt": "2026-02-06T20:27:56.737Z"
     },
     {
       "id": "item-00168",
@@ -2016,7 +2027,9 @@
         "category": "creature",
         "secret": "butterfly"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T20-27-56.755Z",
+      "completedAt": "2026-02-06T20:33:27.679Z"
     },
     {
       "id": "item-00169",
@@ -2026,7 +2039,9 @@
         "category": "creature",
         "secret": "butterfly"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T20-33-27.698Z",
+      "completedAt": "2026-02-06T20:34:44.436Z"
     },
     {
       "id": "item-00170",
@@ -2036,7 +2051,9 @@
         "category": "creature",
         "secret": "butterfly"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T20-34-44.455Z",
+      "completedAt": "2026-02-06T20:37:33.279Z"
     },
     {
       "id": "item-00171",
@@ -2046,7 +2063,9 @@
         "category": "creature",
         "secret": "butterfly"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T20-37-33.299Z",
+      "completedAt": "2026-02-06T20:38:20.354Z"
     },
     {
       "id": "item-00172",
@@ -2056,7 +2075,9 @@
         "category": "creature",
         "secret": "butterfly"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T20-49-11.875Z",
+      "completedAt": "2026-02-06T20:50:14.800Z"
     },
     {
       "id": "item-00173",
@@ -2066,7 +2087,9 @@
         "category": "creature",
         "secret": "butterfly"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T20-50-14.814Z",
+      "completedAt": "2026-02-06T20:51:31.988Z"
     },
     {
       "id": "item-00174",
@@ -2076,7 +2099,9 @@
         "category": "creature",
         "secret": "butterfly"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T20-51-32.001Z",
+      "completedAt": "2026-02-06T20:52:27.342Z"
     },
     {
       "id": "item-00175",
@@ -2086,7 +2111,9 @@
         "category": "creature",
         "secret": "butterfly"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T20-52-27.355Z",
+      "completedAt": "2026-02-06T20:54:24.492Z"
     },
     {
       "id": "item-00176",
@@ -2096,7 +2123,9 @@
         "category": "creature",
         "secret": "butterfly"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T20-54-24.506Z",
+      "completedAt": "2026-02-06T20:56:14.762Z"
     },
     {
       "id": "item-00177",
@@ -2106,7 +2135,9 @@
         "category": "creature",
         "secret": "butterfly"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T20-56-14.777Z",
+      "completedAt": "2026-02-06T21:11:23.771Z"
     },
     {
       "id": "item-00178",
@@ -2116,7 +2147,9 @@
         "category": "creature",
         "secret": "butterfly"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T21-11-23.786Z",
+      "completedAt": "2026-02-06T21:14:38.460Z"
     },
     {
       "id": "item-00179",
@@ -2126,7 +2159,9 @@
         "category": "creature",
         "secret": "butterfly"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T21-14-38.476Z",
+      "completedAt": "2026-02-06T21:16:06.734Z"
     },
     {
       "id": "item-00180",
@@ -2136,7 +2171,9 @@
         "category": "creature",
         "secret": "butterfly"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T21-16-06.752Z",
+      "completedAt": "2026-02-06T21:17:13.062Z"
     },
     {
       "id": "item-00181",
@@ -2146,7 +2183,9 @@
         "category": "creature",
         "secret": "butterfly"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T21-17-13.078Z",
+      "completedAt": "2026-02-06T21:23:11.261Z"
     },
     {
       "id": "item-00182",
@@ -2156,7 +2195,9 @@
         "category": "creature",
         "secret": "dolphin"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T21-27-45.409Z",
+      "completedAt": "2026-02-06T21:35:46.151Z"
     },
     {
       "id": "item-00183",
@@ -2166,7 +2207,9 @@
         "category": "creature",
         "secret": "dolphin"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T21-35-46.163Z",
+      "completedAt": "2026-02-06T21:41:01.299Z"
     },
     {
       "id": "item-00184",
@@ -2176,7 +2219,9 @@
         "category": "creature",
         "secret": "dolphin"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T21-41-01.314Z",
+      "completedAt": "2026-02-06T21:46:07.677Z"
     },
     {
       "id": "item-00185",
@@ -2186,7 +2231,9 @@
         "category": "creature",
         "secret": "dolphin"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T21-46-07.691Z",
+      "completedAt": "2026-02-06T21:46:35.511Z"
     },
     {
       "id": "item-00186",
@@ -2196,7 +2243,9 @@
         "category": "creature",
         "secret": "dolphin"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T21-46-35.525Z",
+      "completedAt": "2026-02-06T21:47:29.895Z"
     },
     {
       "id": "item-00187",
@@ -2206,7 +2255,9 @@
         "category": "creature",
         "secret": "dolphin"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T21-47-29.909Z",
+      "completedAt": "2026-02-06T21:51:16.272Z"
     },
     {
       "id": "item-00188",
@@ -2216,7 +2267,9 @@
         "category": "creature",
         "secret": "dolphin"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T21-51-16.288Z",
+      "completedAt": "2026-02-06T21:54:18.177Z"
     },
     {
       "id": "item-00189",
@@ -2226,7 +2279,9 @@
         "category": "creature",
         "secret": "dolphin"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T21-54-18.194Z",
+      "completedAt": "2026-02-06T21:55:36.994Z"
     },
     {
       "id": "item-00190",
@@ -2236,7 +2291,9 @@
         "category": "creature",
         "secret": "dolphin"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T21-55-37.012Z",
+      "completedAt": "2026-02-06T21:57:44.160Z"
     },
     {
       "id": "item-00191",
@@ -2246,7 +2303,9 @@
         "category": "creature",
         "secret": "dolphin"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T21-57-44.179Z",
+      "completedAt": "2026-02-06T22:16:04.479Z"
     },
     {
       "id": "item-00192",
@@ -2256,7 +2315,9 @@
         "category": "creature",
         "secret": "dolphin"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T22-16-31.349Z",
+      "completedAt": "2026-02-06T22:19:01.797Z"
     },
     {
       "id": "item-00193",
@@ -2266,7 +2327,9 @@
         "category": "creature",
         "secret": "dolphin"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T22-19-01.811Z",
+      "completedAt": "2026-02-06T22:22:26.758Z"
     },
     {
       "id": "item-00194",
@@ -2276,7 +2339,9 @@
         "category": "creature",
         "secret": "dolphin"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T22-22-26.770Z",
+      "completedAt": "2026-02-06T22:23:15.168Z"
     },
     {
       "id": "item-00195",
@@ -2286,7 +2351,9 @@
         "category": "creature",
         "secret": "dolphin"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T22-23-15.181Z",
+      "completedAt": "2026-02-06T22:26:40.377Z"
     },
     {
       "id": "item-00196",
@@ -2296,7 +2363,9 @@
         "category": "creature",
         "secret": "aardvark"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T22-26-40.390Z",
+      "completedAt": "2026-02-06T22:29:32.721Z"
     },
     {
       "id": "item-00197",
@@ -2306,7 +2375,9 @@
         "category": "creature",
         "secret": "aardvark"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T22-29-32.736Z",
+      "completedAt": "2026-02-06T22:32:58.777Z"
     },
     {
       "id": "item-00198",
@@ -2316,7 +2387,9 @@
         "category": "creature",
         "secret": "aardvark"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T22-32-58.793Z",
+      "completedAt": "2026-02-06T22:40:14.235Z"
     },
     {
       "id": "item-00199",
@@ -2326,7 +2399,9 @@
         "category": "creature",
         "secret": "aardvark"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T22-40-14.252Z",
+      "completedAt": "2026-02-06T22:43:04.019Z"
     },
     {
       "id": "item-00200",
@@ -2336,7 +2411,9 @@
         "category": "creature",
         "secret": "aardvark"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T22-43-04.037Z",
+      "completedAt": "2026-02-06T22:46:51.711Z"
     },
     {
       "id": "item-00201",
@@ -2346,7 +2423,9 @@
         "category": "creature",
         "secret": "aardvark"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-06T22-46-51.729Z",
+      "completedAt": "2026-02-06T22:50:33.406Z"
     },
     {
       "id": "item-00202",
@@ -2356,7 +2435,9 @@
         "category": "creature",
         "secret": "aardvark"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T01-18-17.326Z",
+      "completedAt": "2026-02-07T01:21:52.084Z"
     },
     {
       "id": "item-00203",
@@ -2366,7 +2447,9 @@
         "category": "creature",
         "secret": "aardvark"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T01-21-52.095Z",
+      "completedAt": "2026-02-07T01:24:31.664Z"
     },
     {
       "id": "item-00204",
@@ -2376,7 +2459,9 @@
         "category": "creature",
         "secret": "aardvark"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T01-24-31.676Z",
+      "completedAt": "2026-02-07T01:29:42.424Z"
     },
     {
       "id": "item-00205",
@@ -2386,7 +2471,9 @@
         "category": "creature",
         "secret": "aardvark"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T01-29-42.438Z",
+      "completedAt": "2026-02-07T02:01:40.423Z"
     },
     {
       "id": "item-00206",
@@ -2396,7 +2483,9 @@
         "category": "creature",
         "secret": "aardvark"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T02-01-40.437Z",
+      "completedAt": "2026-02-07T02:11:41.026Z"
     },
     {
       "id": "item-00207",
@@ -2406,7 +2495,9 @@
         "category": "creature",
         "secret": "aardvark"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T02-11-41.040Z",
+      "completedAt": "2026-02-07T02:19:39.329Z"
     },
     {
       "id": "item-00208",
@@ -2416,7 +2507,9 @@
         "category": "creature",
         "secret": "aardvark"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T02-19-39.346Z",
+      "completedAt": "2026-02-07T02:25:42.430Z"
     },
     {
       "id": "item-00209",
@@ -2426,7 +2519,9 @@
         "category": "creature",
         "secret": "aardvark"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T02-25-42.447Z",
+      "completedAt": "2026-02-07T02:30:49.577Z"
     },
     {
       "id": "item-00210",
@@ -2436,7 +2531,9 @@
         "category": "creature",
         "secret": "eagle"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T02-30-49.595Z",
+      "completedAt": "2026-02-07T02:31:26.240Z"
     },
     {
       "id": "item-00211",
@@ -2446,7 +2543,9 @@
         "category": "creature",
         "secret": "eagle"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T02-31-26.258Z",
+      "completedAt": "2026-02-07T02:32:39.756Z"
     },
     {
       "id": "item-00212",
@@ -2456,7 +2555,9 @@
         "category": "creature",
         "secret": "eagle"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T04-11-12.172Z",
+      "completedAt": "2026-02-07T04:13:18.443Z"
     },
     {
       "id": "item-00213",
@@ -2466,7 +2567,9 @@
         "category": "creature",
         "secret": "eagle"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T04-13-18.454Z",
+      "completedAt": "2026-02-07T04:14:07.051Z"
     },
     {
       "id": "item-00214",
@@ -2476,7 +2579,9 @@
         "category": "creature",
         "secret": "eagle"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T04-14-07.064Z",
+      "completedAt": "2026-02-07T04:15:10.995Z"
     },
     {
       "id": "item-00215",
@@ -2486,7 +2591,9 @@
         "category": "creature",
         "secret": "eagle"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T04-15-11.009Z",
+      "completedAt": "2026-02-07T04:16:12.595Z"
     },
     {
       "id": "item-00216",
@@ -2496,7 +2603,9 @@
         "category": "creature",
         "secret": "eagle"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T04-16-12.610Z",
+      "completedAt": "2026-02-07T04:17:13.420Z"
     },
     {
       "id": "item-00217",
@@ -2506,7 +2615,9 @@
         "category": "creature",
         "secret": "eagle"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T04-17-13.437Z",
+      "completedAt": "2026-02-07T04:18:30.399Z"
     },
     {
       "id": "item-00218",
@@ -2516,7 +2627,9 @@
         "category": "creature",
         "secret": "eagle"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T04-18-30.413Z",
+      "completedAt": "2026-02-07T04:21:39.023Z"
     },
     {
       "id": "item-00219",
@@ -2526,7 +2639,9 @@
         "category": "creature",
         "secret": "eagle"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T04-21-39.039Z",
+      "completedAt": "2026-02-07T04:26:47.275Z"
     },
     {
       "id": "item-00220",
@@ -2536,7 +2651,9 @@
         "category": "creature",
         "secret": "eagle"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T04-26-47.295Z",
+      "completedAt": "2026-02-07T04:28:34.317Z"
     },
     {
       "id": "item-00221",
@@ -2546,7 +2663,9 @@
         "category": "creature",
         "secret": "eagle"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T04-28-34.337Z",
+      "completedAt": "2026-02-07T04:33:41.350Z"
     },
     {
       "id": "item-00222",
@@ -2556,7 +2675,9 @@
         "category": "creature",
         "secret": "eagle"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T04-33-41.371Z",
+      "completedAt": "2026-02-07T04:35:09.673Z"
     },
     {
       "id": "item-00223",
@@ -2566,7 +2687,9 @@
         "category": "creature",
         "secret": "eagle"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T04-35-09.692Z",
+      "completedAt": "2026-02-07T04:36:22.231Z"
     },
     {
       "id": "item-00224",
@@ -2576,7 +2699,9 @@
         "category": "creature",
         "secret": "giant squid"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T04-36-22.252Z",
+      "completedAt": "2026-02-07T04:38:50.786Z"
     },
     {
       "id": "item-00225",
@@ -2586,7 +2711,9 @@
         "category": "creature",
         "secret": "giant squid"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T04-38-50.809Z",
+      "completedAt": "2026-02-07T04:40:19.429Z"
     },
     {
       "id": "item-00226",
@@ -2596,7 +2723,9 @@
         "category": "creature",
         "secret": "giant squid"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T04-40-19.454Z",
+      "completedAt": "2026-02-07T04:44:08.814Z"
     },
     {
       "id": "item-00227",
@@ -2606,7 +2735,9 @@
         "category": "creature",
         "secret": "giant squid"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T04-44-08.840Z",
+      "completedAt": "2026-02-07T04:45:07.437Z"
     },
     {
       "id": "item-00228",
@@ -2616,7 +2747,9 @@
         "category": "creature",
         "secret": "giant squid"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T04-45-07.461Z",
+      "completedAt": "2026-02-07T04:46:16.587Z"
     },
     {
       "id": "item-00229",
@@ -2626,7 +2759,9 @@
         "category": "creature",
         "secret": "giant squid"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T04-46-16.614Z",
+      "completedAt": "2026-02-07T04:48:11.775Z"
     },
     {
       "id": "item-00230",
@@ -2636,7 +2771,9 @@
         "category": "creature",
         "secret": "giant squid"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T04-48-11.803Z",
+      "completedAt": "2026-02-07T04:51:02.333Z"
     },
     {
       "id": "item-00231",
@@ -2646,7 +2783,9 @@
         "category": "creature",
         "secret": "giant squid"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T04-51-02.357Z",
+      "completedAt": "2026-02-07T04:53:35.871Z"
     },
     {
       "id": "item-00232",
@@ -2656,7 +2795,9 @@
         "category": "creature",
         "secret": "giant squid"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T05-33-45.220Z",
+      "completedAt": "2026-02-07T05:36:02.985Z"
     },
     {
       "id": "item-00233",
@@ -2666,7 +2807,9 @@
         "category": "creature",
         "secret": "giant squid"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T06-10-06.618Z",
+      "completedAt": "2026-02-07T06:19:45.543Z"
     },
     {
       "id": "item-00234",
@@ -2676,7 +2819,9 @@
         "category": "creature",
         "secret": "giant squid"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T06-19-45.554Z",
+      "completedAt": "2026-02-07T06:22:55.446Z"
     },
     {
       "id": "item-00235",
@@ -2686,7 +2831,9 @@
         "category": "creature",
         "secret": "giant squid"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T06-22-55.458Z",
+      "completedAt": "2026-02-07T06:26:30.169Z"
     },
     {
       "id": "item-00236",
@@ -2696,7 +2843,9 @@
         "category": "creature",
         "secret": "giant squid"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T06-26-30.184Z",
+      "completedAt": "2026-02-07T06:28:26.714Z"
     },
     {
       "id": "item-00237",
@@ -2706,7 +2855,9 @@
         "category": "creature",
         "secret": "giant squid"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T06-28-26.730Z",
+      "completedAt": "2026-02-07T06:32:24.665Z"
     },
     {
       "id": "item-00238",
@@ -2716,7 +2867,9 @@
         "category": "creature",
         "secret": "tardigrade"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T06-32-24.682Z",
+      "completedAt": "2026-02-07T06:36:02.239Z"
     },
     {
       "id": "item-00239",
@@ -2726,7 +2879,9 @@
         "category": "creature",
         "secret": "tardigrade"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T06-36-02.256Z",
+      "completedAt": "2026-02-07T06:39:01.676Z"
     },
     {
       "id": "item-00240",
@@ -2736,7 +2891,9 @@
         "category": "creature",
         "secret": "tardigrade"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T06-39-01.694Z",
+      "completedAt": "2026-02-07T06:42:54.274Z"
     },
     {
       "id": "item-00241",
@@ -2746,7 +2903,9 @@
         "category": "creature",
         "secret": "tardigrade"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T06-42-54.295Z",
+      "completedAt": "2026-02-07T06:50:00.283Z"
     },
     {
       "id": "item-00242",
@@ -2756,7 +2915,9 @@
         "category": "creature",
         "secret": "tardigrade"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T06-50-00.302Z",
+      "completedAt": "2026-02-07T06:52:27.156Z"
     },
     {
       "id": "item-00243",
@@ -2766,7 +2927,9 @@
         "category": "creature",
         "secret": "tardigrade"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T06-52-27.179Z",
+      "completedAt": "2026-02-07T06:57:08.790Z"
     },
     {
       "id": "item-00244",
@@ -2776,7 +2939,9 @@
         "category": "creature",
         "secret": "tardigrade"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T06-57-08.811Z",
+      "completedAt": "2026-02-07T07:01:54.682Z"
     },
     {
       "id": "item-00245",
@@ -2786,7 +2951,9 @@
         "category": "creature",
         "secret": "tardigrade"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T07-01-54.705Z",
+      "completedAt": "2026-02-07T07:05:28.679Z"
     },
     {
       "id": "item-00246",
@@ -2796,7 +2963,9 @@
         "category": "creature",
         "secret": "tardigrade"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T07-05-28.706Z",
+      "completedAt": "2026-02-07T07:08:33.506Z"
     },
     {
       "id": "item-00247",
@@ -2806,7 +2975,9 @@
         "category": "creature",
         "secret": "tardigrade"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T22-04-50.531Z",
+      "completedAt": "2026-02-07T22:15:42.718Z"
     },
     {
       "id": "item-00248",
@@ -2816,7 +2987,9 @@
         "category": "creature",
         "secret": "tardigrade"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T22-15-42.731Z",
+      "completedAt": "2026-02-07T22:19:29.325Z"
     },
     {
       "id": "item-00249",
@@ -2826,7 +2999,9 @@
         "category": "creature",
         "secret": "tardigrade"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T22-19-29.340Z",
+      "completedAt": "2026-02-07T22:26:18.865Z"
     },
     {
       "id": "item-00250",
@@ -2836,7 +3011,9 @@
         "category": "creature",
         "secret": "tardigrade"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T22-26-18.893Z",
+      "completedAt": "2026-02-07T22:30:54.712Z"
     },
     {
       "id": "item-00251",
@@ -2846,7 +3023,9 @@
         "category": "creature",
         "secret": "tardigrade"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T22-30-54.742Z",
+      "completedAt": "2026-02-07T22:34:12.618Z"
     },
     {
       "id": "item-00252",
@@ -2856,7 +3035,9 @@
         "category": "creature",
         "secret": "shark"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T22-34-12.653Z",
+      "completedAt": "2026-02-07T22:35:02.689Z"
     },
     {
       "id": "item-00253",
@@ -2866,7 +3047,9 @@
         "category": "creature",
         "secret": "shark"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T22-35-02.721Z",
+      "completedAt": "2026-02-07T22:35:43.395Z"
     },
     {
       "id": "item-00254",
@@ -2876,7 +3059,9 @@
         "category": "creature",
         "secret": "shark"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T22-35-43.424Z",
+      "completedAt": "2026-02-07T22:37:13.664Z"
     },
     {
       "id": "item-00255",
@@ -2886,7 +3071,9 @@
         "category": "creature",
         "secret": "shark"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T22-37-13.702Z",
+      "completedAt": "2026-02-07T22:38:06.596Z"
     },
     {
       "id": "item-00256",
@@ -2896,7 +3083,9 @@
         "category": "creature",
         "secret": "shark"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T22-38-06.635Z",
+      "completedAt": "2026-02-07T22:39:05.632Z"
     },
     {
       "id": "item-00257",
@@ -2906,7 +3095,9 @@
         "category": "creature",
         "secret": "shark"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T22-39-05.656Z",
+      "completedAt": "2026-02-07T22:40:11.921Z"
     },
     {
       "id": "item-00258",
@@ -2916,7 +3107,9 @@
         "category": "creature",
         "secret": "shark"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T22-40-11.942Z",
+      "completedAt": "2026-02-07T22:40:58.381Z"
     },
     {
       "id": "item-00259",
@@ -2926,7 +3119,9 @@
         "category": "creature",
         "secret": "shark"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T22-40-58.403Z",
+      "completedAt": "2026-02-07T22:42:24.132Z"
     },
     {
       "id": "item-00260",
@@ -2936,7 +3131,9 @@
         "category": "creature",
         "secret": "shark"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T22-42-24.168Z",
+      "completedAt": "2026-02-07T22:43:55.582Z"
     },
     {
       "id": "item-00261",
@@ -2946,7 +3143,9 @@
         "category": "creature",
         "secret": "shark"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T22-43-55.623Z",
+      "completedAt": "2026-02-07T22:58:07.473Z"
     },
     {
       "id": "item-00262",
@@ -2956,7 +3155,9 @@
         "category": "creature",
         "secret": "shark"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T22-58-07.516Z",
+      "completedAt": "2026-02-07T22:59:51.760Z"
     },
     {
       "id": "item-00263",
@@ -2966,7 +3167,9 @@
         "category": "creature",
         "secret": "shark"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T22-59-51.800Z",
+      "completedAt": "2026-02-07T23:01:23.289Z"
     },
     {
       "id": "item-00264",
@@ -2976,7 +3179,9 @@
         "category": "creature",
         "secret": "shark"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T23-01-23.330Z",
+      "completedAt": "2026-02-07T23:02:19.464Z"
     },
     {
       "id": "item-00265",
@@ -2986,7 +3191,9 @@
         "category": "creature",
         "secret": "shark"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T23-02-19.507Z",
+      "completedAt": "2026-02-07T23:04:06.413Z"
     },
     {
       "id": "item-00266",
@@ -2996,7 +3203,9 @@
         "category": "creature",
         "secret": "hummingbird"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T23-04-06.446Z",
+      "completedAt": "2026-02-07T23:05:42.914Z"
     },
     {
       "id": "item-00267",
@@ -3006,7 +3215,9 @@
         "category": "creature",
         "secret": "hummingbird"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T23-05-42.955Z",
+      "completedAt": "2026-02-07T23:08:12.745Z"
     },
     {
       "id": "item-00268",
@@ -3016,7 +3227,9 @@
         "category": "creature",
         "secret": "hummingbird"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T23-08-12.773Z",
+      "completedAt": "2026-02-07T23:11:54.818Z"
     },
     {
       "id": "item-00269",
@@ -3026,7 +3239,9 @@
         "category": "creature",
         "secret": "hummingbird"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T23-11-54.848Z",
+      "completedAt": "2026-02-07T23:13:08.650Z"
     },
     {
       "id": "item-00270",
@@ -3036,7 +3251,9 @@
         "category": "creature",
         "secret": "hummingbird"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T23-13-08.679Z",
+      "completedAt": "2026-02-07T23:14:03.627Z"
     },
     {
       "id": "item-00271",
@@ -3046,7 +3263,9 @@
         "category": "creature",
         "secret": "hummingbird"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T23-14-03.662Z",
+      "completedAt": "2026-02-07T23:16:33.338Z"
     },
     {
       "id": "item-00272",
@@ -3056,7 +3275,9 @@
         "category": "creature",
         "secret": "hummingbird"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T23-16-33.370Z",
+      "completedAt": "2026-02-07T23:18:29.190Z"
     },
     {
       "id": "item-00273",
@@ -3066,7 +3287,9 @@
         "category": "creature",
         "secret": "hummingbird"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T23-18-29.219Z",
+      "completedAt": "2026-02-07T23:21:03.870Z"
     },
     {
       "id": "item-00274",
@@ -3076,7 +3299,9 @@
         "category": "creature",
         "secret": "hummingbird"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T23-21-03.898Z",
+      "completedAt": "2026-02-07T23:22:58.499Z"
     },
     {
       "id": "item-00275",
@@ -3086,7 +3311,9 @@
         "category": "creature",
         "secret": "hummingbird"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T23-22-58.528Z",
+      "completedAt": "2026-02-07T23:40:52.504Z"
     },
     {
       "id": "item-00276",
@@ -3096,7 +3323,9 @@
         "category": "creature",
         "secret": "hummingbird"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T23-40-52.536Z",
+      "completedAt": "2026-02-07T23:45:41.700Z"
     },
     {
       "id": "item-00277",
@@ -3106,7 +3335,9 @@
         "category": "creature",
         "secret": "hummingbird"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T23-45-41.731Z",
+      "completedAt": "2026-02-07T23:49:55.808Z"
     },
     {
       "id": "item-00278",
@@ -3116,7 +3347,9 @@
         "category": "creature",
         "secret": "hummingbird"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T23-49-55.836Z",
+      "completedAt": "2026-02-07T23:52:24.699Z"
     },
     {
       "id": "item-00279",
@@ -3126,7 +3359,9 @@
         "category": "creature",
         "secret": "hummingbird"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T23-52-24.733Z",
+      "completedAt": "2026-02-07T23:54:03.068Z"
     },
     {
       "id": "item-00280",
@@ -3136,7 +3371,9 @@
         "category": "historical figure",
         "secret": "Albert Einstein"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T23-54-03.109Z",
+      "completedAt": "2026-02-07T23:55:10.982Z"
     },
     {
       "id": "item-00281",
@@ -3146,7 +3383,9 @@
         "category": "historical figure",
         "secret": "Albert Einstein"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T23-55-11.015Z",
+      "completedAt": "2026-02-07T23:56:02.564Z"
     },
     {
       "id": "item-00282",
@@ -3156,7 +3395,9 @@
         "category": "historical figure",
         "secret": "Albert Einstein"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T23-56-02.599Z",
+      "completedAt": "2026-02-07T23:57:51.355Z"
     },
     {
       "id": "item-00283",
@@ -3166,7 +3407,9 @@
         "category": "historical figure",
         "secret": "Albert Einstein"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T23-57-51.390Z",
+      "completedAt": "2026-02-07T23:59:08.121Z"
     },
     {
       "id": "item-00284",
@@ -3176,7 +3419,9 @@
         "category": "historical figure",
         "secret": "Albert Einstein"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-07T23-59-08.154Z",
+      "completedAt": "2026-02-08T00:00:40.297Z"
     },
     {
       "id": "item-00285",
@@ -3186,7 +3431,9 @@
         "category": "historical figure",
         "secret": "Albert Einstein"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T00-00-40.339Z",
+      "completedAt": "2026-02-08T00:01:37.526Z"
     },
     {
       "id": "item-00286",
@@ -3196,7 +3443,9 @@
         "category": "historical figure",
         "secret": "Albert Einstein"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T00-01-37.562Z",
+      "completedAt": "2026-02-08T00:02:59.554Z"
     },
     {
       "id": "item-00287",
@@ -3206,7 +3455,9 @@
         "category": "historical figure",
         "secret": "Albert Einstein"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T00-02-59.588Z",
+      "completedAt": "2026-02-08T00:04:29.188Z"
     },
     {
       "id": "item-00288",
@@ -3216,7 +3467,9 @@
         "category": "historical figure",
         "secret": "Albert Einstein"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T00-04-29.228Z",
+      "completedAt": "2026-02-08T00:05:39.709Z"
     },
     {
       "id": "item-00289",
@@ -3226,7 +3479,9 @@
         "category": "historical figure",
         "secret": "Albert Einstein"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T00-05-39.740Z",
+      "completedAt": "2026-02-08T00:10:07.597Z"
     },
     {
       "id": "item-00290",
@@ -3236,7 +3491,9 @@
         "category": "historical figure",
         "secret": "Albert Einstein"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T00-10-07.639Z",
+      "completedAt": "2026-02-08T00:11:30.151Z"
     },
     {
       "id": "item-00291",
@@ -3246,7 +3503,9 @@
         "category": "historical figure",
         "secret": "Albert Einstein"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T00-11-30.192Z",
+      "completedAt": "2026-02-08T00:13:18.665Z"
     },
     {
       "id": "item-00292",
@@ -3256,7 +3515,9 @@
         "category": "historical figure",
         "secret": "Albert Einstein"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T00-13-18.700Z",
+      "completedAt": "2026-02-08T00:15:24.531Z"
     },
     {
       "id": "item-00293",
@@ -3266,7 +3527,9 @@
         "category": "historical figure",
         "secret": "Albert Einstein"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T00-15-24.568Z",
+      "completedAt": "2026-02-08T00:19:10.513Z"
     },
     {
       "id": "item-00294",
@@ -3276,7 +3539,9 @@
         "category": "historical figure",
         "secret": "Cleopatra"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T00-19-10.549Z",
+      "completedAt": "2026-02-08T00:22:10.620Z"
     },
     {
       "id": "item-00295",
@@ -3286,7 +3551,9 @@
         "category": "historical figure",
         "secret": "Cleopatra"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T00-22-10.655Z",
+      "completedAt": "2026-02-08T00:26:06.255Z"
     },
     {
       "id": "item-00296",
@@ -3296,7 +3563,9 @@
         "category": "historical figure",
         "secret": "Cleopatra"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T00-26-06.297Z",
+      "completedAt": "2026-02-08T00:31:22.852Z"
     },
     {
       "id": "item-00297",
@@ -3306,7 +3575,9 @@
         "category": "historical figure",
         "secret": "Cleopatra"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T03-25-59.931Z",
+      "completedAt": "2026-02-08T03:27:29.708Z"
     },
     {
       "id": "item-00298",
@@ -3316,7 +3587,9 @@
         "category": "historical figure",
         "secret": "Cleopatra"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T03-27-29.719Z",
+      "completedAt": "2026-02-08T03:28:15.833Z"
     },
     {
       "id": "item-00299",
@@ -3326,7 +3599,9 @@
         "category": "historical figure",
         "secret": "Cleopatra"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T03-28-15.848Z",
+      "completedAt": "2026-02-08T03:29:42.550Z"
     },
     {
       "id": "item-00300",
@@ -3336,7 +3611,9 @@
         "category": "historical figure",
         "secret": "Cleopatra"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T03-29-42.564Z",
+      "completedAt": "2026-02-08T03:31:54.422Z"
     },
     {
       "id": "item-00301",
@@ -3346,7 +3623,9 @@
         "category": "historical figure",
         "secret": "Cleopatra"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T03-31-54.437Z",
+      "completedAt": "2026-02-08T03:34:54.489Z"
     },
     {
       "id": "item-00302",
@@ -3356,7 +3635,9 @@
         "category": "historical figure",
         "secret": "Cleopatra"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T03-34-54.506Z",
+      "completedAt": "2026-02-08T03:36:16.660Z"
     },
     {
       "id": "item-00303",
@@ -3366,7 +3647,9 @@
         "category": "historical figure",
         "secret": "Cleopatra"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T03-36-16.676Z",
+      "completedAt": "2026-02-08T03:54:11.599Z"
     },
     {
       "id": "item-00304",
@@ -3376,7 +3659,9 @@
         "category": "historical figure",
         "secret": "Cleopatra"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T03-54-11.616Z",
+      "completedAt": "2026-02-08T03:56:42.399Z"
     },
     {
       "id": "item-00305",
@@ -3386,7 +3671,9 @@
         "category": "historical figure",
         "secret": "Cleopatra"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T03-56-42.417Z",
+      "completedAt": "2026-02-08T04:00:50.219Z"
     },
     {
       "id": "item-00306",
@@ -3396,7 +3683,9 @@
         "category": "historical figure",
         "secret": "Cleopatra"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T04-00-50.238Z",
+      "completedAt": "2026-02-08T04:06:04.368Z"
     },
     {
       "id": "item-00307",
@@ -3406,7 +3695,9 @@
         "category": "historical figure",
         "secret": "Cleopatra"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T04-06-04.388Z",
+      "completedAt": "2026-02-08T04:07:56.676Z"
     },
     {
       "id": "item-00308",
@@ -3416,7 +3707,9 @@
         "category": "historical figure",
         "secret": "Napoleon Bonaparte"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T04-07-56.697Z",
+      "completedAt": "2026-02-08T04:08:55.046Z"
     },
     {
       "id": "item-00309",
@@ -3426,7 +3719,9 @@
         "category": "historical figure",
         "secret": "Napoleon Bonaparte"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T04-08-55.070Z",
+      "completedAt": "2026-02-08T04:09:38.889Z"
     },
     {
       "id": "item-00310",
@@ -3436,7 +3731,9 @@
         "category": "historical figure",
         "secret": "Napoleon Bonaparte"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T04-09-38.913Z",
+      "completedAt": "2026-02-08T04:12:54.821Z"
     },
     {
       "id": "item-00311",
@@ -3446,7 +3743,9 @@
         "category": "historical figure",
         "secret": "Napoleon Bonaparte"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T04-12-54.845Z",
+      "completedAt": "2026-02-08T04:18:48.067Z"
     },
     {
       "id": "item-00312",
@@ -3456,7 +3755,9 @@
         "category": "historical figure",
         "secret": "Napoleon Bonaparte"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T04-18-48.092Z",
+      "completedAt": "2026-02-08T04:20:06.731Z"
     },
     {
       "id": "item-00313",
@@ -3466,7 +3767,9 @@
         "category": "historical figure",
         "secret": "Napoleon Bonaparte"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T04-20-06.762Z",
+      "completedAt": "2026-02-08T04:22:21.505Z"
     },
     {
       "id": "item-00314",
@@ -3476,7 +3779,9 @@
         "category": "historical figure",
         "secret": "Napoleon Bonaparte"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T04-22-21.531Z",
+      "completedAt": "2026-02-08T04:24:26.068Z"
     },
     {
       "id": "item-00315",
@@ -3486,7 +3791,9 @@
         "category": "historical figure",
         "secret": "Napoleon Bonaparte"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T04-24-26.097Z",
+      "completedAt": "2026-02-08T04:27:54.173Z"
     },
     {
       "id": "item-00316",
@@ -3496,7 +3803,9 @@
         "category": "historical figure",
         "secret": "Napoleon Bonaparte"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T20-21-36.086Z",
+      "completedAt": "2026-02-09T20:24:56.940Z"
     },
     {
       "id": "item-00317",
@@ -3506,7 +3815,9 @@
         "category": "historical figure",
         "secret": "Napoleon Bonaparte"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T06-25-47.825Z",
+      "completedAt": "2026-02-08T06:36:08.363Z"
     },
     {
       "id": "item-00318",
@@ -3516,7 +3827,9 @@
         "category": "historical figure",
         "secret": "Napoleon Bonaparte"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T06-36-08.374Z",
+      "completedAt": "2026-02-08T06:45:27.216Z"
     },
     {
       "id": "item-00319",
@@ -3526,7 +3839,9 @@
         "category": "historical figure",
         "secret": "Napoleon Bonaparte"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T06-45-27.232Z",
+      "completedAt": "2026-02-08T06:54:22.936Z"
     },
     {
       "id": "item-00320",
@@ -3536,7 +3851,9 @@
         "category": "historical figure",
         "secret": "Napoleon Bonaparte"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T06-54-22.951Z",
+      "completedAt": "2026-02-08T06:55:33.225Z"
     },
     {
       "id": "item-00321",
@@ -3546,7 +3863,9 @@
         "category": "historical figure",
         "secret": "Napoleon Bonaparte"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T06-55-33.240Z",
+      "completedAt": "2026-02-08T06:58:15.033Z"
     },
     {
       "id": "item-00322",
@@ -3556,7 +3875,9 @@
         "category": "historical figure",
         "secret": "Leonardo da Vinci"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T06-58-15.052Z",
+      "completedAt": "2026-02-08T07:02:17.756Z"
     },
     {
       "id": "item-00323",
@@ -3566,7 +3887,9 @@
         "category": "historical figure",
         "secret": "Leonardo da Vinci"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T07-02-17.783Z",
+      "completedAt": "2026-02-08T07:04:20.015Z"
     },
     {
       "id": "item-00324",
@@ -3576,7 +3899,9 @@
         "category": "historical figure",
         "secret": "Leonardo da Vinci"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T07-04-20.032Z",
+      "completedAt": "2026-02-08T07:08:26.001Z"
     },
     {
       "id": "item-00325",
@@ -3586,7 +3911,9 @@
         "category": "historical figure",
         "secret": "Leonardo da Vinci"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T07-08-26.020Z",
+      "completedAt": "2026-02-08T07:09:40.011Z"
     },
     {
       "id": "item-00326",
@@ -3596,7 +3923,9 @@
         "category": "historical figure",
         "secret": "Leonardo da Vinci"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T07-09-40.032Z",
+      "completedAt": "2026-02-08T07:11:06.275Z"
     },
     {
       "id": "item-00327",
@@ -3606,7 +3935,9 @@
         "category": "historical figure",
         "secret": "Leonardo da Vinci"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T07-11-06.297Z",
+      "completedAt": "2026-02-08T07:12:52.699Z"
     },
     {
       "id": "item-00328",
@@ -3616,7 +3947,9 @@
         "category": "historical figure",
         "secret": "Leonardo da Vinci"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T07-12-52.719Z",
+      "completedAt": "2026-02-08T07:16:04.739Z"
     },
     {
       "id": "item-00329",
@@ -3626,7 +3959,9 @@
         "category": "historical figure",
         "secret": "Leonardo da Vinci"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T07-16-04.768Z",
+      "completedAt": "2026-02-08T07:19:51.247Z"
     },
     {
       "id": "item-00330",
@@ -3636,7 +3971,9 @@
         "category": "historical figure",
         "secret": "Leonardo da Vinci"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T07-19-51.273Z",
+      "completedAt": "2026-02-08T23:33:58.269Z"
     },
     {
       "id": "item-00331",
@@ -3646,7 +3983,9 @@
         "category": "historical figure",
         "secret": "Leonardo da Vinci"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T23-33-58.302Z",
+      "completedAt": "2026-02-08T23:47:08.307Z"
     },
     {
       "id": "item-00332",
@@ -3656,7 +3995,9 @@
         "category": "historical figure",
         "secret": "Leonardo da Vinci"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T23-47-08.334Z",
+      "completedAt": "2026-02-08T23:50:47.745Z"
     },
     {
       "id": "item-00333",
@@ -3666,7 +4007,9 @@
         "category": "historical figure",
         "secret": "Leonardo da Vinci"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T23-50-47.783Z",
+      "completedAt": "2026-02-08T23:55:27.990Z"
     },
     {
       "id": "item-00334",
@@ -3676,7 +4019,9 @@
         "category": "historical figure",
         "secret": "Leonardo da Vinci"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T23-55-28.020Z",
+      "completedAt": "2026-02-08T23:58:49.143Z"
     },
     {
       "id": "item-00335",
@@ -3686,7 +4031,9 @@
         "category": "historical figure",
         "secret": "Leonardo da Vinci"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-08T23-58-49.170Z",
+      "completedAt": "2026-02-09T00:00:57.038Z"
     },
     {
       "id": "item-00336",
@@ -3696,7 +4043,9 @@
         "category": "historical figure",
         "secret": "Martin Luther"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T00-00-57.066Z",
+      "completedAt": "2026-02-09T00:02:47.291Z"
     },
     {
       "id": "item-00337",
@@ -3706,7 +4055,9 @@
         "category": "historical figure",
         "secret": "Martin Luther"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T00-02-47.319Z",
+      "completedAt": "2026-02-09T00:04:27.598Z"
     },
     {
       "id": "item-00338",
@@ -3716,7 +4067,9 @@
         "category": "historical figure",
         "secret": "Martin Luther"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T00-04-27.625Z",
+      "completedAt": "2026-02-09T00:07:31.181Z"
     },
     {
       "id": "item-00339",
@@ -3726,7 +4079,9 @@
         "category": "historical figure",
         "secret": "Martin Luther"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T00-07-31.208Z",
+      "completedAt": "2026-02-09T00:09:40.259Z"
     },
     {
       "id": "item-00340",
@@ -3736,7 +4091,9 @@
         "category": "historical figure",
         "secret": "Martin Luther"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T00-09-40.288Z",
+      "completedAt": "2026-02-09T00:10:57.105Z"
     },
     {
       "id": "item-00341",
@@ -3746,7 +4103,9 @@
         "category": "historical figure",
         "secret": "Martin Luther"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T00-10-57.133Z",
+      "completedAt": "2026-02-09T00:12:57.859Z"
     },
     {
       "id": "item-00342",
@@ -3756,7 +4115,9 @@
         "category": "historical figure",
         "secret": "Martin Luther"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T05-50-36.980Z",
+      "completedAt": "2026-02-09T05:54:20.032Z"
     },
     {
       "id": "item-00343",
@@ -3766,7 +4127,9 @@
         "category": "historical figure",
         "secret": "Martin Luther"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T05-54-20.047Z",
+      "completedAt": "2026-02-09T05:57:35.684Z"
     },
     {
       "id": "item-00344",
@@ -3776,7 +4139,9 @@
         "category": "historical figure",
         "secret": "Martin Luther"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T05-57-35.697Z",
+      "completedAt": "2026-02-09T06:03:08.301Z"
     },
     {
       "id": "item-00345",
@@ -3786,7 +4151,9 @@
         "category": "historical figure",
         "secret": "Martin Luther"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T06-03-08.323Z",
+      "completedAt": "2026-02-09T06:12:17.743Z"
     },
     {
       "id": "item-00346",
@@ -3796,7 +4163,9 @@
         "category": "historical figure",
         "secret": "Martin Luther"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T06-12-17.757Z",
+      "completedAt": "2026-02-09T06:16:31.827Z"
     },
     {
       "id": "item-00347",
@@ -3806,7 +4175,9 @@
         "category": "historical figure",
         "secret": "Martin Luther"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T06-16-31.845Z",
+      "completedAt": "2026-02-09T06:26:34.672Z"
     },
     {
       "id": "item-00348",
@@ -3816,7 +4187,9 @@
         "category": "historical figure",
         "secret": "Martin Luther"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T06-26-34.688Z",
+      "completedAt": "2026-02-09T06:36:43.816Z"
     },
     {
       "id": "item-00349",
@@ -3826,7 +4199,9 @@
         "category": "historical figure",
         "secret": "Martin Luther"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T06-36-43.835Z",
+      "completedAt": "2026-02-09T06:40:55.917Z"
     },
     {
       "id": "item-00350",
@@ -3836,7 +4211,9 @@
         "category": "historical figure",
         "secret": "Marcus Aurelius"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T06-40-55.936Z",
+      "completedAt": "2026-02-09T06:42:17.518Z"
     },
     {
       "id": "item-00351",
@@ -3846,7 +4223,9 @@
         "category": "historical figure",
         "secret": "Marcus Aurelius"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T06-42-17.540Z",
+      "completedAt": "2026-02-09T06:44:12.338Z"
     },
     {
       "id": "item-00352",
@@ -3856,7 +4235,9 @@
         "category": "historical figure",
         "secret": "Marcus Aurelius"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T06-44-12.360Z",
+      "completedAt": "2026-02-09T06:50:07.285Z"
     },
     {
       "id": "item-00353",
@@ -3866,7 +4247,9 @@
         "category": "historical figure",
         "secret": "Marcus Aurelius"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T06-50-07.306Z",
+      "completedAt": "2026-02-09T06:52:34.165Z"
     },
     {
       "id": "item-00354",
@@ -3876,7 +4259,9 @@
         "category": "historical figure",
         "secret": "Marcus Aurelius"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T06-52-34.187Z",
+      "completedAt": "2026-02-09T06:54:36.875Z"
     },
     {
       "id": "item-00355",
@@ -3886,7 +4271,9 @@
         "category": "historical figure",
         "secret": "Marcus Aurelius"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T06-54-36.897Z",
+      "completedAt": "2026-02-09T06:58:39.781Z"
     },
     {
       "id": "item-00356",
@@ -3896,7 +4283,9 @@
         "category": "historical figure",
         "secret": "Marcus Aurelius"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T06-58-39.804Z",
+      "completedAt": "2026-02-09T07:04:03.118Z"
     },
     {
       "id": "item-00357",
@@ -3906,7 +4295,9 @@
         "category": "historical figure",
         "secret": "Marcus Aurelius"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T07-04-03.145Z",
+      "completedAt": "2026-02-09T07:07:34.078Z"
     },
     {
       "id": "item-00358",
@@ -3916,7 +4307,9 @@
         "category": "historical figure",
         "secret": "Marcus Aurelius"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T07-07-34.110Z",
+      "completedAt": "2026-02-09T07:09:46.668Z"
     },
     {
       "id": "item-00359",
@@ -3926,7 +4319,9 @@
         "category": "historical figure",
         "secret": "Marcus Aurelius"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T20-24-56.951Z",
+      "completedAt": "2026-02-09T20:46:14.644Z"
     },
     {
       "id": "item-00360",
@@ -3936,7 +4331,9 @@
         "category": "historical figure",
         "secret": "Marcus Aurelius"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T20-46-14.657Z",
+      "completedAt": "2026-02-09T20:52:19.192Z"
     },
     {
       "id": "item-00361",
@@ -3946,7 +4343,9 @@
         "category": "historical figure",
         "secret": "Marcus Aurelius"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T20-52-19.206Z",
+      "completedAt": "2026-02-09T20:56:43.202Z"
     },
     {
       "id": "item-00362",
@@ -3956,7 +4355,9 @@
         "category": "historical figure",
         "secret": "Marcus Aurelius"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T20-56-43.217Z",
+      "completedAt": "2026-02-09T21:01:38.068Z"
     },
     {
       "id": "item-00363",
@@ -3966,7 +4367,9 @@
         "category": "historical figure",
         "secret": "Marcus Aurelius"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T21-01-38.085Z",
+      "completedAt": "2026-02-09T21:05:22.767Z"
     },
     {
       "id": "item-00364",
@@ -3976,7 +4379,9 @@
         "category": "historical figure",
         "secret": "Marie Curie"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T21-05-22.784Z",
+      "completedAt": "2026-02-09T21:07:40.972Z"
     },
     {
       "id": "item-00365",
@@ -3986,7 +4391,9 @@
         "category": "historical figure",
         "secret": "Marie Curie"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T21-07-40.992Z",
+      "completedAt": "2026-02-09T21:09:08.627Z"
     },
     {
       "id": "item-00366",
@@ -3996,7 +4403,9 @@
         "category": "historical figure",
         "secret": "Marie Curie"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T21-09-08.646Z",
+      "completedAt": "2026-02-09T21:11:06.173Z"
     },
     {
       "id": "item-00367",
@@ -4006,7 +4415,9 @@
         "category": "historical figure",
         "secret": "Marie Curie"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T21-11-06.192Z",
+      "completedAt": "2026-02-09T21:12:10.635Z"
     },
     {
       "id": "item-00368",
@@ -4016,7 +4427,9 @@
         "category": "historical figure",
         "secret": "Marie Curie"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T21-12-10.654Z",
+      "completedAt": "2026-02-09T21:13:26.638Z"
     },
     {
       "id": "item-00369",
@@ -4026,7 +4439,9 @@
         "category": "historical figure",
         "secret": "Marie Curie"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T21-13-26.658Z",
+      "completedAt": "2026-02-09T21:14:59.998Z"
     },
     {
       "id": "item-00370",
@@ -4036,7 +4451,9 @@
         "category": "historical figure",
         "secret": "Marie Curie"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T21-15-00.021Z",
+      "completedAt": "2026-02-09T21:17:17.567Z"
     },
     {
       "id": "item-00371",
@@ -4046,7 +4463,9 @@
         "category": "historical figure",
         "secret": "Marie Curie"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T21-17-17.590Z",
+      "completedAt": "2026-02-09T21:21:58.902Z"
     },
     {
       "id": "item-00372",
@@ -4056,7 +4475,9 @@
         "category": "historical figure",
         "secret": "Marie Curie"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T21-21-58.927Z",
+      "completedAt": "2026-02-09T21:23:53.078Z"
     },
     {
       "id": "item-00373",
@@ -4066,7 +4487,9 @@
         "category": "historical figure",
         "secret": "Marie Curie"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T21-23-53.104Z",
+      "completedAt": "2026-02-09T21:40:31.510Z"
     },
     {
       "id": "item-00374",
@@ -4076,7 +4499,9 @@
         "category": "historical figure",
         "secret": "Marie Curie"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T21-40-31.538Z",
+      "completedAt": "2026-02-09T21:42:47.239Z"
     },
     {
       "id": "item-00375",
@@ -4086,7 +4511,9 @@
         "category": "historical figure",
         "secret": "Marie Curie"
       },
-      "status": "pending"
+      "status": "completed",
+      "runId": "2026-02-09T21-42-47.268Z",
+      "completedAt": "2026-02-09T21:46:02.332Z"
     },
     {
       "id": "item-00376",
@@ -4096,7 +4523,8 @@
         "category": "historical figure",
         "secret": "Marie Curie"
       },
-      "status": "pending"
+      "status": "running",
+      "runId": "2026-02-09T21-46-02.360Z"
     },
     {
       "id": "item-00377",

@@ -1,0 +1,116 @@
+{
+  "timestamp": "2026-02-07T04:44:08.812Z",
+  "runId": "2026-02-07T04-40-19.454Z",
+  "secret": {
+    "category": "creature",
+    "secret": "giant squid"
+  },
+  "guesser": {
+    "name": "gpt-5.2",
+    "provider": "openai",
+    "config": {
+      "id": "gpt5_2_max",
+      "name": "gpt-5.2",
+      "provider": "openai",
+      "thinkingLevel": "max"
+    }
+  },
+  "answerer": {
+    "name": "moonshotai/kimi-k2.5",
+    "provider": "openrouter",
+    "config": {
+      "id": "kimi_k2_5",
+      "name": "moonshotai/kimi-k2.5",
+      "provider": "openrouter",
+      "thinkingLevel": "high"
+    }
+  },
+  "guesserUsage": {
+    "inputTokens": 16465,
+    "outputTokens": 410,
+    "cachedInputTokens": 6144,
+    "thinkingTokens": 9581
+  },
+  "answererUsage": {
+    "inputTokens": 11420,
+    "outputTokens": 384,
+    "cachedInputTokens": 7168,
+    "thinkingTokens": 2155
+  },
+  "totalQuestions": 9,
+  "won": true,
+  "rounds": [
+    {
+      "roundNumber": 0,
+      "questions": "Is this creature real (i.e., exists in the real world today or historically), rather than mythical or fictional?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 1,
+      "questions": "Is this creature a vertebrate (does it have a backbone)?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 2,
+      "questions": "Is this creature an arthropod (i.e., does it have an exoskeleton and jointed legs)?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 3,
+      "questions": "Is this creature a mollusk (e.g., a snail/slug, clam, or octopus)?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 4,
+      "questions": "Is this mollusk a cephalopod (like an octopus or squid)?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 5,
+      "questions": "Does this cephalopod have a prominent external shell (like a nautilus)?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 6,
+      "questions": "Does this cephalopod have two long tentacles in addition to eight arms (i.e., 10 appendages total)?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 7,
+      "questions": "Does this cephalopod have a broad, flattened body with an internal cuttlebone (i.e., is it a cuttlefish)?",
+      "answererResults": {
+        "answerCorrect": "no",
+        "finalSecretCorrect": false
+      }
+    },
+    {
+      "roundNumber": 8,
+      "questions": "Is this creature a giant squid?",
+      "answererResults": {
+        "answerCorrect": "yes",
+        "finalSecretCorrect": true
+      }
+    }
+  ]
+}
